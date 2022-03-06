@@ -1,0 +1,866 @@
+/* .zindexx{
+    background-color: white;
+    z-index: 0;
+} */
+.mttxt{
+    margin-top: 8%;
+}
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+.carousel-control-next-icon{
+    margin-left: 50%;
+}
+.carousel-control-prev-icon {
+    margin-right: 50%;
+}
+.mainfrlink{
+    z-index: 9999;
+}
+.navbarrrr{
+    z-index: 99999;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.navbarrr{
+    margin-top: 3rem;
+}
+
+.navelem{
+    margin-top: 6px;
+}
+.language-select {
+    float: right;
+    z-index: 10000000;
+  }
+
+.webbtn{
+    background-color: #E9CCAE;
+    color: white !important;
+    padding: 2% 4%;
+    border-radius: 50px;
+    width: 50%;
+    text-align: center;
+}
+.line {
+    display: inline-block;
+    width: 20%;
+    height: 20px;
+    border-top: 0.2px solid #183047;
+    border-width: initial;
+    margin-top: 15px;
+    margin-left: 40%;
+  }
+  .hrr{
+      width: 70%;
+  }
+.centerbt{
+    display: flex;
+    justify-content: center;
+}
+.miniheadertxt{
+    margin: 0.6rem 0 0 1.5rem;
+}
+.upperheader{
+    background-color: #183047;
+    color: #FFFFFF;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 9999999;
+    transition: 0.5s ease-out;
+}
+.abouthero{
+    margin-top: -4.3rem;
+    width: 100%;
+}
+.imgwidabout{
+    width: 100%;
+}
+.socialicons{
+    margin: 0.7rem 3rem 0 0;
+}
+.icon{
+    margin-left: 0.7rem;
+}
+.firstimg{
+    height: 2rem;
+    width: auto;
+    margin-right: 0.3rem;
+}
+.heroimg{
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-top: -4.3rem;
+}
+.herosection{
+    position: absolute;
+    top: 18%;
+    width: 100%;
+    float: right;
+    height: 120vh;
+    background-color: rgba(255, 253, 253, 0.2);
+    margin-top: -4.3rem;
+}
+.hometxt1{
+    float: right;
+    clear: both;
+    position: relative;
+    bottom: 37rem;
+    width: 50%;
+    padding: 2% 5% 0;
+}
+
+.subhead {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.section1{
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    padding: 0% 10% 15%;
+}
+.secttext{
+    width: 50%;
+    margin-right: 10%;
+}
+.homeimg2{
+    width: 400px;
+    height: auto;
+    padding-top: 10%;
+    z-index: 1000000000;
+}
+.homeimg3{
+    position: relative;
+    top: -50%;
+    left: 40%;
+    height: 40%;
+    z-index: -1;
+}
+.homeservices{
+    background-color: #FAFAFA;
+    padding: 2% 15%;
+    margin-top: -40rem;
+    padding-bottom: 33px;
+}
+.servtab{
+    display: flex;
+    flex-direction: row;
+    padding: 3% 0;
+}
+.homescroll{
+    display: flex;
+    flex-direction: row;
+    margin: 2% 7%;
+}
+.homebilling{
+    background-color: #FAFAFA;
+    padding: 5%;
+    /* margin-bottom: 90vh; */
+}
+
+.address-padding {
+    padding: 5px 20px;
+}
+
+.billingsect{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.aboutsect{
+    display: flex;
+    flex-direction: row;
+    padding: 5% 10%;
+}
+.aboutsect1{
+    background-color: #F3F4F9;
+    text-align: center;
+    padding: 10%;
+    font-weight: bolder;
+    font-size: 2rem;
+    color: #183047;
+}
+.aboutsect2{
+    display: flex;
+    flex-direction: row;
+}
+.imgwid{
+    width: 49.5%;
+}
+.aboutsect3{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    padding: 2% 10%;
+}
+.sect4{
+    display: flex;
+    flex-direction: row;
+}
+.teamcover{
+    width: 100%;
+    height: 100vh;
+    margin-top: -4.3rem;
+}
+.teamhero{
+    position: relative;
+    bottom: 400px;
+    width: 40%;
+    margin: 0 5% -15%;
+}
+.teamsect{
+    background-color: #F6F6F9;
+    display: flex;
+    flex-direction: row;
+    padding: 0 5%;
+}
+.teamsect:nth-child(odd){
+    background-color: white;
+}
+.careupper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: -10rem;
+}
+.carepage{
+    background-color: #F6F6F9;
+}
+.carehero{
+    margin-top: -4.3rem;
+}
+.caresect{
+    background-color: white;
+    font-size: 12px;
+    width: 20%;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    box-shadow: 4px 4px 4px 4px rgba(170, 168, 168, 0.1);
+ }
+ .caresect:hover{
+     background-color: #C1DDE5;
+     box-shadow: none;
+ }
+ .caretext{
+     font-size: 40px;
+     color: #183047;
+     /* padding: 0 10% */
+ }
+ .carecard{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     padding-bottom: 2%;
+ }
+ .carecardimg{
+    position: relative;
+    top: -50px;
+    left: -49px;
+    width: 132% !important;
+ }
+ .cardheading{
+     color: #014F86;
+ }
+ .sectimg{
+     /* width: 5rem; */
+     /* height: auto; */
+     padding: 10px;
+     border-radius: 50px;
+     background-color: rgb(225, 228, 236);
+ }
+ .caresect2{
+     width: 30%;
+     background-color: white;
+     text-align: center;
+ }
+ .herotext{
+     background-color: white;
+     width: 40% !important;
+     left:8%;
+     padding: 2% 5%;
+     margin-bottom: -20%;
+     position: relative !important;
+     bottom: 23rem !important;
+ }
+ .blogbtn{
+     /* margin-top: 20px; */
+     display: flex;
+     justify-content: flex-start;
+     margin-bottom: 100px;
+ }
+ .blogsect{
+     display: flex;
+     flex-direction: row;
+ }
+ .blogsect2{
+     display: flex;
+     flex-direction: row;
+     margin: 10% 5%;
+ }
+ .blogbtnsty{
+    text-align: center;
+    /* width: 30%; */
+    color: white !important;
+    background-color: #0E4963;
+    padding: 12px 34px;
+    border-radius: 8px;
+    font-weight: bolder;
+ }
+ .contacthero{
+     margin-top: -4.3rem;
+ }
+ .contactdetails{
+     width: 80%;
+     margin: 50px 10%;
+ }
+ .contactpros{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     margin: 5% 3%;
+     color: #0E4963;
+ }
+ .pcon{
+     font-size: 18px;
+ }
+ .contactsect{
+     display: flex;
+     flex-direction: row;
+ }
+ .contactlst{
+     width: 40%;
+     margin: 5% 5%;
+ }
+ .contactlast{
+     display: flex;
+     flex-direction: row;
+ }
+ .map{
+     display: flex;
+     flex-direction: row;
+     background-color: #F6F6F9;
+ }
+ .conmap{
+     margin: 21% 5% 10% 0;
+     width: 600px;
+     height: 350px;
+ }
+.footer{
+    clear: both;
+    color: white;
+    /* z-index: -1;
+    position: fixed;
+    bottom: 38%;
+    height: 87%; */
+}
+.footeradd{
+    display: flex;
+    flex-direction: row;
+    /* padding: 2% 5%; */
+    justify-content: center;
+    width: 100%;
+}
+.upperfooter{
+    background-color: #8498A4;
+}
+.lowerfooter{
+    background-color: #64737C;
+}
+.footernav{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    font-weight: bolder;
+}
+.fontsizefooter{
+    font-size: 80px;
+}
+.fontsizefooter1{
+    font-size: 40px;
+}
+.clr{
+    color: white !important;
+}
+.hrfooterr {
+    display: inline-block;
+    width: 80%;
+    height: 20px;
+    border-top: 0.2px solid white;
+    border-width: initial;
+    margin-top: 15px;
+    margin-left: 10%;
+  }
+.hrfooter1{
+    display: inline-block;
+    width: 70%;
+    height: 15px;
+    border-top: 0.2px solid white;
+    border-width: thin;
+    margin-top: 15px;
+    margin-left: 15%;
+}
+
+.imgggg{
+    width: 75px;
+    height: 75px;
+}
+
+@media screen and (max-width: 1050px) {
+    .carecardimg{
+        width: 145% !important;
+     }
+    .homescroll{
+        display: flex;
+        flex-direction: column;
+        margin: 5%;
+    }
+    .homeresimg{
+        width: 100%;
+        margin-bottom: 2.5rem;
+    }
+    .homeservices{
+        margin-top: -20rem;
+    }
+    .aboutsect2{
+        display: flex;
+        flex-direction: column;
+    }
+    .imgwid{
+        width: 100%;
+    }
+    .sect4{
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutsect3{
+        width: 100%;
+    }
+    .teamsect{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .webbtn{
+        width: 50%;
+    }
+    .herotext{
+        position: relative;
+        bottom: 21.5rem !important;
+    }
+    .blogsect2{
+        display: flex;
+        flex-direction: column;
+    }
+    .teamhero{
+        position: relative;
+        bottom: 400px;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .carecardimg {
+        width: 148% !important;
+    }
+    .herosection{
+        height: 136vh;
+        margin-top: -3rem;
+        z-index: -99999;
+    }
+    .hometxt1{
+        text-align: center;
+        clear: both;
+        position: relative;
+        bottom: 20rem;
+        width: 100%;
+        padding: 0 5% 0;
+    }
+    .heroimg{
+        width: 100%;
+        margin-top: 0rem;
+    }
+    .section1{
+        clear: both;
+        display: flex;
+        flex-direction: column;
+    }
+    .homeimg2{
+        width: 80%;
+        margin-top: 10%;
+    }
+    .secttext{
+        width: 100%;
+        margin-right: 10%;
+        margin-top: -20%;
+    }
+    .homeimg3{
+        position: relative;
+        bottom: 750px;
+        left: 50%;
+        height: 40%;
+        z-index: -111;
+    }
+    .homeservices{
+        background-color: #FAFAFA;
+        padding: 10% 15%;
+        margin-top: -41rem;
+    }
+    .abouthero{
+        margin-top: -3.5rem;
+    }
+    .teamcover{
+        margin-top: -3.5rem;
+    }
+    .carehero{
+        margin-top: -3.5rem;
+    }
+    .herotext{
+        width: 60% !important;
+        position: relative;
+        bottom: 19rem !important;
+    }
+    .contacthero{
+        margin-top: -3.5rem;
+    }
+  }
+  @media screen and (max-width: 950px) {
+    .carecardimg {
+        width: 152% !important;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .carecardimg {
+        width: 157% !important;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .carecardimg {
+        width: 122% !important;
+    }
+    .hometxt1{
+        clear: both;
+        position: relative;
+        bottom: 19rem;
+    }
+    .homeimg3{
+        position: relative;
+        top: -620px;
+    }
+    .careupper{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin-top: 0;
+        width: 100%;
+    }
+    .caresect{
+        width: 70%;
+        text-align: center;
+        margin: 2% 0;
+     } 
+     .carecard{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .caresect2{
+        width: 70%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .herotext{
+        width: 64% !important;
+        bottom: 15rem !important;
+        font-size: 10px;
+    }
+    .blogsect{
+        display: flex;
+        flex-direction: column;
+    }
+    .footeradd{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .carecardimg {
+        width: 125% !important;
+    }
+    .homeimg3{
+            position: relative;
+            top: -550px;
+            height: 530px;
+    }
+    .footernav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .teamcover{
+        margin-top: 0rem;
+    }
+    .abouthero{
+        margin-top: 0rem;
+    }
+    .carehero{
+        margin-top: 0rem;
+    }
+    .contacthero{
+        margin-top: 0rem;
+    }
+    .teamhero{
+        position: relative;
+        bottom: 400px;
+        width: 50%;
+        margin: 0 5%;
+    }
+    .herotext{
+        width: 62% !important;
+        bottom: 13rem !important;
+        font-size: 8.5px;
+    }
+    .blogbtn{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .blogbtnsty{
+        margin-top: 2%;
+    }
+    .blogbtnsty{
+        width: 50%;
+        padding: 4% 0;
+    }
+    .homeservices{
+        background-color: #FAFAFA;
+        padding: 10% 15%;
+        margin-top: -35rem;
+    }
+  }
+  @media screen and (max-width: 650px) {
+    .carecardimg {
+        width: 128% !important;
+    }
+  }
+  @media screen and (max-width: 577px) {
+      
+    .herotext{
+        width: 85% !important;
+        bottom: 0rem !important;
+        margin-bottom: 10%;
+        font-size: 11px;
+    }
+      .navbar{
+        padding-top: 4.5rem !important;
+      } 
+    .webbtn {
+        width: 70%;
+    }
+    .carecardimg {
+        width: 132% !important;
+    }
+    .upperheader{
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            height: 6rem;
+    }
+    .herosection{
+        position: absolute;
+        top: 35%;
+        margin-top: -4.3rem;
+        height: 230px;
+    }
+    .socialicons{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 16px;
+    }
+    .caretext{
+        font-size: 25px;
+        padding-top: 40px;
+    }
+    .homeimg3{
+        position: relative;
+        top: -370px;
+        height: 360px;
+        top: -451px;
+        height: 373px;
+    }
+    .subhead{
+        font-size: 15px;
+    }
+    .paddingtophome{
+        padding-top: 150px;
+    }
+    .maintxthome{
+        padding-top: 80px;
+    }
+    .aboutsect{
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutsect3{
+        display: flex;
+        flex-direction: column;
+    }
+    .maintxtteam{
+        margin-top: 50px;
+        width: 139%;
+        font-size: 25px;
+    }
+    .fontsizefooter {
+        font-size: 50px;
+    }
+    .fontsizefooter1{
+        font-size: 30px;
+    }
+    .servtab {
+        display: flex;
+        flex-direction: column;
+    }
+    .homefullwid{
+        margin-left: 40%;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .contactsect{
+        display: flex;
+        flex-direction: column;
+    }
+    .imgggg{
+        width: 20%;
+        margin-left: 36%;
+    
+    }
+    .contactlast{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-left: 117%;
+    }
+    .map{
+        display: flex;
+        flex-direction: column;
+    }
+    .conmap{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .webbtn {
+        width: 80%;
+    }
+    .carecardimg {
+        width: 138% !important;
+    }
+    .homeimg3{
+        top: -356px;
+        height: 289px;
+        width: 174px;
+}
+    .homeservices{
+        margin-top: -18rem;
+    } 
+  }
+  @media screen and (max-width: 380px) {
+
+    .carecardimg {
+        width: 207% !important;
+    }
+    .secttext{
+        margin-top: -50%;
+    } 
+    .homeimg3{
+        top: -289px;
+        height: 465px;
+        width: 148px;
+}
+    .servtab{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .iphone{
+        position: relative;
+        top: -230px;
+    }
+    .iphonetxt{
+        margin-top: 136px;
+        width: 170%;
+    }
+    .carecardimg{
+         width: 206% !important;
+    }
+    /* .careparagh{
+    width: 180%;
+    margin-left: -32px;
+    } */
+    .webbtn {
+        width: 124%;
+        padding: 7px;
+    }
+  }
+  @media screen and (max-width: 460px) {
+    .imgwid{
+        width: 95%;
+    }
+    .carecardimg {
+        width: 143% !important;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .navbar{
+        padding-top: 1.5rem !important;
+    }
+
+    .carecardimg {
+        width: 153% !important;
+    }
+    .homeimg3{
+        position: relative;
+        top: -320px;
+        height: 47%;
+        width: 50%;
+    }
+    .homeservices{
+        margin-top: -15rem;
+    }
+    .servtab {
+        display: flex;
+        flex-direction: column;
+    }
+    .webbtn{
+        width: 80%;
+    }
+    .upperheader{
+        height: 15%;
+    }
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+        margin-top: 35%;
+    }
+    .text-justify {
+        margin-bottom: 10%;
+    }
+    .socialicons{
+        height: 20%;
+        padding-bottom: 20px;
+    }
+
+  }
