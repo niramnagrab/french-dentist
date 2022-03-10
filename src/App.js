@@ -4,7 +4,8 @@ import { useTranslation } from "react-i18next";
 import LanguageSelect from "./languageSelect";
 import {
   Routes,
-  Route
+  Route,
+  Link
 } from "react-router-dom";
 import About from './components/about.js';
 import Team from './components/team';
@@ -13,6 +14,13 @@ import Blog from './components/blog';
 import Contactus from './components/contactus';
 import Home from './components/home';
 import { Container, Navbar, Nav } from "react-bootstrap";
+
+import DentalCheckUp from "./components/services/dental-checkup";
+import TeethWhitening from "./components/services/teeth-whitening";
+import TeethCleanings from "./components/services/teeth-whitening";
+import Veneers from "./components/services/veneers";
+import Invisalign from "./components/services/invisalign";
+import EmergenciesAndMore from "./components/services/invisalign";
 
 export default function App() {
   const { t } = useTranslation();
@@ -50,7 +58,19 @@ export default function App() {
                   <Nav className="me-auto navbarrrr">
                     <Nav.Link className="navelem" href="/about">{t("part3")}</Nav.Link>
                     <Nav.Link className="navelem" href="/team">{t("part4")}</Nav.Link>
-                    <Nav.Link className="navelem" href="/care">{t("part5")}</Nav.Link>
+                    <div className="dropdown">
+                      <Nav.Link className="navelem dropbtn"  href="/care">
+                        {t("part5")} 
+                      </Nav.Link>
+                      <div className="dropdown-content">
+                        <a href="/dental-checkup">{t("dental_checkup")}</a>
+                        <a href="/teeth-cleaning">{t("teeth_cleanings")}</a>
+                        <a href="/veneers">{t("part22")}</a>
+                        <a href="/teeth-whitening">{t("whitening")}</a>
+                        <a href="/invisalign">{t("part104")}</a>
+                        <a href="/emergencies-and-more">{t("emergencies_and_more")}</a>
+                      </div>
+                    </div> 
                     <Nav.Link className="navelem" href="/blog">{t("part6")}</Nav.Link>
                     <Nav.Link className="navelem" href="/contactus">{t("part7")}</Nav.Link>
                     <Nav.Link>  
@@ -75,6 +95,18 @@ export default function App() {
             <Route exact path="/team" element={<Team />}>
             </Route>
             <Route exact path="/care" element={<Care />}>
+            </Route>
+            <Route exact path="/dental-checkup" element={<DentalCheckUp />}>
+            </Route>
+            <Route exact path="/teeth-whitening" element={<TeethWhitening />}>
+            </Route>
+            <Route exact path="/teeth-cleaning" element={<TeethCleanings />}>
+            </Route>
+            <Route exact path="/veneers" element={<Veneers />}>
+            </Route>
+            <Route exact path="/invisalign" element={<Invisalign />}>
+            </Route>
+            <Route exact path="/emergencies-and-more" element={<EmergenciesAndMore />}>
             </Route>
             <Route exact path="/blog" element={<Blog />}>
             </Route>

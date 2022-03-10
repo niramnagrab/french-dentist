@@ -32,6 +32,7 @@
   "part30": "Read More",
   "part31": "Our Services",
   "part32": "DENTAL CHECK-UP",
+  "dental_checkup": "Dental checkup",
   "part33": "Our dental check-ups are a full oral examination of your mouth, focusing on the health of your teeth and gums. Our dentists will assess your whole mouth and address any issues that may come up.",
   "part34": "TEETH CLEANINGS",
   "part35": "Routine teeth cleanings to keep your teeth sparkling clean.",
@@ -125,5 +126,8 @@
   "part123": "Happy patients",
   "part124": "Our Locations",
   "part125": "Shanghai Mart Clinic (PuXi)",
-  "part126": "Shanghai Mart, 17th floor, room 1711-1712, 2299 Yan'an West Road, Changning District, Shanghai Tel: 021-5169 9696, frenchdentist@frenchdentist.com"
+  "part126": "Shanghai Mart, 17th floor, room 1711-1712, 2299 Yan'an West Road, Changning District, Shanghai Tel: 021-5169 9696, frenchdentist@frenchdentist.com",
+  "teeth_cleanings": "teeth cleanings",
+  "whitening": "whitening",
+  "emergencies_and_more": "emergencies and more"
 }

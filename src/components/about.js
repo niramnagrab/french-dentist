@@ -37,7 +37,7 @@ function About() {
                 <div>
                     {t("part56")}
                 </div>
-                <div className='hrr'><span class='line'></span></div>
+                <div className='hrr'><span className='line'></span></div>
                 <div>{t("part57")}</div>
             </div>
 
