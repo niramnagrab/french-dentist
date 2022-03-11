@@ -6,7 +6,7 @@ function Team() {
     const { t } = useTranslation();
     return (
         <div>
-            <div>
+            <div className="team-hero">
                 <img className="teamcover" src="./homepics/teamhero.png" alt="" />
                 <div className="teamhero iphone">
                     <h1 className="mb-5 maintxtteam ">{t("part61")} <br /> {t("part62")}</h1>
