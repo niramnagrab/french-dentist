@@ -134,11 +134,20 @@ console.log(pathnameis)
               <div className="col-lg-3">
                 <div className="text-justify address-padding">
                   <h4>{t("part10")}</h4>
-                  {t("part11")}</div>
+                  {t("part1111")}
+                  <br/>
+                  {t("part1112")}
+                  <br/>
+                  {t("part1113")}
+                  <br/>
+                  {t("part1114")}
+                  </div>
               </div>
               <div className="text-justify col-lg-3 address-padding">
                 <h4>{t("part12")}</h4>
                 {t("part13")}
+                <br/>
+                {t("part131")}
               </div>
               <div className="text-justify col-lg-3 address-padding">
                 <h4>{t("part14")}</h4>

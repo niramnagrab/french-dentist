@@ -7,7 +7,7 @@ function About() {
     return (
         <div>
             <div>
-                <img className="abouthero" src="./homepics/abouthero.png" alt="" />
+                <img className="abouthero" src="./homepics/reception.jpg" alt="" />
             </div>
 
             <div className="about-text">
@@ -30,7 +30,7 @@ function About() {
             </div>
 
             <div>
-                <img className="imgwidabout" src="./homepics/aboutimg.png" alt="" />
+                <img className="imgwidabout" src="./homepics/medicalchair.jpg" alt="" />
             </div>
 
             <div className="aboutsect1">
@@ -42,8 +42,8 @@ function About() {
             </div>
 
             <div className="aboutsect2">
-                <img className="imgwid" src="./homepics/aboutimg1.png" alt="" />
-                <img className="ml-2 imgwid" src="./homepics/aboutimg2.png" alt="" />
+                <img className="imgwid" src="./homepics/reception1.jpg" alt="" />
+                <img className="ml-2 imgwid" src="./homepics/reception2.jpg" alt="" />
             </div>
 
             <div className="mb-5">
@@ -54,7 +54,17 @@ function About() {
                         <img className="mr-4" src="./homepics/jimao.png" alt="" />
                         <div>
                             <h3>{t("part59")}</h3>
-                            <p>{t("part60")}</p>
+                            <p>
+                            {t("part1111")}
+                  <br/>
+                  {t("part1112")}
+                  <br/>
+                  {t("part1113")}
+                  <br/>
+                  {t("part1114")}
+                                
+                                
+                                </p>
                         </div>
                     </div>
                     <div className="aboutsect3">

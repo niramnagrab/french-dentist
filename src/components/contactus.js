@@ -32,17 +32,19 @@ function Contactus() {
                 <div className="caresect mr-3">
                     <img className="m-5 sectimg" src="./homepics/contactimg.png" alt="" />
                     <h6 className="cardheading">{t("part109")}</h6>
-                    <p>{t("part110")}</p>
+                    <p>{t("part13")} 
+                    <br/>
+                    {t("part131")}</p>
                 </div>
                 <div className="caresect mr-3">
                     <img className="m-5 sectimg" src="./homepics/contact3.png" alt="" />
                     <h6 className="cardheading">{t("part111")}</h6>
-                    <p>info@frenchdentist.cn</p>
+                    <p>info@frenchdentist.cn thefrenchdentalclinic@gmail.com</p>
                 </div>
                 <div className="caresect mr-3">
                     <img className="m-5 sectimg" src="./homepics/contact1.png" alt="" />
                     <h6 className="cardheading">{t("part112")}</h6>
-                    <p>021 5169 9696</p>
+                    <p>187 1781 2487</p>
                 </div>
                 <div className="caresect mr-3">
                     <img className="m-5 sectimg" src="./homepics/contactimg.png" alt="" />
@@ -80,33 +82,37 @@ function Contactus() {
                 <div className="contactsect  mt-5">
                     <img className="mr-5 mt-4 imgggg" src="./homepics/affection 1.png" alt="" />
                     <div className="mt-3">
-                        <h5 className="mb-3">{t("part118")}</h5>
-                        <h6 className="pcon">{t("part119")}</h6>
+                        <h5 className="mb-3">{t("part1181")}</h5>
+                        <h6 className="pcon">{t("part1182")}</h6>
+                    </div>
+                </div>
+                <div className="contactsect  mt-5">
+                    <img className="mr-5 mt-4 imgggg" src="./homepics/affection 1.png" alt="" />
+                    <div className="mt-3">
+                        <h5 className="mb-3">{t("part1191")}</h5>
+                        <h6 className="pcon">{t("part1192")}</h6>
                     </div>
                 </div>
             </div>
 
             <div>
-                <div className="caretext text-center font-weight-bolder mt-5 ">{t("part120")}</div>
+                <div className="caretext text-center font-weight-bolder mt-5 ">{t("part47")}</div>
                 <span class='line'></span>
                 <div className="text-center contactpros">
                     <div>
                         <img src="./homepics/banda.png" alt="" />
-                        <div className="font-weight-bolder mb-3 ">{t("part121")}</div>
-                        <div>Lorem ipsum dolor sit amet, <br />
-                            consecteteu.</div>
+                        <div className="font-weight-bolder mb-3 ">{t("part48")}</div>
+                        <div>{t("part481")}</div>
                     </div>
                     <div>
                         <img src="./homepics/carbon_security.png" alt="" />
-                        <div className="font-weight-bolder mb-3 ">{t("part122")}</div>
-                        <div>Lorem ipsum dolor sit amet, <br />
-                            consecteteu.</div>
+                        <div className="font-weight-bolder mb-3 ">{t("part49")}</div>
+                        <div>{t("part491")}</div>
                     </div> 
                     <div>
                         <img src="./homepics/emoji.png" alt="" />
-                        <div className="font-weight-bolder mb-3 ">{t("part123")} </div>
-                        <div>Lorem ipsum dolor sit amet, <br />
-                            consecteteu.</div>
+                        <div className="font-weight-bolder mb-3 ">{t("part50")} </div>
+                        <div>{t("part501")}</div>
                     </div>
                 </div>
             </div>

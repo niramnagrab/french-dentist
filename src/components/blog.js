@@ -99,7 +99,7 @@ function Blog() {
                 <span className="sr-only">Next</span>
             </a>
             </div> */}
-           <h1> this page is not found </h1>
+           {/* <h1> this page is not found </h1> */}
 
         </div>
     )

@@ -87,15 +87,24 @@
 }
 .icon {
   margin-left: 0.7rem;
+  width: 30px;
+  height: 30px;
 }
+
+.icon:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+
 .firstimg {
   height: 2rem;
   width: auto;
-  margin-right: 0.3rem;
+  margin-right: 1rem;
 }
 .heroimg {
   /* width: 65%; */
-  height: 100vh;
+  height: 93vh;
   float: left;
   margin-top: -4.3rem;
 }
@@ -112,7 +121,7 @@
   float: right;
   clear: both;
   position: absolute;
-  top: 10%;
+  top: 15%;
   right: 0;
   width: 50%;
   padding: 5%  4% 2% 0;
@@ -182,6 +191,7 @@
 
 .billingsect-card {
   width: 33%;
+  padding: 10px 20px;
 }
 
 .intro-text {
@@ -189,8 +199,9 @@
   color: gray;
   text-align: center;
   margin: auto;
-  width: 336px;
+  width: 50%;
 }
+
 .aboutsect {
   display: flex;
   flex-direction: row;
@@ -209,21 +220,22 @@
   flex-direction: row;
 }
 .imgwid {
-  width: 49.5%;
+  width: 49.65%;
 }
 .aboutsect3 {
   display: flex;
   flex-direction: row;
   width: 40%;
-  padding: 2% 10%;
+  /* padding: 2% 10%; */
 }
 .sect4 {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 .teamcover {
   width: 100%;
-  height: 100vh;
+  height: 93vh;
   margin-top: -4.3rem;
 }
 .teamhero {
@@ -238,6 +250,11 @@
   flex-direction: row;
   padding: 0 5%;
 }
+
+.teamsect img {
+  width: 40vw;
+}
+
 .teamsect:nth-child(odd) {
   background-color: white;
 }
@@ -268,7 +285,7 @@
   box-shadow: none;
 }
 .caretext {
-  font-size: 40px;
+  font-size: 39px;
   color: #183047;
   /* padding: 0 10% */
 }
@@ -433,6 +450,11 @@
   height: 75px;
 }
 
+.homefullwid {
+  height: 50px;
+  width: 50px;
+}
+
 @media screen and (max-width: 1050px) {
   .carecardimg {
     width: 147% !important;
@@ -503,6 +525,7 @@
     padding: 0 5% 0;
   }
   .heroimg {
+    height: auto;
     width: 100%;
     margin-top: 0rem;
   }
@@ -581,7 +604,7 @@
     width: 100%;
   }
   .caresect {
-    width: 70%;
+    width: 42%;
     text-align: center;
     margin: 2% 0;
   }
@@ -700,6 +723,10 @@
     margin-top: -4.3rem;
     height: 230px;
   }
+
+  .intro-text {
+    width: 90%;
+  }
   .socialicons {
     display: flex;
     justify-content: center;
@@ -716,11 +743,16 @@
     top: -451px;
     height: 373px;
   }
+
+
+.billingsect-card {
+width: auto;
+}
   .subhead {
     font-size: 15px;
   }
   .paddingtophome {
-    padding-top: 150px;
+    /* padding-top: 150px; */
   }
   .maintxthome {
     padding-top: 80px;
@@ -852,16 +884,18 @@
   }
   .homeservices {
     margin-top: -15rem;
+    padding: 5%;
   }
   .servtab {
     display: flex;
     flex-direction: column;
+    padding-bottom: 50px;
   }
   .webbtn {
     width: 80%;
   }
   .upperheader {
-    height: 15%;
+    /* height: 15%; */
   }
   .navbar > .container,
   .navbar > .container-fluid,
@@ -876,7 +910,7 @@
     margin-bottom: 10%;
   }
   .socialicons {
-    height: 20%;
+    height: 30%;
     padding-bottom: 20px;
   }
 }
@@ -939,7 +973,7 @@
 }
 
 .about-text .aboutsect {
-  padding: 5% 2% !important;
+  padding: 5% 10% !important;
 }
 
 /* .MuiPopover-paper {
