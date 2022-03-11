@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { useTranslation } from "react-i18next";
 import i18next from "i18next";
 
@@ -20,20 +20,28 @@ const LanguageSelect = () => {
   const { t } = useTranslation();
 
   const [menuAnchor, setMenuAnchor] = React.useState(null);
+  const [open, setOpen] = useState(false);
   React.useEffect(() => {
     document.body.dir = languageMap[selected].dir;
   }, [menuAnchor, selected]);
+ const handleBtnClick=(currentTarget)=>{
+  setMenuAnchor(currentTarget)
+  setOpen(!open)
 
+ }
   return (
     <div className="d-flex justify-content-end align-items-center language-select-root">
-      <Button onClick={({ currentTarget }) => setMenuAnchor(currentTarget)}>
+      <Button 
+      // onClick={(e)=>handleBtnClick}
+      onClick={({ currentTarget }) => handleBtnClick(currentTarget)}
+      >
         {languageMap[selected].label}
         <ArrowDropDown fontSize="small" />
       </Button>
       <Popover
-        open={!!menuAnchor}
+        open={open}
         anchorEl={menuAnchor}
-        onClose={() => setMenuAnchor(null)}
+        onClose={() => setOpen(false)}
         anchorOrigin={{
           vertical: "bottom",
           horizontal: "right"
@@ -52,7 +60,7 @@ const LanguageSelect = () => {
                 key={item}
                 onClick={() => {
                   i18next.changeLanguage(item);
-                  setMenuAnchor(null);
+                  setOpen(false);
                 }}
               >
                 {languageMap[item].label}
