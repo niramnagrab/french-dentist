@@ -10,12 +10,12 @@ function About() {
                 <img className="abouthero" src="./homepics/abouthero.png" alt="" />
             </div>
 
-            <div>
+            <div className="about-text">
                 <h1 className="font-weight-bold mt-5 ml-4">{t("part51")}</h1>
                 <div className="aboutsect text-justify font-weight-bolder">
-                    <div className="mr-5">{t("part52")}
+                    <div className="col-6">{t("part52")}
                     </div>
-                    <div>{t("part53")}
+                    <div className="col-6">{t("part53")}
                     </div>
                 </div>
             </div>

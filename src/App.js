@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react"
 import './styles/style.css';
 import { useTranslation } from "react-i18next";
 import LanguageSelect from "./languageSelect";
@@ -14,6 +14,8 @@ import Blog from './components/blog';
 import Contactus from './components/contactus';
 import Home from './components/home';
 import { Container, Navbar, Nav } from "react-bootstrap";
+// import { useHistory } from 'react-router-dom'
+
 
 import DentalCheckUp from "./components/services/dental-checkup";
 import TeethWhitening from "./components/services/teeth-whitening";
@@ -24,6 +26,13 @@ import EmergenciesAndMore from "./components/services/invisalign";
 
 export default function App() {
   const { t } = useTranslation();
+  // const history = useHistory()
+
+ 
+ const pathnameis=window.location.pathname
+console.log(pathnameis)
+  const handleLink = () => {
+  }
 
   window.onscroll = function(e) { 
     var scrollY = window.pageYOffset || document.documentElement.scrollTop;
@@ -56,14 +65,14 @@ export default function App() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                   <Nav className="me-auto navbarrrr">
-                    <Nav.Link className="navelem" href="/about">{t("part3")}</Nav.Link>
-                    <Nav.Link className="navelem" href="/team">{t("part4")}</Nav.Link>
+                    <Nav.Link className={`navelem ${pathnameis === '/about' ? 'current' : ''}`}  href="/about">{t("part3")}</Nav.Link>
+                    <Nav.Link className={`navelem ${pathnameis === '/team' ? 'current' : ''}`} href="/team">{t("part4")}</Nav.Link>
                     <div className="dropdown">
-                      <Nav.Link className="navelem dropbtn"  href="/care">
+                      <Nav.Link className={`navelem dropbtn ${pathnameis === '/care' ? 'current' : ''}`}  href="/care">
                         {t("part5")} 
                       </Nav.Link>
                       <div className="dropdown-content">
-                        <a href="/dental-checkup">{t("dental_checkup")}</a>
+                        <a  href="/dental-checkup">{t("dental_checkup")}</a>
                         <a href="/teeth-cleaning">{t("teeth_cleanings")}</a>
                         <a href="/veneers">{t("part22")}</a>
                         <a href="/teeth-whitening">{t("whitening")}</a>
@@ -71,8 +80,8 @@ export default function App() {
                         <a href="/emergencies-and-more">{t("emergencies_and_more")}</a>
                       </div>
                     </div> 
-                    <Nav.Link className="navelem" href="/blog">{t("part6")}</Nav.Link>
-                    <Nav.Link className="navelem" href="/contactus">{t("part7")}</Nav.Link>
+                    <Nav.Link className={`navelem  ${pathnameis === '/blog' ? 'current' : ''}`} href="/blog">{t("part6")}</Nav.Link>
+                    <Nav.Link className={`navelem  ${pathnameis === '/contactus' ? 'current' : ''}`} href="/contactus">{t("part7")}</Nav.Link>
                     <Nav.Link>  
                       <div className="language-select">
                         <LanguageSelect />

@@ -152,19 +152,20 @@ function Home() {
             <div className="homebilling">
             <div className="caretext text-center font-weight-bolder mt-5 ">{t("part47")}</div>
                 <span class='line'></span>
+                <h3 className="intro-text" >{t("billing_facility_intro_text")}</h3>
                 <div className="billingsect mt-5">
-                    <div>
+                    <div className="billingsect-card">
                         <img src="./homepics/banda.png" alt="" />
                         <div className="font-weight-bolder mt-3">{t("part48")}</div>
                         <div>No complicated finance contracts to complete. No pre-approvals</div>
                     </div>
-                    <div>
+                    <div className="billingsect-card">
                         <img src="./homepics/carbon_security.png" alt="" />
                         <div className="font-weight-bolder mt-3">{t("part49")}</div>
                         <div>We securely bill for services directly through your insurance so you can relax and don&#39;t think
 about it</div>
                     </div> 
-                    <div>
+                    <div className="billingsect-card">
                         <img src="./homepics/emoji.png" alt="" />
                         <div className="font-weight-bolder mt-3">{t("part50")}</div>
                         <div>We know pricing for oral care can be confusing &amp; unclear, so we will make it simple. We will tell
