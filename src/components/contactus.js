@@ -114,7 +114,7 @@ function Contactus() {
 
             <div className="map">
 
-            <div>
+            <div className="w-100">
             <div className="caretext text-center font-weight-bolder mt-5 ">{t("part124")} </div>
             <span class='line'></span>
             <div className="contactlst">
@@ -136,7 +136,7 @@ function Contactus() {
                     </div>
                 </div>
                 </div>
-                <div style={{ width: '40%' }}>
+                <div style={{ width: '50%' }}>
                 <APILoader akay="GTrnXa5hwXGwgQnTBG28SHBubErMKm3f">
                 <Map center="上海">
                     {({ BMap, map, container }) => {

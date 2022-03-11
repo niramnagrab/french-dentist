@@ -39,9 +39,9 @@ console.log(pathnameis)
     var header = document.querySelector('header');
     var lowerfooter = document.getElementById('lowerfooter');
 
-    scrollY >= 3500 
-    ? lowerfooter.style.visibility = 'visible'
-    : lowerfooter.style.visibility = 'hidden'; 
+    // scrollY >= 3500 
+    // ? lowerfooter.style.visibility = 'visible'
+    // : lowerfooter.style.visibility = 'hidden'; 
 
     scrollY <= this.lastScroll 
       ? header.style.visibility = 'visible'
@@ -63,7 +63,7 @@ console.log(pathnameis)
           </div>
         </header>
 
-        <div>
+        <div className="bg-white" >
           <Navbar collapseOnSelect expand="lg" >
               <Container className="navbarrr">
                 <Navbar.Brand className="mainfrlink" href="/">{t("part2")}</Navbar.Brand>

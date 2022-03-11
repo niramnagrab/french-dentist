@@ -31,6 +31,7 @@
 .navelem {
   margin-top: 6px;
 }
+
 .language-select {
   float: right;
   z-index: 10000000;
@@ -76,7 +77,7 @@
   transition: 0.5s ease-out;
 }
 .abouthero {
-  margin-top: -4.3rem;
+  margin-top: -10rem;
   width: 100%;
 }
 .imgwidabout {
@@ -228,7 +229,7 @@
   background-color: #f6f6f9;
 }
 .carehero {
-  margin-top: -4.3rem;
+  margin-top: -10rem;
 }
 .caresect {
   background-color: white;
@@ -310,7 +311,7 @@
   font-weight: bolder;
 }
 .contacthero {
-  margin-top: -4.3rem;
+  margin-top: -10rem;
 }
 .contactdetails {
   width: 80%;
@@ -333,7 +334,7 @@
 }
 .contactlst {
   width: 100%;
-  margin: 5% 5%;
+  padding: 5% 5%;
   display: flex;
 }
 
@@ -346,6 +347,8 @@
 }
 .map {
   display: flex;
+  width: 100%;
+  margin:auto;
   flex-direction: row;
   background-color: #f6f6f9;
 }
@@ -862,14 +865,10 @@
 }
 
 .dropdown .dropbtn {
-  font-size: 16px;
   border: none;
   outline: none;
-  /* color: white; */
-  padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
-  margin: 0;
 }
 
 .dropdown-content {
@@ -938,4 +937,8 @@
 
   .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
     margin-left: -130px !important;
+  }
+
+  .bg-white {
+    background-color: white;
   }
