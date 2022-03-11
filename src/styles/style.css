@@ -93,30 +93,6 @@
   width: auto;
   margin-right: 0.3rem;
 }
-.heroimg {
-  /* width: 65%; */
-  height: 100vh;
-  float: left;
-  margin-top: -4.3rem;
-}
-.herosection {
-  position: absolute;
-  top: 18%;
-  width: 100%;
-  float: right;
-  height: 100vh;
-  background-color: rgba(255, 253, 253, 0.2);
-  margin-top: -4.3rem;
-}
-.hometxt1 {
-  float: right;
-  clear: both;
-  position: absolute;
-  top: 10%;
-  right: 0;
-  width: 50%;
-  padding: 5%  4% 2% 0;
-}
 
 .subhead {
   margin-top: 50px;
@@ -277,13 +253,13 @@
   flex-direction: row;
   justify-content: center;
   padding-bottom: 2%;
+  flex-wrap: wrap;
 }
-.carecardimg {
-  position: relative;
-  top: -50px;
-  left: -49px;
-  width: 133% !important;
+
+.cardheadingparagragh {
+  padding: 30px;
 }
+
 .cardheading {
   color: #014f86;
 }
@@ -298,6 +274,7 @@
   width: 30%;
   background-color: white;
   text-align: center;
+  margin: 2% 0.3%;
 }
 .herotext {
   background-color: white;
@@ -355,8 +332,13 @@
   flex-direction: row;
 }
 .contactlst {
-  width: 40%;
+  width: 100%;
   margin: 5% 5%;
+  display: flex;
+}
+
+.map-container {
+  width: 50%;
 }
 .contactlast {
   display: flex;
@@ -389,9 +371,15 @@
 }
 .upperfooter {
   background-color: #8498a4;
+  margin-bottom: 132px;
 }
 .lowerfooter {
   background-color: #64737c;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
 }
 .footernav {
   display: flex;
@@ -434,9 +422,7 @@
 }
 
 @media screen and (max-width: 1050px) {
-  .carecardimg {
-    width: 147% !important;
-  }
+  
   .homescroll {
     display: flex;
     flex-direction: column;
@@ -486,26 +472,7 @@
 }
 
 @media screen and (max-width: 1000px) {
-  .carecardimg {
-    width: 151% !important;
-  }
-  .herosection {
-    /* height: 136vh; */
-    margin-top: -3rem;
-    z-index: -99999;
-  }
-  .hometxt1 {
-    text-align: center;
-    clear: both;
-    position: relative;
-    bottom: 20rem;
-    width: 100%;
-    padding: 0 5% 0;
-  }
-  .heroimg {
-    width: 100%;
-    margin-top: 0rem;
-  }
+
   .section1 {
     clear: both;
     display: flex;
@@ -550,25 +517,54 @@
     margin-top: -3.5rem;
   }
 }
-@media screen and (max-width: 950px) {
-  .carecardimg {
-    width: 155% !important;
-  }
+
+.hometxt1 .webbtn {
+  width: 200px;
+  height: 40px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-@media screen and (max-width: 900px) {
-  .carecardimg {
-    width: 160% !important;
+
+.homeherosection {
+  width: 100%;
+  height: 100vh;
+  margin-top: -100px;
+  align-items: center;
+  display: flex;
   }
+
+.homevada {
+  width: fit-content;
+  height: 100%;
 }
-@media screen and (max-width: 800px) {
-  .carecardimg {
-    width: 122% !important;
+
+.heroimg{
+  height: 100vh;;
+  width: 100%;
+}
+
+.hometxt1 {
+  width: 50%;
+  padding: 114px;
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 992px) {
+  .homeherosection {
+    flex-direction: column;
+    margin-bottom: 500px;
   }
   .hometxt1 {
-    clear: both;
-    position: relative;
-    bottom: 19rem;
+    width: 90%;
+    padding: 20px;
+    margin-top: 20px;
   }
+}
+
+@media screen and (max-width: 800px) {
+ 
   .homeimg3 {
     position: relative;
     top: -620px;
@@ -612,9 +608,7 @@
   }
 }
 @media screen and (max-width: 700px) {
-  .carecardimg {
-    width: 125% !important;
-  }
+  
   .homeimg3 {
     position: relative;
     top: -550px;
@@ -667,11 +661,7 @@
     margin-top: -35rem;
   }
 }
-@media screen and (max-width: 650px) {
-  .carecardimg {
-    width: 128% !important;
-  }
-}
+
 @media screen and (max-width: 577px) {
   .herotext {
     width: 85% !important;
@@ -685,21 +675,14 @@
   .webbtn {
     width: 70%;
   }
-  .carecardimg {
-    width: 132% !important;
-  }
+ 
   .upperheader {
     display: flex;
     flex-direction: column;
     align-content: center;
     height: 6rem;
   }
-  .herosection {
-    position: absolute;
-    top: 35%;
-    margin-top: -4.3rem;
-    height: 230px;
-  }
+
   .socialicons {
     display: flex;
     justify-content: center;
@@ -779,9 +762,7 @@
   .webbtn {
     width: 80%;
   }
-  .carecardimg {
-    width: 138% !important;
-  }
+ 
   .homeimg3 {
     top: -356px;
     height: 289px;
@@ -791,10 +772,12 @@
     margin-top: -18rem;
   }
 }
+
+.carecardimg {
+  width: 100%;
+}
 @media screen and (max-width: 380px) {
-  .carecardimg {
-    width: 207% !important;
-  }
+ 
   .secttext {
     margin-top: -50%;
   }
@@ -816,9 +799,7 @@
     margin-top: 136px;
     width: 170%;
   }
-  .carecardimg {
-    width: 206% !important;
-  }
+
   /* .careparagh{
     width: 180%;
     margin-left: -32px;
@@ -832,18 +813,13 @@
   .imgwid {
     width: 95%;
   }
-  .carecardimg {
-    width: 143% !important;
-  }
 }
 @media screen and (max-width: 400px) {
   .navbar {
     padding-top: 1.5rem !important;
   }
 
-  .carecardimg {
-    width: 153% !important;
-  }
+  
   .homeimg3 {
     position: relative;
     top: -320px;
@@ -946,3 +922,20 @@
       right: 94px !important;
       top: 946px !important;
   } */
+  .carousel-control.left,
+  .carousel-control.right {
+    background: none !important;
+  }
+
+  .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    margin-right: -130px !important;
+  }
+
+  .glyphicon-chevron-left:before,
+  .glyphicon-chevron-right:before {
+    color: gray;
+  }
+
+  .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    margin-left: -130px !important;
+  }
