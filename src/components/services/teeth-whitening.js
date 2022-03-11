@@ -21,16 +21,16 @@ function TeethWhitening() {
                     <img src="./homepics/blogimg.png" alt="" />
                     <div className="p-2 ml-4">
                         <div className="mt-5">
-                            <h5>{t("part97")}</h5>
-                            <p>{t("part98")}</p>
+                            <h5>{t("part127")}</h5>
+                            <p>{t("part128")}</p>
                         </div>
                         <div className="mt-5">
-                            <h5>{t("part99")}</h5>
-                            <p>{t("part100")}</p>
+                            <h5>{t("part129")}</h5>
+                            <p>{t("part130")}</p>
                         </div>
                         <div className="mt-5">
-                            <h5>{t("part101")}</h5>
-                            <p>{t("part102")}</p>
+                            <h5>{t("part131")}</h5>
+                            <p>{t("part132")}</p>
                         </div>
                     </div>
                 </div>

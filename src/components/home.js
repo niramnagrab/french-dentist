@@ -29,7 +29,6 @@ function Home() {
                         {t("part28")}
                         <br></br>
                         <br />
-                        <br />
                         {t("part29")} 
                     </p>
                     <div className="webbtn ">{t("part30")} </div>
@@ -44,7 +43,7 @@ function Home() {
             <div className="caretext paddingtophome text-center font-weight-bolder mt-5 ">{t("part31")}</div>
                 <span class='line'></span>
                 <div className="servtab">
-                    <div><img className="homefullwid" src="./homepics/noun_dental care_3740157 2.png" alt="" /></div>
+                    <div><img className="homefullwid" src="./homepics/checkup.png" alt="" /></div>
                     <div className="hometxtsect ml-5">
                         <div className="font-weight-bolder mb-3">{t("part32")}</div>
                         <div>{t("part33")} </div>
@@ -58,21 +57,21 @@ function Home() {
                     </div>
                 </div>
                 <div className="servtab">
-                    <div><img className="homefullwid" src="./homepics/noun_dental care_3740157 2.png" alt="" /></div>
+                    <div><img className="homefullwid" src="./homepics/veneer.png" alt="" /></div>
                     <div className="ml-5">
                         <div className="font-weight-bolder mb-3">{t("part36")}</div>
                         <div>{t("part37")}</div>
                     </div>
                 </div>
                 <div className="servtab">
-                    <div><img className="homefullwid" src="./homepics/noun_dental care_3740157 2.png" alt="" /></div>
+                    <div><img className="homefullwid" src="./homepics/tooth-whitening.png" alt="" /></div>
                     <div className="ml-5">
                         <div className="font-weight-bolder mb-3">{t("part38")}</div>
                         <div>{t("part39")}  </div>
                     </div>
                 </div>
                 <div className="servtab">
-                    <div><img className="homefullwid" src="./homepics/noun_dental care_3740157 2.png" alt="" /></div>
+                    <div><img className="homefullwid" src="./homepics/braces.png" alt="" /></div>
                     <div className="ml-5">
                         <div className="font-weight-bolder mb-3">{t("part40")}</div>
                         <div>{t("part41")}</div>
@@ -157,19 +156,17 @@ function Home() {
                     <div className="billingsect-card">
                         <img src="./homepics/banda.png" alt="" />
                         <div className="font-weight-bolder mt-3">{t("part48")}</div>
-                        <div>No complicated finance contracts to complete. No pre-approvals</div>
+                        <div>{t("part481")}</div>
                     </div>
                     <div className="billingsect-card">
                         <img src="./homepics/carbon_security.png" alt="" />
                         <div className="font-weight-bolder mt-3">{t("part49")}</div>
-                        <div>We securely bill for services directly through your insurance so you can relax and don&#39;t think
-about it</div>
+                        <div>{t("part491")}</div>
                     </div> 
                     <div className="billingsect-card">
                         <img src="./homepics/emoji.png" alt="" />
                         <div className="font-weight-bolder mt-3">{t("part50")}</div>
-                        <div>We know pricing for oral care can be confusing &amp; unclear, so we will make it simple. We will tell
-you what is your dental coverage.</div>
+                        <div>{t("part501")}</div>
                     </div>
                 </div>
             </div>

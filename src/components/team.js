@@ -41,11 +41,11 @@ function Team() {
                         <br />
                         {t("part74")}</p>
                 </div>
-                <img className="mr-5" src="./homepics/doc.png" alt="" />
+                <img className="ml-5" src="./homepics/Zheng.jpg" alt="" />
             </div>
 
             <div className="teamsect text-justify">
-                <img className="mr-5" src="./homepics/doc2.png" alt="" />
+                <img className="mr-5" src="./homepics/chiou.jpg" alt="" />
                 <div className="mt-5">
                     <h3>{t("part75")}</h3>
                     <h5>{t("part76")}</h5> <br />
@@ -60,20 +60,7 @@ function Team() {
                 </div>
             </div>
 
-            <div className="teamsect text-justify">
-                <div className="mttxt">
-                    <h3>{t("part80")}</h3>
-                    <h5>{t("part81")}</h5> <br />
-                    <p>{t("part82")}
-                        <br />
-                        <br />
-                        {t("part83")}
-                        <br />
-                        <br />
-                        {t("part84")}</p>
-                </div>
-                <img className="mr-5" src="./homepics/doc3.png" alt="" />
-            </div>
+        
 
         </div>
     )
