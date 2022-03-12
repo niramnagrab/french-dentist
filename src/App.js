@@ -59,7 +59,7 @@ console.log(pathnameis)
           <div className="socialicons">
             <img className="icon" src="./homepics/Instagram.png" alt="" />
             <img className="icon" src="./homepics/Twitter.png" alt="" />
-            <img className="icon" src="./homepics/youtube.png" alt="" />
+            <img className="icon" src="./homepics/Youtube.png" alt="" />
           </div>
         </header>
 
