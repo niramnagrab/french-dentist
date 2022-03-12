@@ -77,12 +77,12 @@ console.log(pathnameis)
                         {t("part5")} 
                       </Nav.Link>
                       <div className="dropdown-content">
-                        <a  href="/dental-checkup">{t("dental_checkup")}</a>
-                        <a href="/teeth-cleaning">{t("teeth_cleanings")}</a>
-                        <a href="/veneers">{t("part22")}</a>
-                        <a href="/teeth-whitening">{t("whitening")}</a>
-                        <a href="/invisalign">{t("part104")}</a>
-                        <a href="/emergencies-and-more">{t("emergencies_and_more")}</a>
+                        <a  href="/comprehensive-care">{t("part911")}</a>
+                        <a href="/teeth-whitening">{t("part912")}</a>
+                        <a href="/orthodontics">{t("part913")}</a>
+                        <a href="/dental-implants">{t("part914")}</a>
+                        <a href="/porcelain-veneers">{t("part915")}</a>
+                        <a href="/emergencies-and-more">{t("part916")}</a>
                       </div>
                     </div> 
                     <Nav.Link className={`navelem  ${pathnameis === '/blog' ? 'current' : ''}`} href="/blog">{t("part6")}</Nav.Link>
@@ -110,15 +110,15 @@ console.log(pathnameis)
             </Route>
             <Route exact path="/care" element={<Care />}>
             </Route>
-            <Route exact path="/dental-checkup" element={<DentalCheckUp />}>
+            <Route exact path="/comprehensive-care" element={<DentalCheckUp />}>
             </Route>
             <Route exact path="/teeth-whitening" element={<TeethWhitening />}>
             </Route>
-            <Route exact path="/teeth-cleaning" element={<TeethCleanings />}>
+            <Route exact path="/orthodontics" element={<TeethCleanings />}>
             </Route>
-            <Route exact path="/veneers" element={<Veneers />}>
+            <Route exact path="/dental-implants" element={<Veneers />}>
             </Route>
-            <Route exact path="/invisalign" element={<Invisalign />}>
+            <Route exact path="/porcelain-veneers" element={<Invisalign />}>
             </Route>
             <Route exact path="/emergencies-and-more" element={<EmergenciesAndMore />}>
             </Route>
