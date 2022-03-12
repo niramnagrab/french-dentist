@@ -6,7 +6,7 @@ function TeethCleanings() {
     const { t } = useTranslation();
     return (
         <div className="ml-5 mr-5 blogpage">
-            <div>
+            <div className="care-whitening">
                 <img className="w-100" src="./homepics/blog.png" alt="" />
                 <div className="herotext">
                     <h2>{t("teeth_cleanings")}</h2>

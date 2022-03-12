@@ -6,7 +6,7 @@ function TeethWhitening() {
     const { t } = useTranslation();
     return (
         <div className="ml-5 mr-5 blogpage">
-            <div>
+            <div className="care-whitening">
                 <img className="w-100" src="./homepics/blog.png" alt="" />
                 <div className="herotext">
                     <h2>{t("part20")}</h2>
@@ -18,7 +18,7 @@ function TeethWhitening() {
             <div>
                 <h2 className="mt-5 mb-5 cardheading">{t("part96")}</h2>
                 <div className="blogsect">
-                    <img src="./homepics/blogimg.png" alt="" />
+                    <img src="./homepics/whitening.jpg" alt="" />
                     <div className="p-2 ml-4">
                         <div className="mt-5">
                             <h5>{t("part127")}</h5>

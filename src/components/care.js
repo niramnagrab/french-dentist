@@ -6,39 +6,39 @@ import { Container, Navbar, Nav } from "react-bootstrap"
 const CARD_DATA = [
   {
     img: "careimg1",
-    heading: "part91",
+    heading: "part911",
     link: "/blog",
-    description: "part92",
+    description: "part921",
   },
   {
     img: "card",
-    heading: "part91",
+    heading: "part912",
     link: "/blog",
-    description: "part92",
+    description: "part922",
   },
   {
     img: "card1",
-    heading: "part91",
+    heading: "part913",
     link: "/blog",
-    description: "part92",
+    description: "part923",
   },
   {
     img: "card2",
-    heading: "part91",
+    heading: "part914",
     link: "/blog",
-    description: "part92",
+    description: "part924",
   },
   {
     img: "card3",
-    heading: "part91",
+    heading: "part915",
     link: "/blog",
-    description: "part92",
+    description: "part925",
   },
   {
     img: "card4",
-    heading: "part91",
+    heading: "part916",
     link: "/blog",
-    description: "part92",
+    description: "part926",
   },
 ]
 
