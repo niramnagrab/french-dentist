@@ -16,8 +16,8 @@ function Home() {
                 </div>
 
                 <div className="hometxt1 text-justify zindexx">
-                    <div className="caretext maintxthome font-weight-bold">{t("part24")}<br></br> {t("part25")}</div>
-                    <h5 className="subhead mt-2">{t("part26")}</h5>
+                    <div className="caretext maintxthome font-weight-bold"> {t("part25")}</div>
+                    <h5 className="subhead">{t("part26")}</h5>
                     <div className="webbtn">{t("part30")} </div>
                 </div>
                 </div>
@@ -38,8 +38,8 @@ function Home() {
                     </p>
                     <div className="webbtn ">{t("part30")} </div>
                 </div>
-                <div>
-                    <img className="homeimg2" src="./homepics/section.png" alt="" />
+                <div className="about-image">
+                    <img className="homeimg2" src="./homepics/reception1.jpg" alt="" />
                     <img className="homeimg3" src="./homepics/section1.png" alt="" />
                 </div>
             </div>
