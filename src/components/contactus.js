@@ -31,24 +31,24 @@ function Contactus() {
 
             <div className="careupper">
                 <div className="caresect mr-3">
-                    <img className="m-5 sectimg" src="./homepics/contactimg.png" alt="" />
+                    <img className="m-5 sectimg" src="./homepics/hours.svg" alt="" />
                     <h6 className="cardheading">{t("part109")}</h6>
                     <p>{t("part13")} 
                     <br/>
                     {t("part131")}</p>
                 </div>
                 <div className="caresect mr-3">
-                    <img className="m-5 sectimg" src="./homepics/contact3.png" alt="" />
+                    <img className="m-5 sectimg" src="./homepics/email.svg" alt="" />
                     <h6 className="cardheading">{t("part111")}</h6>
                     <p>info@frenchdentist.cn thefrenchdentalclinic@gmail.com</p>
                 </div>
                 <div className="caresect mr-3">
-                    <img className="m-5 sectimg" src="./homepics/contact1.png" alt="" />
+                    <img className="m-5 sectimg" src="./homepics/phone.svg" alt="" />
                     <h6 className="cardheading">{t("part112")}</h6>
                     <p>187 1781 2487</p>
                 </div>
                 <div className="caresect mr-3">
-                    <img className="m-5 sectimg" src="./homepics/contactimg.png" alt="" />
+                    <img className="m-5 sectimg" src="./homepics/wechat.svg" alt="" />
                     <h6 className="cardheading">WeChat</h6>
                     <img src="./homepics/QR.png" alt="" />
                 </div>
@@ -81,14 +81,14 @@ function Contactus() {
                     </div>
                 </div>
                 <div className="contactsect  mt-5">
-                    <img className="mr-5 mt-4 imgggg" src="./homepics/affection 1.png" alt="" />
+                    <img className="mr-5 mt-4 imgggg" src="./homepics/care.png" alt="" />
                     <div className="mt-3">
                         <h5 className="mb-3">{t("part1181")}</h5>
                         <h6 className="pcon">{t("part1182")}</h6>
                     </div>
                 </div>
                 <div className="contactsect  mt-5">
-                    <img className="mr-5 mt-4 imgggg" src="./homepics/affection 1.png" alt="" />
+                    <img className="mr-5 mt-4 imgggg" src="./homepics/relax.png" alt="" />
                     <div className="mt-3">
                         <h5 className="mb-3">{t("part1191")}</h5>
                         <h6 className="pcon">{t("part1192")}</h6>
@@ -96,23 +96,27 @@ function Contactus() {
                 </div>
             </div>
 
-            <div>
+            <div className="contact-benefits">
                 <div className="caretext text-center font-weight-bolder mt-5 ">{t("part47")}</div>
                 <span class='line'></span>
                 <div className="text-center contactpros">
                     <div className="col-4">
+                <div className="text-center billingsect">
+                    <div className="billingsect-card">
                         <img src="./homepics/banda.png" alt="" />
-                        <div className="font-weight-bolder mb-3 ">{t("part48")}</div>
+                        <div className="font-weight-bolder mb-3">{t("part48")}</div>
                         <div>{t("part481")}</div>
                     </div>
                     <div className="col-4">
+                    <div className="billingsect-card">
                         <img src="./homepics/carbon_security.png" alt="" />
-                        <div className="font-weight-bolder mb-3 ">{t("part49")}</div>
+                        <div className="font-weight-bolder mb-3">{t("part49")}</div>
                         <div>{t("part491")}</div>
                     </div> 
                     <div className="col-4">
+                    <div className="billingsect-card">
                         <img src="./homepics/emoji.png" alt="" />
-                        <div className="font-weight-bolder mb-3 ">{t("part50")} </div>
+                        <div className="font-weight-bolder mb-3">{t("part50")} </div>
                         <div>{t("part501")}</div>
                     </div>
                 </div>

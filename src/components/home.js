@@ -20,7 +20,10 @@ function Home() {
                     <h5 className="subhead mt-2">{t("part26")}</h5>
                     <div className="webbtn">{t("part30")} </div>
                 </div>
-            </div>
+                </div>
+
+           
+            
 
             <div className="section1 zindexx">
                 <div className="secttext">

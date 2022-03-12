@@ -18,7 +18,7 @@ function Veneers() {
             <div>
                 <h2 className="mt-5 mb-5 cardheading">{t("part96")}</h2>
                 <div className="blogsect">
-                    <img src="./homepics/blogimg.png" alt="" />
+                    <img src="./homepics/whitening.jpg" alt="" />
                     <div className="p-2 ml-4">
                         <div className="mt-5">
                             <h5>{t("part97")}</h5>
