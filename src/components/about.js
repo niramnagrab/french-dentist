@@ -46,7 +46,7 @@ function About() {
                 <img className="ml-2 imgwid" src="./homepics/reception2.jpg" alt="" />
             </div>
 
-            <div className="mb-5">
+            <div className="pb-5">
                 <div className="caretext text-center font-weight-bolder mt-5 ">{t("part58")}</div>
                 <div><span class='line'></span></div>
                 <div className="sect4">
