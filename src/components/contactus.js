@@ -99,17 +99,21 @@ function Contactus() {
             <div className="contact-benefits">
                 <div className="caretext text-center font-weight-bolder mt-5 ">{t("part47")}</div>
                 <span class='line'></span>
+                <div className="text-center contactpros">
+                    <div className="col-4">
                 <div className="text-center billingsect">
                     <div className="billingsect-card">
                         <img src="./homepics/banda.png" alt="" />
                         <div className="font-weight-bolder mb-3">{t("part48")}</div>
                         <div>{t("part481")}</div>
                     </div>
+                    <div className="col-4">
                     <div className="billingsect-card">
                         <img src="./homepics/carbon_security.png" alt="" />
                         <div className="font-weight-bolder mb-3">{t("part49")}</div>
                         <div>{t("part491")}</div>
                     </div> 
+                    <div className="col-4">
                     <div className="billingsect-card">
                         <img src="./homepics/emoji.png" alt="" />
                         <div className="font-weight-bolder mb-3">{t("part50")} </div>
