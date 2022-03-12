@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import { useGoogleMaps } from "react-hook-google-maps";
 import { asyncWrapper } from 'react-baidu-maps';
 import { BaiduMap } from 'react-baidu-maps';
+import { Map, APILoader } from '@uiw/react-baidu-map';
 
 
 function Contactus() {
@@ -112,10 +113,12 @@ function Contactus() {
             </div>
 
             <div className="map">
-            <div>
+
+            <div className="w-100">
             <div className="caretext text-center font-weight-bolder mt-5 ">{t("part124")} </div>
             <span class='line'></span>
             <div className="contactlst">
+                <div className="map-container">
                 <div className="contactlast">
                     <img className="mr-4" src="./homepics/jimao.png" alt="" />
                     <div>
@@ -132,16 +135,20 @@ function Contactus() {
                         </div>
                     </div>
                 </div>
+                </div>
+                <div style={{ width: '50%' }}>
+                <APILoader akay="GTrnXa5hwXGwgQnTBG28SHBubErMKm3f">
+                <Map center="上海">
+                    {({ BMap, map, container }) => {
+                    return;
+                    }}
+                </Map>
+                </APILoader>
             </div>
             </div>
-            {/* <div>
-                <img className="conmap" src="./homepics/map.png" alt="" />
-            </div> */}
-            {/* <AsyncMap
-                 mapUrl={`http://api.map.baidu.com/api?v=3.0&ak=${MAP_KEY}`}
-                 loadingElement={<div>Loading.....</div>}
-                 mapContainer={<div style={{ height: '100%' }} />} /> */}
-            {/* <div className="conmap" ref={ref} />; */}
+         
+            </div>
+           
             </div>
         </div>
     )
