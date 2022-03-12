@@ -6,7 +6,7 @@ function About() {
     const { t } = useTranslation();
     return (
         <div>
-            <div>
+            <div className="heroabout">
                 <img className="abouthero" src="./homepics/reception.jpg" alt="" />
             </div>
 
@@ -29,7 +29,7 @@ function About() {
                 </div>
             </div>
 
-            <div>
+            <div className="aboutclinicimage">
                 <img className="imgwidabout" src="./homepics/medicalchair.jpg" alt="" />
             </div>
 

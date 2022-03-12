@@ -84,6 +84,10 @@
 .imgwidabout {
   width: 100%;
 }
+
+.aboutclinicimage {
+  /* height: 80vh; */
+}
 .socialicons {
   margin: 0.7rem 3rem 0 0;
 }
@@ -121,31 +125,36 @@
   float: right;
   clear: both;
   position: absolute;
-  top: 15%;
+  top: 10%;
   right: 0;
   width: 50%;
   padding: 5%  4% 2% 0;
 }
 .subhead {
-  margin-top: 50px;
+  /* margin-top: 50px; */
+  font-size: 20px;
   margin-bottom: 50px;
+  width: 91%;
+  line-height: 25px;
 }
 .section1 {
   clear: both;
   display: flex;
   flex-direction: row;
-  padding: 10% 5% 15%;
+  padding: 15% 10% 0%;
 }
 .secttext {
   width: 70%;
   margin-right: 5%;
 }
 .homeimg2 {
-  width: 400px;
+  width: 500px;
   height: auto;
-  padding-top: 10%;
+  padding-top: 22%;
   z-index: 1000000000;
 }
+
+
 .homeimg3 {
   position: relative;
   top: -50%;
@@ -156,7 +165,7 @@
 .homeservices {
   background-color: #fafafa;
   padding: 2% 15%;
-  margin-top: -40rem;
+  /* margin-top: -40rem; */
   padding-bottom: 33px;
 }
 .servtab {
@@ -284,9 +293,11 @@
   box-shadow: none;
 }
 .caretext {
-  font-size: 39px;
+  line-height: 63px;
+  font-size: 72px;
+  width: 91%;
   color: #183047;
-  /* padding: 0 10% */
+  padding-bottom: 20px;
 }
 .carecard {
   display: flex;
@@ -328,6 +339,7 @@
 
 .contact-benefits {
   padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 .blogbtn {
@@ -381,7 +393,7 @@
 }
 .contactlst {
   width: 100%;
-  padding: 5% 5%;
+  padding: 3%;
   display: flex;
 }
 
@@ -610,7 +622,7 @@
 
 .homeherosection {
   width: 100%;
-  height: 100vh;
+  height: calc(100vh - 100px);
   margin-top: -100px;
   align-items: center;
   display: flex;
@@ -622,7 +634,7 @@
 }
 
 .heroimg{
-  height: 100vh;;
+  /* height: 100vh; */
   width: 100%;
 }
 
@@ -630,7 +642,7 @@
   width: 50%;
   padding: 30px 60px;
   /* margin-top: 100px; */
-}
+/* } 
   padding: 114px;
   margin-top: 100px;
 } */

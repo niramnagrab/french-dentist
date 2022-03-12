@@ -7,7 +7,7 @@ function Slider() {
    
     <div id="carouselExampleControls"
      className="carousel slide" data-wrap={true}  data-ride="carousel"
-    data-interval="2000"  
+    data-interval="3000"  
     >
     <div className="carousel-inner">
         <div className="carousel-item active">
