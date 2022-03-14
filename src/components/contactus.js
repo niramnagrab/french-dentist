@@ -31,24 +31,24 @@ function Contactus() {
 
             <div className="careupper">
                 <div className="caresect mr-3">
-                    <img className="m-5 sectimg" src="./homepics/hours.svg" alt="" />
+                    <img className="m-4 sectimg" src="./homepics/hours.svg" alt="" />
                     <h6 className="cardheading">{t("part109")}</h6>
                     <p>{t("part13")} 
                     <br/>
                     {t("part131")}</p>
                 </div>
                 <div className="caresect mr-3">
-                    <img className="m-5 sectimg" src="./homepics/email.svg" alt="" />
+                    <img className="m-4 sectimg" src="./homepics/email.svg" alt="" />
                     <h6 className="cardheading">{t("part111")}</h6>
                     <p>info@frenchdentist.cn thefrenchdentalclinic@gmail.com</p>
                 </div>
                 <div className="caresect mr-3">
-                    <img className="m-5 sectimg" src="./homepics/phone.svg" alt="" />
+                    <img className="m-4 sectimg" src="./homepics/phone.svg" alt="" />
                     <h6 className="cardheading">{t("part112")}</h6>
                     <p>187 1781 2487</p>
                 </div>
                 <div className="caresect mr-3">
-                    <img className="m-5 sectimg" src="./homepics/wechat.svg" alt="" />
+                    <img className="m-4 sectimg" src="./homepics/wechat.svg" alt="" />
                     <h6 className="cardheading">WeChat</h6>
                     <img src="./homepics/QR.png" alt="" />
                 </div>

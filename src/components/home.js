@@ -101,7 +101,7 @@ function Home() {
             <Slider />
 
             <div className="homebilling">
-            <div className="caretext text-center font-weight-bolder mt-5 ">{t("part47")}</div>
+            <div className="caretext text-center font-weight-bolder ">{t("part47")}</div>
                 <span class='line'></span>
                 <h3 className="intro-text" >{t("billing_facility_intro_text")}</h3>
                 <div className="billingsect mt-5">
