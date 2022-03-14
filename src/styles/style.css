@@ -128,7 +128,7 @@
   top: 10%;
   right: 0;
   width: 50%;
-  padding: 5%  4% 2% 0;
+  padding: 5%  4% 0 0;
 }
 .subhead {
   /* margin-top: 50px; */
@@ -141,7 +141,7 @@
   clear: both;
   display: flex;
   flex-direction: row;
-  padding: 15% 10% 0%;
+  padding: 15% 10% 5%;
 }
 .secttext {
   width: 70%;
@@ -156,6 +156,7 @@
 
 
 .homeimg3 {
+  display: none;
   position: relative;
   top: -50%;
   left: 40%;
@@ -295,7 +296,7 @@
 .caretext {
   line-height: 63px;
   font-size: 72px;
-  width: 91%;
+  /* width: 91%; */
   color: #183047;
   padding-bottom: 20px;
 }
