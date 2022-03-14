@@ -66,7 +66,7 @@ console.log(pathnameis)
         <div className="bg-white" >
           <Navbar collapseOnSelect expand="lg" >
               <Container className="navbarrr">
-                <Navbar.Brand className="mainfrlink" href="/">{t("part2")}</Navbar.Brand>
+                <Navbar.Brand className="logo-top mainfrlink" href="/">{t("part2")}</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                   <Nav className="me-auto navbarrrr">
@@ -137,7 +137,7 @@ console.log(pathnameis)
             <span className="hrfooterr"></span>
             <div className="footeradd row">
               <div className="col-lg-3">
-                <div className="text-justify address-padding">
+                <div className=" address-padding">
                   <h4>{t("part10")}</h4>
                   {t("part1111")}
                   <br/>
@@ -146,17 +146,30 @@ console.log(pathnameis)
                   {t("part1113")}
                   <br/>
                   {t("part1114")}
+                  <br/>
+                  {t("part1115")}
+                  <br/>
+                  {t("part1116")}
                   </div>
               </div>
-              <div className="text-justify col-lg-3 address-padding">
+              <div className=" col-lg-3 address-padding">
                 <h4>{t("part12")}</h4>
                 {t("part13")}
                 <br/>
                 {t("part131")}
               </div>
-              <div className="text-justify col-lg-3 address-padding">
+              <div className="col-lg-3 address-padding">
                 <h4>{t("part14")}</h4>
-                {t("part15")}
+                {t("part1411")}
+                  <br/>
+                  {t("part1412")}
+                  <br/>
+                  {t("part1413")}
+                  <br/>
+                  {t("part1414")}
+                  <br/>
+                  {t("part1415")}
+                 
               </div>
             </div>
           </footer>
