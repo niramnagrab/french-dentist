@@ -420,10 +420,11 @@
 .footer {
   clear: both;
   color: white;
-  /* z-index: -1;
+  z-index: -1;
     position: fixed;
-    bottom: 38%;
-    height: 87%; */
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 .footeradd {
   display: flex;
@@ -434,15 +435,15 @@
 }
 .upperfooter {
   background-color: #8498a4;
-  margin-bottom: 213px;
+  /* margin-bottom: 213px; */
 }
 .lowerfooter {
   background-color: #64737c;
-  position: fixed;
+  /* position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
-  z-index: -1;
+  z-index: -1; */
 }
 .footernav {
   display: flex;
@@ -1059,4 +1060,5 @@ width: auto;
 
   .bg-white {
     background-color: white;
+    margin-bottom: 100vh;
   }
