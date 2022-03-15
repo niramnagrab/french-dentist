@@ -135,7 +135,7 @@ console.log(pathnameis)
               <div className="fontsizefooter1">{t("part9")}</div>
             </div>
             <span className="hrfooterr"></span>
-            <div className="footeradd row">
+            <div className="footeradd g-0 row">
               <div className="col-lg-3">
                 <div className="text-justify address-padding">
                   <h4>{t("part10")}</h4>
@@ -163,17 +163,17 @@ console.log(pathnameis)
           <div id="lowerfooter" className="lowerfooter">
             <div>
               <ul className="footernav">
-                  <Nav.Link className="clr mr-3 mt-5" href="/team">{t("part16")}</Nav.Link>
-                  <Nav.Link className="clr mr-3 mt-5" href="/contactus">{t("part17")}</Nav.Link>
-                  <Nav.Link className="clr mr-3 mt-5" href="/blog">{t("part18")}</Nav.Link>
-                  <Nav.Link className="clr mr-3 mt-5" href="/care">{t("part19")}</Nav.Link>
-                  <Nav.Link className="clr mr-3 mt-5" href="/">{t("part20")}</Nav.Link>
-                  <Nav.Link className="clr mr-3 mt-5" href="/about">{t("part21")}</Nav.Link>
-                  <Nav.Link className="clr mr-3 mt-5" href="/contactus">{t("part22")}</Nav.Link>
+                  <Nav.Link className="clr mr-3 mt-lg-5 mt-md-3 mt-1" href="/team">{t("part16")}</Nav.Link>
+                  <Nav.Link className="clr mr-3 mt-lg-5 mt-md-3 mt-1" href="/contactus">{t("part17")}</Nav.Link>
+                  <Nav.Link className="clr mr-3 mt-lg-5 mt-md-3 mt-1" href="/blog">{t("part18")}</Nav.Link>
+                  <Nav.Link className="clr mr-3 mt-lg-5 mt-md-3 mt-1" href="/care">{t("part19")}</Nav.Link>
+                  <Nav.Link className="clr mr-3 mt-lg-5 mt-md-3 mt-1" href="/">{t("part20")}</Nav.Link>
+                  <Nav.Link className="clr mr-3 mt-lg-5 mt-md-3 mt-1" href="/about">{t("part21")}</Nav.Link>
+                  <Nav.Link className="clr mr-3 mt-lg-5 mt-md-3 mt-1" href="/contactus">{t("part22")}</Nav.Link>
               </ul>
             </div>
             <hr className="hrfooter1" />
-            <div className="text-center pb-5">{t("part23")}</div> </div>
+            <div className="text-center pb-2 pb-md-5">{t("part23")}</div> </div>
         </div>
 
 

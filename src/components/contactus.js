@@ -1,10 +1,7 @@
 import React from 'react'
 import '../styles/style.css'
 import { useTranslation } from "react-i18next";
-import { useGoogleMaps } from "react-hook-google-maps";
-import { asyncWrapper } from 'react-baidu-maps';
-import { BaiduMap } from 'react-baidu-maps';
-import { Map, APILoader } from '@uiw/react-baidu-map';
+import { Map, autoLocalCity, APILoader } from '@uiw/react-baidu-map';
 
 
 function Contactus() {
@@ -142,11 +139,11 @@ function Contactus() {
                     </div>
                 </div>
                 </div>
-                <div style={{ width: '50%' }}>
+                <div className="w-50 map-baidu w-lg-100">
                 <APILoader akay="GTrnXa5hwXGwgQnTBG28SHBubErMKm3f">
                 <Map center="上海">
-                    {({ BMap, map, container }) => {
-                    return;
+                    {({ BMap, map, container, autoLocalCity }) => {
+                    return ;
                     }}
                 </Map>
                 </APILoader>

@@ -102,7 +102,6 @@
   cursor: pointer;
 }
 
-
 .firstimg {
   height: 2rem;
   width: auto;
@@ -128,7 +127,7 @@
   top: 10%;
   right: 0;
   width: 50%;
-  padding: 5%  4% 2% 0;
+  padding: 5% 4% 2% 0;
 }
 .subhead {
   /* margin-top: 50px; */
@@ -153,7 +152,6 @@
   padding-top: 22%;
   z-index: 1000000000;
 }
-
 
 .homeimg3 {
   position: relative;
@@ -407,7 +405,7 @@
 .map {
   display: flex;
   width: 100%;
-  margin:auto;
+  margin: auto;
   flex-direction: row;
   background-color: #f6f6f9;
 }
@@ -420,10 +418,10 @@
   clear: both;
   color: white;
   z-index: -1;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 .footeradd {
   display: flex;
@@ -495,7 +493,6 @@
 }
 
 @media screen and (max-width: 1050px) {
-  
   .homescroll {
     display: flex;
     flex-direction: column;
@@ -545,9 +542,6 @@
 }
 
 @media screen and (max-width: 1000px) {
-  .carecardimg {
-    width: 151% !important;
-  }
   .herosection {
     /* height: 136vh; */
     margin-top: -3rem;
@@ -627,14 +621,14 @@
   margin-top: -100px;
   align-items: center;
   display: flex;
-  }
+}
 
 .homevada {
   width: fit-content;
   height: 100%;
 }
 
-.heroimg{
+.heroimg {
   /* height: 100vh; */
   width: 100%;
 }
@@ -658,10 +652,45 @@
     padding: 20px;
     margin-top: 20px;
   }
+  .footernav {
+    margin-bottom: 6px;
+  }
+  .nav-link {
+    padding: 6px !important;
+  }
+  
+  .upperfooter .row > * {
+    flex-shrink: unset;
+  }
+  .footeradd {
+    display: flex;
+    flex-direction: column;
+  }
+  .address-padding {
+    padding: 0;
+    margin-left: 100px;
+    width: 70% !important;
+  }
+  .homeherosection {
+    display: block;
+  }
+  .secttext {
+    margin-top: auto;
+  }
+  .contactlst {
+    display: flex;
+    flex-direction: column;
+  }
+  .map-container {
+    width: 100%;
+  }
+
+  .map-baidu>div {
+    overflow: unset !important;
+  }
 }
 
 @media screen and (max-width: 800px) {
- 
   .homeimg3 {
     position: relative;
     top: -620px;
@@ -711,17 +740,12 @@
     flex-direction: column;
   }
 }
+
 @media screen and (max-width: 700px) {
-  
   .homeimg3 {
     position: relative;
     top: -550px;
     height: 530px;
-  }
-  .footernav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
   .teamcover {
     margin-top: 0rem;
@@ -766,6 +790,41 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .footernav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-link {
+    padding: 1px !important;
+  }
+  .hrfooter1 {
+    margin-top: 0;
+  }
+  .fontsizefooter1 {
+    font-size: 34px !important;
+  }
+  .fontsizefooter {
+    font-size: 48px !important;
+  }
+  .address-padding {
+    margin: auto;
+    width: 80%;
+  }
+  .hrfooterr {
+    height: 6px;
+    margin-top: 0;
+  }
+  .teamsect img {
+    width: 100% !important;
+    margin: auto !important;
+  }
+  .caresect {
+    width: 80% !important;
+  }
+}
+
 @media screen and (max-width: 577px) {
   .herotext {
     width: 85% !important;
@@ -779,7 +838,7 @@
   .webbtn {
     width: 70%;
   }
- 
+
   .upperheader {
     display: flex;
     flex-direction: column;
@@ -814,10 +873,9 @@
     height: 373px;
   }
 
-
-.billingsect-card {
-width: auto;
-}
+  .billingsect-card {
+    width: auto;
+  }
   .subhead {
     font-size: 15px;
   }
@@ -881,7 +939,7 @@ width: auto;
   .webbtn {
     width: 80%;
   }
- 
+
   .homeimg3 {
     top: -356px;
     height: 289px;
@@ -890,13 +948,17 @@ width: auto;
   .homeservices {
     margin-top: -18rem;
   }
+
+  .address-padding {
+    width: 95% !important;
+    line-height: 20px;
+  }
 }
 
 .carecardimg {
   width: 100%;
 }
 @media screen and (max-width: 380px) {
- 
   .secttext {
     margin-top: -50%;
   }
@@ -938,7 +1000,6 @@ width: auto;
     padding-top: 1.5rem !important;
   }
 
-  
   .homeimg3 {
     position: relative;
     top: -320px;
@@ -1035,29 +1096,35 @@ width: auto;
   padding: 5% 2% !important;
 }
 
+.about-text .line {
+  width: 200px;
+  margin-left: 30px;
+}
 /* .MuiPopover-paper {
       right: 94px !important;
       top: 946px !important;
   } */
-  .carousel-control.left,
-  .carousel-control.right {
-    background: none !important;
-  }
+.carousel-control.left,
+.carousel-control.right {
+  background: none !important;
+}
 
-  .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
-    margin-right: -130px !important;
-  }
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next {
+  margin-right: -130px !important;
+}
 
-  .glyphicon-chevron-left:before,
-  .glyphicon-chevron-right:before {
-    color: gray;
-  }
+.glyphicon-chevron-left:before,
+.glyphicon-chevron-right:before {
+  color: gray;
+}
 
-  .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
-    margin-left: -130px !important;
-  }
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .icon-prev {
+  margin-left: -130px !important;
+}
 
-  .bg-white {
-    background-color: white;
-    margin-bottom: 100vh;
-  }
+.bg-white {
+  background-color: white;
+  margin-bottom: 100vh;
+}
