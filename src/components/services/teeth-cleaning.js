@@ -2,11 +2,11 @@ import React from 'react'
 import { useTranslation } from "react-i18next";
 import Slider from "../slider";
 
-function TeethCleanings() {
+function Orthodontics() {
     const { t } = useTranslation();
     return (
         <div className="ml-5 mr-5 blogpage">
-            <div className="care-whitening">
+            <div className="care-hero">
                 <img className="w-100" src="./homepics/blog.png" alt="" />
                 <div className="herotext">
                     <h2>{t("teeth_cleanings")}</h2>
@@ -36,13 +36,13 @@ function TeethCleanings() {
                 </div>
             </div>
 
-            <div>
+            <div className="pt-5">
                 <h2 className="mt-5">{t("part103")} </h2>
                 <div className="blogbtn">
-                    <a  className="blogbtnsty mr-5" >{t("part104")}</a>
-                    <a  className="blogbtnsty mr-5" >{t("part105")}</a>
-                    <a  className="blogbtnsty mr-5" >{t("part106")}</a>
-                    <a  className="blogbtnsty mr-5" >{t("part107")}</a>
+                    <a  className="webbtn mr-5" >{t("part104")}</a>
+                    <a  className="webbtn mr-5" >{t("part105")}</a>
+                    <a  className="webbtn mr-5" >{t("part106")}</a>
+                    <a  className="webbtn mr-5" >{t("part107")}</a>
                 </div>
             </div>
             {/* carousal efect */}
@@ -52,4 +52,4 @@ function TeethCleanings() {
     )
 }
 
-export default TeethCleanings
+export default Orthodontics

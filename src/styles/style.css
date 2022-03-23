@@ -45,7 +45,7 @@
   color: white !important;
   padding: 16px;
   border-radius: 50px;
-  width: 50%;
+  width: 55%;
   text-align: center;
 }
 
@@ -105,6 +105,10 @@
   width: 100%;
 }
 
+
+.care-hero {
+  height: 80vh;
+}
 
 
 .contact-hero img {
@@ -433,12 +437,12 @@
 }
 .herotext {
   background-color: white;
-  width: 40% !important;
+  width: 48% !important;
   left: 8%;
   padding: 2% 5%;
   margin-bottom: -10%;
   position: relative !important;
-  bottom: 23rem !important;
+  bottom: 27rem !important;
 }
 
 .contact-benefits {
@@ -455,12 +459,25 @@
 .blogsect {
   display: flex;
   flex-direction: row;
+  height: 100vh;
 }
 .blogsect2 {
   display: flex;
   flex-direction: row;
   margin: 10% 5%;
 }
+
+
+.treatment-image img{
+  flex-grow: 2;
+  height: 80vh;
+}
+
+.treatment-text {
+  flex-grow: 3;
+}
+
+
 .blogbtnsty {
   text-align: center;
   /* width: 30%; */

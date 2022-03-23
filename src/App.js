@@ -17,9 +17,9 @@ import { Container, Navbar, Nav } from "react-bootstrap";
 // import { useHistory } from 'react-router-dom'
 
 
-import DentalCheckUp from "./components/services/dental-checkup";
+import ComprehensiveCare from "./components/services/dental-checkup";
 import TeethWhitening from "./components/services/teeth-whitening";
-import TeethCleanings from "./components/services/teeth-whitening";
+import Orthodontics from "./components/services/teeth-whitening";
 import Veneers from "./components/services/veneers";
 import Invisalign from "./components/services/invisalign";
 import EmergenciesAndMore from "./components/services/invisalign";
@@ -110,11 +110,11 @@ console.log(pathnameis)
             </Route>
             <Route exact path="/care" element={<Care />}>
             </Route>
-            <Route exact path="/comprehensive-care" element={<DentalCheckUp />}>
+            <Route exact path="/comprehensive-care" element={<ComprehensiveCare />}>
             </Route>
             <Route exact path="/teeth-whitening" element={<TeethWhitening />}>
             </Route>
-            <Route exact path="/orthodontics" element={<TeethCleanings />}>
+            <Route exact path="/orthodontics" element={<Orthodontics />}>
             </Route>
             <Route exact path="/dental-implants" element={<Veneers />}>
             </Route>
