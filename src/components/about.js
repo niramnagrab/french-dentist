@@ -11,14 +11,13 @@ function About() {
             </div>
 
             <div className="about-text">
-                <h1 className="caretext text-center font-weight-bolder mt-5">{t("part51")}</h1>
-                <div className="hrr">
-                  <span class="line"></span>
-                </div>
-                <div className="aboutsect p-text text-justify">
-                    <div className=" p-text col-6 text-left">{t("part52")}
+                <h1 className="font-weight-bold ps-3 mt-5 ml-4">{t("part51")}</h1>
+                <span class="line"></span>
+
+                <div className="aboutsect text-justify d-flex flex-md-row flex-column font-weight-bolder">
+                    <div className="col-md-6 col-12">{t("part52")}
                     </div>
-                    <div className="p-text col-6 text-left">{t("part53")}
+                    <div className="col-md-6 col-12">{t("part53")}
                     </div>
                 </div>
             </div>
