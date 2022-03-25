@@ -7,15 +7,15 @@ function Team() {
     return (
         <div>
             <div className="team-hero">
-                <img className="teamcover" src="./homepics/teamhero.png" alt="" />
+                <img className="teamcover" src="./homepics/teamhero.jpg" alt="" />
                 <div className="teamhero iphone">
-                    <h1 className="mb-5 maintxtteam ">{t("part61")} <br /> {t("part62")}</h1>
-                    <p className="iphonetxt">{t("part63")}</p>
+                    <h1 className="mb-5 maintxtteam h2-bold ">{t("part61")} <br /> {t("part62")}</h1>
+                    <p className="iphonetxt p-text">{t("part63")}</p>
                 </div>
             </div>
 
-            <div className="teamsect text-justify">
-                <img className="mr-5" src="./homepics/teamimg.png" alt="" />
+            <div className="teamsect text-justify p-text">
+                <img className="costa-photo mr-5" src="./homepics/teamimg.png" alt="" />
                 <div className="mt-5">
                     <h3>{t("part64")}</h3>
                     <h5>{t("part65")}</h5> <br />
@@ -29,7 +29,7 @@ function Team() {
                 </div>
             </div>
 
-            <div className="teamsect text-justify">
+            <div className="teamsect text-justify p-text">
                 <div className="mt-5">
                     <h3>{t("part70")}</h3>
                     <h5>{t("part71")}</h5> <br />
@@ -44,7 +44,7 @@ function Team() {
                 <img className="ml-5" src="./homepics/Zheng.jpg" alt="" />
             </div>
 
-            <div className="teamsect text-justify">
+            <div className="teamsect text-justify p-text">
                 <img className="mr-5" src="./homepics/chiou.jpg" alt="" />
                 <div className="mt-5">
                     <h3>{t("part75")}</h3>

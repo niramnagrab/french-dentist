@@ -12,43 +12,43 @@ function Slider() {
     <div className="carousel-inner">
         <div className="carousel-item active">
         <div className="homescroll">
-            <div>
-                <img className="homeresimg" src="./homepics/Group 6.png" alt="" />
+            <div className="testimonials-slider">
+                <img className="homeresimg" src="./homepics/testimonials1.jpg" alt="" />
             </div>
-            <div className="ml-5">
+            <div className="ml-5 slider-text">
                 <div> <img className="mb-5" src="./homepics/fa-solid_quote-left.png" alt="" /></div>
-                <div className="text-justify mb-5 text-black-50">
+                <div className="p-text text-justify mb-5 text-black-50">
                 {t("part45")}
                 </div>
-                <div className="font-weight-bold">{t("part46")}</div>
+                <div className="p-text-bold font-weight-bold">{t("part46")}</div>
             </div>
         </div>
         </div>
         <div className="carousel-item">
         <div className="homescroll">
-            <div>
-                <img className="homeresimg" src="./homepics/Group 6.png" alt="" />
+            <div className="testimonials-slider">
+                <img className="homeresimg" src="./homepics/testimonials2.jpg" alt="" />
             </div>
-            <div className="ml-5">
+            <div className="ml-5 slider-text">
                 <div> <img className="mb-5" src="./homepics/fa-solid_quote-left.png" alt="" /></div>
-                <div className="text-justify mb-5 text-black-50">
+                <div className="p-text text-justify mb-5 text-black-50">
                 {t("part45")}
                 </div>
-                <div className="font-weight-bold">{t("part46")}</div>
+                <div className="p-text-bold font-weight-bold">{t("part46")}</div>
             </div>
         </div>
         </div>
         <div className="carousel-item">
         <div className="homescroll">
-            <div>
-                <img className="homeresimg" src="./homepics/Group 6.png" alt="" />
+            <div className="testimonials-slider">
+                <img className="homeresimg" src="./homepics/testimonials3.jpg" alt="" />
             </div>
-            <div className="ml-5">
+            <div className="ml-5 slider-text">
                 <div> <img className="mb-5" src="./homepics/fa-solid_quote-left.png" alt="" /></div>
-                <div className="text-justify mb-5 text-black-50">
+                <div className="p-text text-justify mb-5 text-black-50">
                 {t("part45")}
                 </div>
-                <div className="font-weight-bold">{t("part46")}</div>
+                <div className="p-text-bold font-weight-bold">{t("part46")}</div>
             </div>
         </div>
         </div>

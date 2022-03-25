@@ -53,9 +53,9 @@ function About() {
                 <div><span class='line'></span></div>
                 <div className="sect4">
                     <div className="aboutsect3 mr-5">
-                        <img className="mr-4" src="./homepics/jimao.png" alt="" />
-                        <div>
-                            <h3>{t("part59")}</h3>
+                        <img className="locationimages mr-4" src="./homepics/shanghaimart.png" alt="" />
+                        <div classname="locationtext">
+                            <h3 className="h3-bold">{t("part10")}</h3>
                             <p>
                             {t("part1111")}
                   <br/>
@@ -64,16 +64,28 @@ function About() {
                   {t("part1113")}
                   <br/>
                   {t("part1114")}
+                  <br/>
+                  {t("part1115")}
+                  <br/>
+                  {t("part1116")}
                                 
                                 
                                 </p>
                         </div>
                     </div>
                     <div className="aboutsect3">
-                        <img className="mr-4" src="./homepics/shanghaimart.png" alt="" />
-                        <div>
-                            <h3>{t("part59")}</h3>
-                            <p>{t("part60")}</p>
+                        <img className="mr-4" src="./homepics/jimao.png" alt="" />
+                        <div classname="locationtext">
+                            <h3 className="h3-bold">{t("part14")}</h3>
+                            {t("part1411")}
+                  <br/>
+                  {t("part1412")}
+                  <br/>
+                  {t("part1413")}
+                  <br/>
+                  {t("part1414")}
+                  <br/>
+                  {t("part1415")}
                         </div>
                     </div>
                 </div>

@@ -7,37 +7,37 @@ const CARD_DATA = [
   {
     img: "careimg1",
     heading: "part911",
-    link: "/blog",
+    link: "/comprehensive-care",
     description: "part921",
   },
   {
     img: "card",
     heading: "part912",
-    link: "/blog",
+    link: "/teeth-whitening",
     description: "part922",
   },
   {
     img: "card1",
     heading: "part913",
-    link: "/blog",
+    link: "/orthodontics",
     description: "part923",
   },
   {
     img: "card2",
     heading: "part914",
-    link: "/blog",
+    link: "/dental-implants",
     description: "part924",
   },
   {
     img: "card3",
     heading: "part915",
-    link: "/blog",
+    link: "/porcelain-veneers",
     description: "part925",
   },
   {
     img: "card4",
     heading: "part916",
-    link: "/blog",
+    link: "/emergencies-and-more",
     description: "part926",
   },
 ]
@@ -48,12 +48,12 @@ function Care() {
   return (
     <div className="carepage">
       <div>
-        <img className="carehero w-100" src="./homepics/carecover.png" alt="" />
+        <img className="carehero w-100" src="./homepics/care.jpg" alt="" />
       </div>
 
       <div className="careupper">
         <div className="caresect mr-3">
-          <img className="m-5 sectimg" src="./homepics/careimg.png" alt="" />
+          <img className="m-4 sectimg" src="https://img.icons8.com/external-icongeek26-glyph-icongeek26/64/4a90e2/external-emergency-virus-icongeek26-glyph-icongeek26.png" height="75px" width="75px" alt="" />
           <h6 className="cardheading">{t("part85")}</h6>
           <p>
             Lorem Lorem Ipsum is simply dummy text of the printing and
@@ -61,7 +61,7 @@ function Care() {
           </p>
         </div>
         <div className="caresect mr-3">
-          <img className="m-5 sectimg" src="./homepics/careimg4.png" alt="" />
+          <img className="m-4 sectimg" src="https://img.icons8.com/external-icongeek26-outline-icongeek26/64/4a90e2/external-dentist-dental-icongeek26-outline-icongeek26-1.png" height="75px" width="75px" alt="" />
           <h6 className="cardheading">{t("part86")}</h6>
           <p>
             Lorem Lorem Ipsum is simply dummy text of the printing and
@@ -69,7 +69,7 @@ function Care() {
           </p>
         </div>
         <div className="caresect mr-3">
-          <img className="m-5 sectimg" src="./homepics/careimg2.png" alt="" />
+          <img className="m-4 sectimg" src="https://img.icons8.com/ios-filled/50/4a90e2/hand-holding-heart.png" height="75px" width="75px" alt="" />
           <h6 className="cardheading">{t("part87")}</h6>
           <p>
             Lorem Lorem Ipsum is simply dummy text of the printing and
@@ -77,7 +77,7 @@ function Care() {
           </p>
         </div>
         <div className="caresect mr-3">
-          <img className="m-5 sectimg" src="./homepics/careimg3.png" alt="" />
+          <img className="m-4 sectimg" src="https://img.icons8.com/external-wanicon-lineal-wanicon/64/4a90e2/external-facilities-business-administration-wanicon-lineal-wanicon.png" height="75px" width="75px" alt="" />
           <h6 className="cardheading">{t("part88")}</h6>
           <p>
             Lorem Lorem Ipsum is simply dummy text of the printing and
@@ -88,7 +88,7 @@ function Care() {
 
       <div>
         <h2 className="caretext text-center font-weight-bold mt-5 ">
-          {t("part89")} <br /> {t("part90")}
+          {t("part89")}
         </h2>
         <div className="carecard mt-5 mb-3">
           {CARD_DATA.map((item, key) => (
