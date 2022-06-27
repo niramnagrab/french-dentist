@@ -1528,3 +1528,22 @@ html {
   background-color: white;
   margin-bottom: 100vh;
 }
+
+.detailContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 70vw;
+  min-width: 250px;
+  justify-content: space-around;
+}
+
+.screenContainer {
+  display: flex;
+  justify-content: center;
+}
+.imageContainer {
+  overflow: hidden;
+  border-radius: 1rem;
+  margin: 2rem auto;
+}
