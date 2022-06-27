@@ -58,7 +58,7 @@ function Blog() {
                 return (
                   <Col xs={12} md={4}>
                     <BlogCard
-                      description={description.substring(0, 250)}
+                      description={description}
                       title={title}
                       imgURL={image}
                       slug={slug}

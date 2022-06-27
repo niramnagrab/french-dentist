@@ -20,7 +20,7 @@ function BlogCard(props) {
       </div>
       <Card.Body style={{ height: "16rem", overFlow: "hidden" }}>
         <Card.Title>{title}</Card.Title>
-        <Card.Text>{description}</Card.Text>
+        <Card.Text>{description.substring(0, 250)}</Card.Text>
       </Card.Body>
     </Card>
   );
