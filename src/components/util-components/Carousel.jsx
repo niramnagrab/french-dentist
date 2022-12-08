@@ -4,7 +4,7 @@ function CarousalComponent({ orderNumber }) {
   // by using order number, will change the image
   return (
     <div className="carouselSection">
-      <Carousel fade={true} indicatorLabels={[1, 2, 3, 4]}>
+      <Carousel fade={true} >
         <Carousel.Item>
           <img
             className="d-block w-100"
