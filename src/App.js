@@ -59,7 +59,7 @@ console.log(pathnameis)
           <div className="socialicons">
             <img className="icon" src="./homepics/Instagram.png" alt="" />
             <img className="icon" src="./homepics/Twitter.png" alt="" />
-            <img className="icon" src="./homepics/Youtube.png" alt="" />
+            <img className="icon wechat" src="./homepics/Youtube.png" alt="" />
           </div>
         </header>
 
@@ -154,9 +154,18 @@ console.log(pathnameis)
               </div>
               <div className=" col-lg-3 address-padding">
                 <h4>{t("part12")}</h4>
-                {t("part13")}
+                {t("monday")}
                 <br/>
-                {t("part131")}
+                {t("tuesday")}
+                <br/>
+                {t("wednesday")}
+                <br/>
+                {t("thursday")}
+                <br/>
+                {t("friday")}
+                <br/>
+                {t("saturday")}
+                <br/>
               </div>
               <div className="col-lg-3 address-padding">
                 <h4>{t("part14")}</h4>

@@ -18,7 +18,7 @@ function Home() {
                 <div className="hometxt1 zindexx">
                     <div className="caretext maintxthome font-weight-bold"> {t("part25")}</div>
                     <p className="p-text subhead">{t("part26")}</p>
-                    <div className="webbtn">{t("part30")} </div>
+                    <div className="webbtn">{t("callus")} </div>
                 </div>
                 </div>
 
@@ -27,9 +27,9 @@ function Home() {
 
             <div className="section1 zindexx">
                 <div className="secttext">
-                    <div className="caretext paddinghome text-center font-weight-bolder ml-5">{t("part27")}</div>
+                    <div className="caretext paddinghome text-center font-weight-bolder">{t("part27")}</div>
         
-                <span class='line'></span>
+                <span class='line-middle'></span>
                     <p className="p-text text-justify">
                         {t("part28")}
                         <br></br>
@@ -46,7 +46,7 @@ function Home() {
 
             <div className="homeservices">
             <div className="caretext paddingtophome text-center font-weight-bolder mt-5 ">{t("part31")}</div>
-                <span class='line'></span>
+                <span class='line-middle'></span>
                 <div className="servtab">
                     <div><img className="homefullwid" src="./homepics/checkup.png" alt="" /></div>
                     <div className="hometxtsect ml-5">
@@ -94,7 +94,7 @@ function Home() {
 
             <div className='zindexx pt-5 pb-3'>
             <div className="caretext text-center font-weight-bolder mt-5 ">{t("part44")}</div>
-                <span class='line'></span>
+                <span class='line-middle'></span>
 
             </div>
 
@@ -103,7 +103,7 @@ function Home() {
 
             <div className="homebilling">
             <div className="caretext text-center font-weight-bolder ">{t("part47")}</div>
-                <span class='line'></span>
+                <span class='line-middle'></span>
                 <h3 className="intro-text p-text" >{t("billing_facility_intro_text")}</h3>
                 <div className="billingsect mt-5">
                     <div className="billingsect-card">
