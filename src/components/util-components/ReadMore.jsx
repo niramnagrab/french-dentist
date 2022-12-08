@@ -8,7 +8,7 @@ function ReadMore({ text, readMore, seeLess, minWords = 500 }) {
         {viewMore ? text[0] : text[0].substring(0, minWords)}
         <br></br>
         <br />
-        {viewMore && text[1]}
+        {viewMore && text[1] && text[1]}
       </p>
       <div className="webbtn " onClick={() => setViewMore(!viewMore)}>
         {viewMore ? seeLess : readMore}
