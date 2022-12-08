@@ -48,7 +48,7 @@ function Care() {
   return (
     <div className="carepage">
       <div>
-        <img className="carehero w-100" src="./homepics/care.jpg" alt="" />
+        <img className="carehero w-100" src="./homepics/treatment2.webp" alt="" />
       </div>
 
       <div className="careupper">
@@ -76,7 +76,7 @@ function Care() {
             typesetting industry. Lorem Ipsum has been{" "}
           </p>
         </div>
-        <div className="caresect mr-3">
+        <div className="caresect">
           <img className="m-4 sectimg" src="https://img.icons8.com/external-wanicon-lineal-wanicon/64/4a90e2/external-facilities-business-administration-wanicon-lineal-wanicon.png" height="75px" width="75px" alt="" />
           <h6 className="cardheading">{t("part88")}</h6>
           <p>
