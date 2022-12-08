@@ -26,7 +26,7 @@ function Contactus() {
     return (
         <div>
             <div className="contact-hero">
-                <img className="w-100 contacthero" src="./homepics/contact.jpg" alt="" />
+                <img className="w-100 contacthero" src="./homepics/contact3.jpeg" alt="" />
             </div>
 
             <div className="careupper">
@@ -98,7 +98,7 @@ function Contactus() {
 
             <div className="contact-benefits">
                 <div className="caretext text-center font-weight-bolder mt-5 ">{t("part47")}</div>
-                <span class='line'></span>
+                <span class='line-middle'></span>
                 <div className="text-center billingsect">
                     <div className="billingsect-card">
                         <img src="https://img.icons8.com/external-flat-wichaiwi/64/000000/external-convenient-generation-z-flat-wichaiwi.png" width="75px" height="75px" alt="" />
@@ -122,7 +122,7 @@ function Contactus() {
 
             <div className="w-100">
             <div className="caretext text-center font-weight-bolder mt-5 ">{t("part124")} </div>
-            <span class='line'></span>
+            <span class='line-middle'></span>
             <div className="contactlst">
                 <div className="map-container">
                 <div className="contactlast">
