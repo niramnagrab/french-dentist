@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import Video from "../home3.mp4";
 import Slider from "./slider";
 import ReadMore from "./util-components/ReadMore";
+import CarouselComponent from "./util-components/Carousel";
 
 function Home() {
   const { t } = useTranslation();
@@ -24,13 +25,21 @@ function Home() {
           <div className="webbtn">{t("callus")} </div>
         </div>
       </div>
+      <div className="carouselContainer">
+        <CarouselComponent />
+        <CarouselComponent orderNumber={2} />
+      </div>
 
       <div className="section1 zindexx">
         <div className="secttext">
           <div className="caretext paddinghome text-center font-weight-bolder">
             {t("part27")}
           </div>
-          <ReadMore text={[t("part28"), t("part29")]} readMore={t("part30")} />
+          <ReadMore
+            text={[t("part28"), t("part29")]}
+            readMore={t("part30")}
+            seeLess={t("seeLess")}
+          />
         </div>
         <div className="about-image">
           <img className="homeimg2" src="./homepics/reception1.jpg" alt="" />

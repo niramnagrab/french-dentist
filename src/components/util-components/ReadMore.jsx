@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function ReadMore({ text, readMore, minWords = 500 }) {
+function ReadMore({ text, readMore, seeLess, minWords = 500 }) {
   const [viewMore, setViewMore] = useState(false);
   return (
     <div>
@@ -11,7 +11,7 @@ function ReadMore({ text, readMore, minWords = 500 }) {
         {viewMore && text[1]}
       </p>
       <div className="webbtn " onClick={() => setViewMore(!viewMore)}>
-        {readMore}
+        {viewMore ? seeLess : readMore}
       </div>
     </div>
   );
