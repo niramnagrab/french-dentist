@@ -1,6 +1,9 @@
 import React from 'react'
 import '../styles/style.css'
 import { useTranslation } from "react-i18next";
+import CarouselComponent from "./util-components/Carousel";
+
+
 
 function About() {
     const { t } = useTranslation();
@@ -15,10 +18,10 @@ function About() {
             <div className="hero-img">
             <img src="./homepics/aboutus7.png" alt="blog-photo-dentist"  />
             </div>
-            <div className="main">
-                <p className="title">focus eye care & surgery <span>your vision. our focus.</span></p>
-                <p className="text">We can help you achieve clear, sharp vision with modern technology for eye surgery in New York.</p>
-                <a href="/contact" className="hero-btn">Book Online</a>
+            <div className="about-hero-text">
+                <p className="title-header-left">A dedicated dental clinic offering <span>a full range of dental services</span></p>
+                <p className="subheader-bold-left">Our treatments include cosmetic dentistry, implant dentistry, prosthetic dentistry, pediatric dentistry, periodontic dentistry, orthodontics, general dentistry, and hygiene services. Our dentists and specialists follow international protocols and have extensive dental backgrounds. </p>
+                <a href="/contact" className="hero-btn">Call us now</a>
             </div>
         </div>
 
@@ -38,14 +41,14 @@ function About() {
 <div className="home-team">
             <div className="left">
                 <div className="main-img">
-                    <img src="./homepics/eye.jpg" alt="blog-photo-dentist"  />
+                    <img src="./homepics/about10.jpg" alt="blog-photo-dentist"  />
                 </div>
             </div>
             <div className="right">
-                <p className="caretext paddinghome text-center font-weight-bolder">{t("part51")}</p>
+                <p className="title-header-center">{t("part51")}</p>
                 <div className='hrr'><span class='line-middle'></span></div>
-                <p className="right-text">Born out of the idea of a patient-focused practice, French Dentist has transformed dentistry. Our dental clinic in Shanghai has been designed to make our patients feel relaxed and comfortable throughout their visit. With sophisticated styling, a soothing environment, state-of-the-art tech, and a warm friendly staff, any fear of going to the dentist is put at ease. Each visit and treatment is personalized, clear, and inspiring so we can focus on what matters most - you and your comfort. We are conveniently located in central Shanghai, just 15 minutes away from downtown/ central Shanghai / Former French Concession. Open 6 days a week, we offers unparalleled luxury dentistry in a bespoke dental spa. With state-of-the-art technology and a warm ambient surrounding, our staff are here to help.</p>
-                <a href="/" className="team-btn">See Our Treatments</a>
+                <p className="normal-p-text">Born out of the idea of a patient-focused practice, French Dentist has transformed dentistry. Our dental clinic in Shanghai has been designed to make our patients feel relaxed and comfortable throughout their visit. With sophisticated styling, a soothing environment, state-of-the-art tech, and a warm friendly staff, any fear of going to the dentist is put at ease. Each visit and treatment is personalized, clear, and inspiring so we can focus on what matters most - you and your comfort. We are conveniently located in central Shanghai, just 15 minutes away from downtown/ central Shanghai / Former French Concession. Open 6 days a week, we offers unparalleled luxury dentistry in a bespoke dental spa. With state-of-the-art technology and a warm ambient surrounding, our staff are here to help.</p>
+                <a href="/" className="team-btn">See Treatments</a>
             </div>
         </div>
 
@@ -63,12 +66,16 @@ function About() {
             </div> */}
 
 
-<div className="aboutsect2">
+{/* <div className="aboutsect2">
                 <img className="imgwid" src="./homepics/reception1.jpg" alt="" />
                 <img className="ml-2 imgwid" src="./homepics/reception2.jpg" alt="" />
-            </div>
+            </div> */}
+         <div className="carouselContainer">
+        <CarouselComponent />
+        <CarouselComponent orderNumber={2} />
+      </div>
 
-            <div className="aboutsect1">
+            <div className="aboutsect1 patient">
                 <div>
                     {t("part56")}
                 </div>
@@ -78,7 +85,7 @@ function About() {
 
 
             <div className="pb-5">
-                <div className="caretext text-center font-weight-bolder mt-5 ">{t("part58")}</div>
+                <div className="title-header-center mt-5 ">{t("part58")}</div>
                 <div><span class='line-middle'></span></div>
                 <div className="sect4">
                     <div className="aboutsect3 mr-5">
