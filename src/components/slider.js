@@ -17,7 +17,7 @@ function Slider() {
             </div>
             <div className="ml-5 slider-text">
                 <div> <img className="mb-5" src="./homepics/fa-solid_quote-left.png" alt="" /></div>
-                <div className="p-text text-justify mb-5 text-black-50">
+                <div className="normal-p-text mb-5">
                 {t("part45")}
                 </div>
                 <div className="p-text-bold font-weight-bold">{t("part46")}</div>
