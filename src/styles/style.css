@@ -685,8 +685,9 @@ html {
 }
 
 .blogtile {
-  width: 33%;
+  max-width: 20rem;
   padding: 50px;
+  overflow: hidden;
 }
 
 .blogtiles {
