@@ -7,6 +7,11 @@ html {
   background-color: #fafafa;
 }
 
+a li {
+  text-decoration: none !important;
+  
+}
+
 .mttxt {
   margin-top: 8%;
 }
@@ -27,13 +32,13 @@ html {
   border-radius: 20px;
 }
 .carousel-indicators button {
-  background-color: gray !important;
+  background-color: #c7a17a !important;
   width: 1rem !important;
   height: 1rem !important;
   border-radius: 50%;
 }
 .carousel-indicators button:hover {
-  border: 1px black solid;
+  opacity: 0.5;
 }
 .carouselContainer {
   display: flex;
@@ -58,15 +63,28 @@ html {
 
 .navbar-light .navbar-nav .nav-link {
   color: #183047 !important;
+  padding-right: 1rem !important; 
+  padding-left: 1rem !important;
 }
+
+.nav-link:hover {
+  opacity: 0.8;
+}
+
 
 .navbarrr {
   margin-top: 3rem;
+  margin-left: 75px !important;
 }
 
+
+.navbarrrr {
+  align-items:  inherit !important;
+}
+/* 
 .navelem {
   margin-top: 6px;
-}
+} */
 
 .language-select {
   float: right;
@@ -85,20 +103,21 @@ html {
 
 .webbtn:hover {
   font-weight: bolder;
-  opacity: 0.9;
+  opacity: 0.7;
   cursor: pointer;
 }
 
 .logo-top {
   font-size: 40px !important;
   font-weight: bolder;
+  color: #183047 !important;
 }
 
 .line {
   display: inline-block;
   width: 20%;
   height: 20px;
-  border-top: 0.2px solid #183047;
+  border-top: 0.2px solid #c7a17a;
   border-width: initial;
   margin-top: 15px;
   /* margin-left: 40%; */
@@ -108,7 +127,7 @@ html {
   display: inline-block;
   width: 20%;
   height: 20px;
-  border-top: 0.2px solid #183047;
+  border-top: 0.2px solid #c7a17a;
   border-width: initial;
   margin-top: 15px;
   margin-left: 40%;
@@ -175,15 +194,19 @@ html {
   margin-left: 0.7rem;
   width: 30px;
   height: 30px;
+  border: 2px solid white;
+  border-radius: 30px;
 }
 
 .icon:hover {
-  opacity: 0.4;
+  opacity: 0.7;
   cursor: pointer;
 }
 
 .wechat:hover {
-  background-image: "../..wechat";
+  width: 30px;
+  height: 30px;
+  background-image: "../../public/homepics/QR.png";
 }
 
 .firstimg {
@@ -223,6 +246,7 @@ html {
   font-size: 20px;
   font-weight: bolder;
   line-height: 25px;
+  color: #183047;
 }
 
 .h3-bold {
@@ -254,8 +278,10 @@ html {
   clear: both;
   display: flex;
   flex-direction: row;
-  padding: 15% 10% 5%;
+  padding: 5% 10% 0%;
+  align-items: center;
 }
+
 .secttext {
   width: 70%;
   margin-right: 5%;
@@ -439,7 +465,7 @@ html {
   width: 20%;
   border: 2px solid rgba(0, 0, 0, 0.1);
   text-align: center;
-  padding: 20px;
+  padding: 0px 20px;
   box-shadow: 4px 4px 4px 4px rgba(170, 168, 168, 0.1);
 }
 .caresect:hover {
@@ -616,7 +642,7 @@ html {
   margin: 0 !important;
 }
 .upperfooter {
-  background-color: #c7a17a;
+  background-color: #bfc0c0;
   /* margin-bottom: 213px; */
 }
 .lowerfooter {
@@ -881,7 +907,9 @@ html {
   display: flex;
   justify-content: center;
   position: relative;
+  align-items: center;
 }
+
 .main-img {
   position: absolute;
   width: 500px;
@@ -899,7 +927,7 @@ html {
 .right {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  /* gap: 1rem; */
   padding: 2rem;
   font-size: 15px;
 }
@@ -908,7 +936,9 @@ html {
   text-transform: uppercase;
   font-weight: bold;
 }
-.team-btn {
+
+
+/* .team-btn {
   background-color: #c7a17a;
   color: white;
   text-align: center;
@@ -925,6 +955,27 @@ html {
   color: #f7f7f7;
   text-decoration: none;
   opacity: 0.7;
+} */
+
+.team-btn {
+  background-color: #c7a17a;
+  color: white !important;
+  padding: 12px 24px !important;
+  border-radius: 16px;
+  width: auto;
+  text-align: center;
+  font-weight: bolder;
+  text-decoration: none !important;
+  font-size: 18px;
+  font-weight: 500;
+  min-width: 50px;
+}
+
+.team-btn:hover {
+  font-weight: bolder;
+  opacity: 0.9;
+  cursor: pointer;
+  transition: background-color .3s;
 }
 
 .new-doctor {
@@ -979,8 +1030,8 @@ html {
 
   .title-header-left {
     text-align: left!important;
-    line-height: 55px;
-    font-size: 35px;
+    line-height: 45px;
+    font-size: 36px;
     color: #183047;
     font-weight: bolder!important;
     }
@@ -1038,6 +1089,18 @@ html {
                 .about-hero-text {
                   width: 50%;
                 }
+
+                .languageswitch {
+                  width: 30px;
+                  height: 30px;
+                }
+
+.wechat:hover {
+  background-image: "../../public/homepics/QR.png";
+}
+
+
+
 
 @media screen and (max-width: 1050px) {
   .homescroll {
@@ -1182,6 +1245,24 @@ html {
 .heroimg {
   /* height: 100vh; */
   width: 100%;
+}
+
+
+.container {
+  padding: 0 !important;
+  margin-right: 0 !important;
+}
+
+.carousel-control-prev-icon {
+  color: #c7a17a !important;
+}
+
+.carousel-control-next-icon {
+  color: #c7a17a !important;
+}
+
+.quotation-text {
+  color: #014f86 !important;
 }
 
 /* .hometxt1 {

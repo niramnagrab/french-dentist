@@ -23,8 +23,8 @@ function Home() {
             {t("part25")}
           </div>
           <p className="subheader-bold-left">{t("part26")}</p>
-          <div className="webbtn">{t("callus")} </div>
-        </div>
+
+            <a className="team-btn" href="tel:+8602151699696">{t("callus")}</a> </div>
       </div>
       {/* <div className="carouselContainer">
         <CarouselComponent />
@@ -38,11 +38,10 @@ function Home() {
             
           </div>
           <span class="line-middle"></span>
-          <ReadMore
-            text={[t("part28"), t("part29")]}
-            readMore={t("part30")}
-            seeLess={t("seeLess")}
-          />
+          <div>
+          {[t("part28")]}
+          </div>
+
         </div>
         <div className="about-image">
           <img className="homeimg2" src="./homepics/reception1.jpg" alt="" />
@@ -57,7 +56,7 @@ function Home() {
         <span class="line-middle"></span>
         <div className="servtab">
           <div>
-            <img className="homefullwid" src="./homepics/checkup.png" alt="" />
+            <img className="homefullwid" src="./homepics/001.png" alt="" />
           </div>
           <div className="hometxtsect ml-5">
             <div className="h3-bold font-weight-bolder mb-3">
@@ -83,7 +82,7 @@ function Home() {
         </div>
         <div className="servtab">
           <div>
-            <img className="homefullwid" src="./homepics/veneer.png" alt="" />
+            <img className="homefullwid" src="./homepics/003.png" alt="" />
           </div>
           <div className="ml-5">
             <div className="h3-bold font-weight-bolder mb-3">
@@ -96,7 +95,7 @@ function Home() {
           <div>
             <img
               className="homefullwid"
-              src="./homepics/tooth-whitening.png"
+              src="./homepics/004.png"
               alt=""
             />
           </div>
@@ -122,7 +121,7 @@ function Home() {
           <div>
             <img
               className="homefullwid"
-              src="./homepics/noun_dental care_3740157 2.png"
+              src="./homepics/006.png"
               alt=""
             />
           </div>
