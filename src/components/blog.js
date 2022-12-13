@@ -9,8 +9,8 @@ function Blog() {
 
             <div className="bloghero">
                 <div className="blogherotext">
-                    <h1 className="title-header-left">The best international dental clinic in Shanghai since 2007</h1>
-                    <p className="normal-p-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                    <h1 className="title-header-left">{t("blogheader")}</h1>
+                    <p className="normal-p-text">{t("blogintro")}</p>
                 </div>
                 <div className="blogheroimage">
                     <img src="./homepics/blog.jpeg" alt="blog-photo-dentist"  />
@@ -18,7 +18,7 @@ function Blog() {
             </div>
 
             <div className="blogs">
-                <h2 className="title-header-center">More From Our blog</h2>
+                <h2 className="title-header-center">{t("blogmore")}</h2>
                 <div className="blogtiles">
                 <div className="blogtile">
                     <div className="blogtileimage"> <img src="./homepics/blog.jpeg" alt="blog-photo-dentist"  /> </div>

@@ -29,9 +29,11 @@ function Team() {
             care. Our mission is to provide a patient-first focus on ensuring
             you are always comfortable during your visit.
           </p>
-          <a href="/contact" className="hero-btn">
+          <div>
+          <a href="/contact" className="team-btn">
             Call us now
           </a>
+          </div>
         </div>
       </div>
 

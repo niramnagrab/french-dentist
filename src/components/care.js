@@ -56,32 +56,28 @@ function Care() {
           <img className="m-4 sectimg" src="https://img.icons8.com/external-icongeek26-glyph-icongeek26/64/4a90e2/external-emergency-virus-icongeek26-glyph-icongeek26.png" height="75px" width="75px" alt="" />
           <h6 className="cardheading">{t("part85")}</h6>
           <p className="normal-p-small">
-            Lorem Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry. Lorem Ipsum has been{" "}
+          {t("care1")}{" "}
           </p>
         </div>
         <div className="caresect mr-3">
           <img className="m-4 sectimg" src="https://img.icons8.com/external-icongeek26-outline-icongeek26/64/4a90e2/external-dentist-dental-icongeek26-outline-icongeek26-1.png" height="75px" width="75px" alt="" />
           <h6 className="cardheading">{t("part86")}</h6>
           <p className="normal-p-small">
-            Lorem Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry. Lorem Ipsum has been{" "}
+          {t("care2")}{" "}
           </p>
         </div>
         <div className="caresect mr-3">
           <img className="m-4 sectimg" src="https://img.icons8.com/ios-filled/50/4a90e2/hand-holding-heart.png" height="75px" width="75px" alt="" />
           <h6 className="cardheading">{t("part87")}</h6>
           <p className="normal-p-small">
-            Lorem Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry. Lorem Ipsum has been{" "}
+          {t("care3")}{" "}
           </p>
         </div>
         <div className="caresect">
           <img className="m-4 sectimg" src="https://img.icons8.com/external-wanicon-lineal-wanicon/64/4a90e2/external-facilities-business-administration-wanicon-lineal-wanicon.png" height="75px" width="75px" alt="" />
           <h6 className="cardheading">{t("part88")}</h6>
           <p className="normal-p-small">
-            Lorem Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry. Lorem Ipsum has been{" "}
+          {t("care4")}{" "}
           </p>
         </div>
       </div>
@@ -105,7 +101,7 @@ function Care() {
                 </div>
                 <p className="normal-p-small">{t(item.description)}</p>
                 <div className="centerbt">
-                  <Nav.Link className="webbtn " href={item.link}>
+                  <Nav.Link className="team-btn" href={item.link}>
                     {t("part93")}
                   </Nav.Link>
                 </div>
