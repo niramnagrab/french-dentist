@@ -57,9 +57,23 @@ console.log(pathnameis)
             {t("part1")}
           </div>
           <div className="socialicons">
-            <img className="icon" src="./homepics/Instagram.png" alt="" />
-            <img className="icon" src="./homepics/Twitter.png" alt="" />
-            <img className="icon wechat" src="./homepics/Youtube.png" alt="" />
+
+
+          <a href="https://instagram.com/frenchdentist?igshid=YmMyMTA2M2Y=" target="_blank">
+          <img className="icon" src="./homepics/Instagram.png" alt="" />
+         </a>  
+
+
+
+         <a href="https://www.linkedin.com/company/french-dentist/" target="_blank">
+         <img className="icon" src="./homepics/linkedin.png" alt="" />
+         </a>  
+
+
+         <a href="#" target="_blank">
+         <img className="icon wechat" src="./homepics/wechat.png" alt="" />
+         </a>  
+            
           </div>
         </header>
 
@@ -88,8 +102,8 @@ console.log(pathnameis)
                     <Nav.Link className={`navelem  ${pathnameis === '/blog' ? 'current' : ''}`} href="/blog">{t("part6")}</Nav.Link>
                     <Nav.Link className={`navelem  ${pathnameis === '/contactus' ? 'current' : ''}`} href="/contactus">{t("part7")}</Nav.Link>
                     <Nav.Link>  
-                      <div className="language-select">
-                        <LanguageSelect />
+                      <div className="language-select"> 
+                        <LanguageSelect/>
                       </div>
                     </Nav.Link>
                   </Nav>

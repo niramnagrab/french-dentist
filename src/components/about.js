@@ -19,9 +19,9 @@ function About() {
             <img src="./homepics/aboutus7.png" alt="blog-photo-dentist"  />
             </div>
             <div className="about-hero-text">
-                <p className="title-header-left">A dedicated dental clinic offering <span>a full range of dental services</span></p>
-                <p className="subheader-bold-left">Our treatments include cosmetic dentistry, implant dentistry, prosthetic dentistry, pediatric dentistry, periodontic dentistry, orthodontics, general dentistry, and hygiene services. Our dentists and specialists follow international protocols and have extensive dental backgrounds. </p>
-                <a href="/contact" className="hero-btn">Call us now</a>
+                <p className="title-header-left">{t("abouthero")}</p>
+                <p className="subheader-bold-left">{t("abouttext")}</p>
+                <a href="/contact" className="team-btn">{t("aboutbutton")}</a>
             </div>
         </div>
 
@@ -47,15 +47,22 @@ function About() {
             <div className="right">
                 <p className="title-header-center">{t("part51")}</p>
                 <div className='hrr'><span class='line-middle'></span></div>
-                <p className="normal-p-text">Born out of the idea of a patient-focused practice, French Dentist has transformed dentistry. Our dental clinic in Shanghai has been designed to make our patients feel relaxed and comfortable throughout their visit. With sophisticated styling, a soothing environment, state-of-the-art tech, and a warm friendly staff, any fear of going to the dentist is put at ease. Each visit and treatment is personalized, clear, and inspiring so we can focus on what matters most - you and your comfort. We are conveniently located in central Shanghai, just 15 minutes away from downtown/ central Shanghai / Former French Concession. Open 6 days a week, we offers unparalleled luxury dentistry in a bespoke dental spa. With state-of-the-art technology and a warm ambient surrounding, our staff are here to help.</p>
-                <a href="/" className="team-btn">See Treatments</a>
+                <p className="normal-p-text">{t("aboutintro")}</p>
+                <div>
+                <a href="/" className="team-btn">{t("abouttreatments")}</a>
+                </div>
             </div>
         </div>
 
             <div className="aboutsect1">
+                <div className="doctor-quotation">
                 <div>{t("part54")}
                 </div>
                 <div className='hrr'><span class='line'></span></div>
+             </div>
+                <div className="doctor-photo">
+                <img className="costa-photo" src="./homepics/costa.jpeg" alt="" />
+                </div>
                 <div>
                 {t("part55")}
                 </div>

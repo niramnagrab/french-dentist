@@ -49,7 +49,7 @@ function Contactus() {
                 </div>
                 <div className="caresect mr-3">
                     <img className="m-4 sectimg" src="https://img.icons8.com/ios-filled/50/4a90e2/weixing.png" height="75px" width="75px" alt="" />
-                    <h6 className="cardheading">WeChat</h6>
+                    <h6 className="cardheading">{t("wechat")}</h6>
                     <img src="./homepics/QR.png" alt="" />
                 </div>
             </div>
@@ -163,13 +163,14 @@ function Contactus() {
                 </div>
                 </div>
                 <div style={{ width: '50%' }}>
-                <APILoader akay="GTrnXa5hwXGwgQnTBG28SHBubErMKm3f">
+                <img className="w-100 contacthero" src="./homepics/maps.png" alt="" />
+                {/* <APILoader akay="GTrnXa5hwXGwgQnTBG28SHBubErMKm3f">
                 <Map center="上海">
                     {({ BMap, map, container }) => {
                     return;
                     }}
                 </Map>
-                </APILoader>
+                </APILoader> */}
             </div>
             </div>
          
