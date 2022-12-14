@@ -18,28 +18,29 @@ function Home() {
         </div>
 
         <div className="hometxt1 zindexx">
-          <div className="caretext maintxthome font-weight-bold">
+          <div className="title-header-left">
             {t("part25")}
           </div>
-          <p className="p-text subhead">{t("part26")}</p>
-          <div className="webbtn">{t("callus")} </div>
-        </div>
+          <p className="subheader-bold-left">{t("part26")}</p>
+
+            <a className="team-btn" href="tel:+8602151699696">{t("callus")}</a> </div>
       </div>
-      <div className="carouselContainer">
+      {/* <div className="carouselContainer">
         <CarouselComponent />
         <CarouselComponent orderNumber={2} />
-      </div>
+      </div> */}
 
       <div className="section1 zindexx">
         <div className="secttext">
-          <div className="caretext paddinghome text-center font-weight-bolder">
+          <div className="title-header-center">
             {t("part27")}
+            
           </div>
-          <ReadMore
-            text={[t("part28"), t("part29")]}
-            readMore={t("part30")}
-            seeLess={t("seeLess")}
-          />
+          <span class="line-middle"></span>
+          <div>
+          {[t("part28")]}
+          </div>
+
         </div>
         <div className="about-image">
           <img className="homeimg2" src="./homepics/reception1.jpg" alt="" />
@@ -48,19 +49,19 @@ function Home() {
       </div>
 
       <div className="homeservices">
-        <div className="caretext paddingtophome text-center font-weight-bolder mt-5 ">
+        <div className="title-header-center mt-5 ">
           {t("part31")}
         </div>
         <span class="line-middle"></span>
         <div className="servtab">
           <div>
-            <img className="homefullwid" src="./homepics/checkup.png" alt="" />
+            <img className="homefullwid" src="./homepics/001.png" alt="" />
           </div>
           <div className="hometxtsect ml-5">
             <div className="h3-bold font-weight-bolder mb-3">
               <a href="/comprehensive-care">{t("part32")}</a>
             </div>
-            <div className="p-text">{t("part33")}</div>
+            <div className="subheader-normal-left">{t("part33")}</div>
           </div>
         </div>
         <div className="servtab">
@@ -75,25 +76,25 @@ function Home() {
             <div className="h3-bold font-weight-bolder mb-3">
               <a href="/comprehensive-care">{t("part34")}</a>
             </div>
-            <div className="p-text">{t("part35")} </div>
+            <div className="subheader-normal-left">{t("part35")} </div>
           </div>
         </div>
         <div className="servtab">
           <div>
-            <img className="homefullwid" src="./homepics/veneer.png" alt="" />
+            <img className="homefullwid" src="./homepics/003.png" alt="" />
           </div>
           <div className="ml-5">
             <div className="h3-bold font-weight-bolder mb-3">
               <a href="/porcelain-veneers">{t("part36")}</a>
             </div>
-            <div className="p-text">{t("part37")}</div>
+            <div className="subheader-normal-left">{t("part37")}</div>
           </div>
         </div>
         <div className="servtab">
           <div>
             <img
               className="homefullwid"
-              src="./homepics/tooth-whitening.png"
+              src="./homepics/004.png"
               alt=""
             />
           </div>
@@ -101,7 +102,7 @@ function Home() {
             <div className="h3-bold font-weight-bolder mb-3">
               <a href="/teeth-whitening">{t("part38")}</a>
             </div>
-            <div className="p-text">{t("part39")} </div>
+            <div className="subheader-normal-left">{t("part39")} </div>
           </div>
         </div>
         <div className="servtab">
@@ -112,14 +113,14 @@ function Home() {
             <div className="h3-bold font-weight-bolder mb-3">
               <a href="/orthodontics">{t("part40")}</a>
             </div>
-            <div className="p-text">{t("part41")}</div>
+            <div className="subheader-normal-left">{t("part41")}</div>
           </div>
         </div>
         <div className="servtab">
           <div>
             <img
               className="homefullwid"
-              src="./homepics/noun_dental care_3740157 2.png"
+              src="./homepics/006.png"
               alt=""
             />
           </div>
@@ -127,13 +128,13 @@ function Home() {
             <div className="h3-bold font-weight-bolder mb-3">
               <a href="/emergencies-and-more">{t("part42")}</a>
             </div>
-            <div className="p-text">{t("part43")}</div>
+            <div className="subheader-normal-left">{t("part43")}</div>
           </div>
         </div>
       </div>
 
       <div className="zindexx pt-5 pb-3">
-        <div className="caretext text-center font-weight-bolder mt-5 ">
+        <div className="title-header-center mt-5 ">
           {t("part44")}
         </div>
         <span class="line-middle"></span>
@@ -143,11 +144,11 @@ function Home() {
       <Slider />
 
       <div className="homebilling">
-        <div className="caretext text-center font-weight-bolder ">
+        <div className="title-header-center ">
           {t("part47")}
         </div>
         <span class="line-middle"></span>
-        <h3 className="intro-text p-text">
+        <h3 className="subheader-bold-60">
           {t("billing_facility_intro_text")}
         </h3>
         <div className="billingsect mt-5">
@@ -158,10 +159,10 @@ function Home() {
               height="75px"
               alt=""
             />
-            <div className="p-text-bold font-weight-bolder mt-3">
+            <div className="subheader-bold mt-3">
               {t("part48")}
             </div>
-            <div className="p-text"> {t("part481")}</div>
+            <div className="normal-p-text"> {t("part481")}</div>
           </div>
           <div className="billingsect-card">
             <img
@@ -170,10 +171,10 @@ function Home() {
               height="75px"
               alt=""
             />
-            <div className="p-text-bold font-weight-bolder mt-3">
+            <div className="subheader-bold mt-3">
               {t("part49")}
             </div>
-            <div className="p-text">{t("part491")}</div>
+            <div className="normal-p-text">{t("part491")}</div>
           </div>
           <div className="billingsect-card">
             <img
@@ -182,14 +183,15 @@ function Home() {
               height="75px"
               alt=""
             />
-            <div className="p-text-bold font-weight-bolder mt-3">
+            <div className="subheader-bold mt-3">
               {t("part50")}
             </div>
-            <div className="p-text">{t("part501")}</div>
+            <div className="normal-p-text">{t("part501")}</div>
           </div>
         </div>
       </div>
-    </div>
+      </div>
+    
   );
 }
 

@@ -10,7 +10,7 @@ function ReadMore({ text, readMore, seeLess, minWords = 500 }) {
         <br />
         {viewMore && text[1] && text[1]}
       </p>
-      <div className="webbtn " onClick={() => setViewMore(!viewMore)}>
+      <div className="read-more" onClick={() => setViewMore(!viewMore)}>
         {viewMore ? seeLess : readMore}
       </div>
     </div>

@@ -6,6 +6,14 @@
 html {
   background-color: #fafafa;
 }
+html {
+  background-color: #fafafa;
+}
+
+a li {
+  text-decoration: none !important;
+  
+}
 
 .mttxt {
   margin-top: 8%;
@@ -27,13 +35,13 @@ html {
   border-radius: 20px;
 }
 .carousel-indicators button {
-  background-color: gray !important;
+  background-color: #c7a17a !important;
   width: 1rem !important;
   height: 1rem !important;
   border-radius: 50%;
 }
 .carousel-indicators button:hover {
-  border: 1px black solid;
+  opacity: 0.5;
 }
 .carouselContainer {
   display: flex;
@@ -58,15 +66,28 @@ html {
 
 .navbar-light .navbar-nav .nav-link {
   color: #183047 !important;
+  padding-right: 1rem !important; 
+  padding-left: 1rem !important;
 }
+
+.nav-link:hover {
+  opacity: 0.8;
+}
+
 
 .navbarrr {
   margin-top: 3rem;
+  margin-left: 75px !important;
 }
 
+
+.navbarrrr {
+  align-items:  inherit !important;
+}
+/* 
 .navelem {
   margin-top: 6px;
-}
+} */
 
 .language-select {
   float: right;
@@ -85,20 +106,21 @@ html {
 
 .webbtn:hover {
   font-weight: bolder;
-  opacity: 0.9;
+  opacity: 0.7;
   cursor: pointer;
 }
 
 .logo-top {
   font-size: 40px !important;
   font-weight: bolder;
+  color: #183047 !important;
 }
 
 .line {
   display: inline-block;
   width: 20%;
   height: 20px;
-  border-top: 0.2px solid #183047;
+  border-top: 0.2px solid #c7a17a;
   border-width: initial;
   margin-top: 15px;
   /* margin-left: 40%; */
@@ -108,7 +130,7 @@ html {
   display: inline-block;
   width: 20%;
   height: 20px;
-  border-top: 0.2px solid #183047;
+  border-top: 0.2px solid #c7a17a;
   border-width: initial;
   margin-top: 15px;
   margin-left: 40%;
@@ -175,15 +197,19 @@ html {
   margin-left: 0.7rem;
   width: 30px;
   height: 30px;
+  border: 2px solid white;
+  border-radius: 30px;
 }
 
 .icon:hover {
-  opacity: 0.4;
+  opacity: 0.7;
   cursor: pointer;
 }
 
 .wechat:hover {
-  background-image: "../..wechat";
+  width: 30px;
+  height: 30px;
+  background-image: "../../public/homepics/QR.png";
 }
 
 .firstimg {
@@ -223,6 +249,7 @@ html {
   font-size: 20px;
   font-weight: bolder;
   line-height: 25px;
+  color: #183047;
 }
 
 .h3-bold {
@@ -233,6 +260,7 @@ html {
 .h2-bold {
   font-size: 40px;
   line-height: 40px;
+  padding-bottom: 30px;
   padding-bottom: 30px;
 }
 
@@ -254,8 +282,10 @@ html {
   clear: both;
   display: flex;
   flex-direction: row;
-  padding: 15% 10% 5%;
+  padding: 5% 10% 0%;
+  align-items: center;
 }
+
 .secttext {
   width: 70%;
   margin-right: 5%;
@@ -341,6 +371,11 @@ html {
   font-size: 2rem;
   color: #183047;
 }
+
+.patient {
+  font-weight: 200 !important;
+}
+
 .heroabout {
   height: 80vh;
   width: 100vw;
@@ -414,6 +449,7 @@ html {
   height: 70vh;
   background-repeat: no-repeat;
   background-size: auto;
+  background-size: auto;
 }
 
 .locationtext {
@@ -434,7 +470,7 @@ html {
   width: 20%;
   border: 2px solid rgba(0, 0, 0, 0.1);
   text-align: center;
-  padding: 20px;
+  padding: 0px 20px;
   box-shadow: 4px 4px 4px 4px rgba(170, 168, 168, 0.1);
 }
 .caresect:hover {
@@ -512,6 +548,7 @@ html {
 }
 
 .treatment-image img {
+.treatment-image img {
   flex-grow: 2;
   height: 80vh;
 }
@@ -574,6 +611,7 @@ html {
   display: flex;
   width: 100%;
   margin: auto;
+  margin: auto;
   flex-direction: row;
   /* background-color: #f6f6f9; */
 }
@@ -600,6 +638,10 @@ html {
   bottom: 0;
   left: 0;
   width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 .footeradd {
   display: flex;
@@ -611,11 +653,11 @@ html {
   margin: 0 !important;
 }
 .upperfooter {
-  background-color: #c7a17a;
+  background-color: #bfc0c0;
   /* margin-bottom: 213px; */
 }
 .lowerfooter {
-  background-color: #c7a17a;
+  background-color: #183047;
   /* position: fixed;
   bottom: 0;
   left: 0;
@@ -630,10 +672,10 @@ html {
   font-weight: bolder;
 }
 .fontsizefooter {
-  font-size: 80px;
+  font-size: 65px;
 }
 .fontsizefooter1 {
-  font-size: 40px;
+  font-size: 35px;
 }
 .clr {
   color: white !important;
@@ -740,6 +782,7 @@ html {
   position: relative;
   width: 100vw;
   padding: 6rem 3rem 6rem 6rem;
+  padding: 6rem 3rem 6rem 6rem;
   display: flex;
   justify-content: space-between;
   z-index: 8;
@@ -762,7 +805,8 @@ html {
 .main {
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
+  /* gap: 2.5rem; */
+  width: 50%;
 }
 .main .title {
   text-transform: uppercase;
@@ -824,7 +868,9 @@ html {
 .social-links span {
   display: block;
   border: 1px solid #1a1a1a;
+  border: 1px solid #1a1a1a;
   margin-bottom: 0.5rem;
+  color: #1a1a1a;
   color: #1a1a1a;
   font-size: 12px;
   font-weight: 400;
@@ -838,6 +884,7 @@ html {
 .contact-links > * {
   display: block;
   border: 1px solid #1a1a1a;
+  border: 1px solid #1a1a1a;
   padding: 0.4rem;
   margin-top: 0.5rem;
   font-size: 13px;
@@ -850,15 +897,21 @@ html {
 }
 .chat {
   border-radius: 30px 30px 0 30px;
+  border-radius: 30px 30px 0 30px;
   /* background-color: #f7f7f7; */
+  color: #1a1a1a;
   color: #1a1a1a;
 }
 .direction {
   color: #f7f7f7;
   background-color: #1a1a1a;
   border-radius: 30px;
+  color: #f7f7f7;
+  background-color: #1a1a1a;
+  border-radius: 30px;
 }
 .mobile {
+  display: none;
   display: none;
 }
 
@@ -876,7 +929,9 @@ html {
   display: flex;
   justify-content: center;
   position: relative;
+  align-items: center;
 }
+
 .main-img {
   position: absolute;
   width: 500px;
@@ -894,7 +949,7 @@ html {
 .right {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  /* gap: 1rem; */
   padding: 2rem;
   font-size: 15px;
 }
@@ -903,12 +958,14 @@ html {
   text-transform: uppercase;
   font-weight: bold;
 }
-.team-btn {
+
+
+/* .team-btn {
   background-color: #c7a17a;
   color: white;
   text-align: center;
   width: 12rem;
-  padding: 0.7rem;
+  padding: 12px 24px;
   border-radius: 40px;
   font-weight: bold;
   font-size: 16px;
@@ -920,12 +977,33 @@ html {
   color: #f7f7f7;
   text-decoration: none;
   opacity: 0.7;
+} */
+
+.team-btn {
+  background-color: #c7a17a;
+  color: white !important;
+  padding: 12px 24px !important;
+  border-radius: 16px;
+  width: auto;
+  text-align: center;
+  font-weight: bolder;
+  text-decoration: none !important;
+  font-size: 18px;
+  font-weight: 500;
+  min-width: 50px;
+}
+
+.team-btn:hover {
+  font-weight: bolder;
+  opacity: 0.9;
+  cursor: pointer;
+  transition: background-color .3s;
 }
 
 .new-doctor {
   /* border: 2px solid red; */
   display: flex;
-  padding: 5% 10%;
+  padding: 7% 10%;
 }
 
 .doctor-image img {
@@ -949,6 +1027,7 @@ html {
 .read-more {
   font-size: 18px;
   border: none;
+  color: blue;
 }
 
 .read-more:hover {
@@ -958,6 +1037,95 @@ html {
 #more {
   display: none;
 }
+#more {
+  display: none;
+}
+
+
+
+.title-header-center {
+  text-align: center!important;
+  line-height: 55px;
+  font-size: 35px;
+  color: #183047;
+  padding: 0 50px !important;
+  font-weight: bolder!important;
+  }
+
+
+  .title-header-left {
+    text-align: left!important;
+    line-height: 45px;
+    font-size: 36px;
+    color: #183047;
+    font-weight: bolder!important;
+    }
+
+    .subheader-bold {
+      font-size: 19px;
+      text-align: center;
+      margin: auto;
+      /* width: 60%; */
+      font-weight: bolder;
+      padding-top: 5px;
+      }
+
+      .subheader-bold-60 {
+        font-size: 19px;
+        text-align: center;
+        margin: auto;
+        width: 60%;
+        font-weight: bolder;
+        }
+
+        .subheader-bold-left {
+          font-size: 19px;
+          text-align: left;
+          margin: auto;
+          font-weight: bolder;
+          padding-top: 10px;
+          padding-bottom: 30px;
+          }
+
+          .subheader-normal-left {
+            font-size: 19px;
+            text-align: left;
+            margin: auto;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            }
+
+            .normal-p-text {
+              font-size: 19px;
+              line-height: 25px;
+              }
+
+
+            .normal-p-small {
+              font-size: 16px;
+              line-height: 25px;
+              }
+
+              .super-small {
+                font-size: 14px;
+                line-height: 25px;
+                }
+
+                .about-hero-text {
+                  width: 50%;
+                }
+
+                .languageswitch {
+                  width: 30px;
+                  height: 30px;
+                }
+
+.wechat:hover {
+  background-image: "../../public/homepics/QR.png";
+}
+
+
+
 
 @media screen and (max-width: 1050px) {
   .homescroll {
@@ -1089,6 +1257,7 @@ html {
 .homeherosection {
   width: 100%;
   height: calc(100vh - 0px);
+  height: calc(100vh - 0px);
   margin-top: -100px;
   align-items: center;
   display: flex;
@@ -1100,8 +1269,27 @@ html {
 }
 
 .heroimg {
+.heroimg {
   /* height: 100vh; */
   width: 100%;
+}
+
+
+.container {
+  padding: 0 !important;
+  margin-right: 0 !important;
+}
+
+.carousel-control-prev-icon {
+  color: #c7a17a !important;
+}
+
+.carousel-control-next-icon {
+  color: #c7a17a !important;
+}
+
+.quotation-text {
+  color: #014f86 !important;
 }
 
 /* .hometxt1 {
@@ -1243,6 +1431,7 @@ html {
     width: 70%;
   }
 
+
   .upperheader {
     display: flex;
     flex-direction: column;
@@ -1277,6 +1466,9 @@ html {
     height: 373px;
   }
 
+  .billingsect-card {
+    width: auto;
+  }
   .billingsect-card {
     width: auto;
   }
@@ -1344,6 +1536,7 @@ html {
     width: 80%;
   }
 
+
   .homeimg3 {
     top: -356px;
     height: 289px;
@@ -1398,6 +1591,7 @@ html {
   .navbar {
     padding-top: 1.5rem !important;
   }
+
 
   .homeimg3 {
     position: relative;
@@ -1508,7 +1702,15 @@ html {
 .carousel-control.right {
   background: none !important;
 }
+.carousel-control.left,
+.carousel-control.right {
+  background: none !important;
+}
 
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next {
+  margin-right: -130px !important;
+}
 .carousel-control .glyphicon-chevron-right,
 .carousel-control .icon-next {
   margin-right: -130px !important;
@@ -1518,10 +1720,23 @@ html {
 .glyphicon-chevron-right:before {
   color: gray;
 }
+.glyphicon-chevron-left:before,
+.glyphicon-chevron-right:before {
+  color: gray;
+}
 
 .carousel-control .glyphicon-chevron-left,
 .carousel-control .icon-prev {
   margin-left: -130px !important;
+}
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .icon-prev {
+  margin-left: -130px !important;
+}
+
+.bg-white {
+  background-color: white;
+  margin-bottom: 100vh;
 }
 
 .bg-white {
