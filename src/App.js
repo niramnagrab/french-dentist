@@ -18,6 +18,7 @@ import TeethCleanings from "./components/services/teeth-whitening";
 import Veneers from "./components/services/veneers";
 import Invisalign from "./components/services/invisalign";
 import EmergenciesAndMore from "./components/services/invisalign";
+import BlogDetails from "./components/blog-details";
 
 export default function App() {
   const { t } = useTranslation();
@@ -160,6 +161,7 @@ export default function App() {
           ></Route>
           <Route exact path="/blog" element={<Blog />}></Route>
           <Route exact path="/contactus" element={<Contactus />}></Route>
+          <Route exact path="/blog-detail/:slug" element={<BlogDetails />}></Route>
         </Routes>
       </div>
       <div className="footer">
