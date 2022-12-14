@@ -2,10 +2,9 @@ import React from "react";
 import "../styles/style.css";
 import { useTranslation } from "react-i18next";
 import Video from "../home3.mp4";
-import ReadMore from "./util-components/ReadMore";
 import Slider from "./slider";
+import ReadMore from "./util-components/ReadMore";
 import CarouselComponent from "./util-components/Carousel";
-
 
 function Home() {
   const { t } = useTranslation();
