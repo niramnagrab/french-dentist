@@ -11,7 +11,7 @@ function TeethWhitening() {
                 <div className="herotext">
                     <h2>{t("part21")}</h2>
                     <div>{t("part987")}</div>
-                    <div className="webbtn mt-5">{t("part93")}</div>
+                    <div className="team-btn mt-5">{t("part93")}</div>
                 </div>
             </div>
 
@@ -40,10 +40,10 @@ function TeethWhitening() {
             <div className="pt-5">
                 <h2 className="mt-5">{t("part103")} </h2>
                 <div className="blogbtn">
-                    <a  className="webbtn mr-5" >{t("part104")}</a>
-                    <a  className="webbtn mr-5" >{t("part105")}</a>
-                    <a  className="webbtn mr-5" >{t("part106")}</a>
-                    <a  className="webbtn mr-5" >{t("part107")}</a>
+                    <a  className="team-btn mr-5" >{t("part104")}</a>
+                    <a  className="team-btn mr-5" >{t("part105")}</a>
+                    <a  className="team-btn mr-5" >{t("part106")}</a>
+                    <a  className="team-btn mr-5" >{t("part107")}</a>
                 </div>
             </div>
             {/* carousal efect */}

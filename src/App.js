@@ -45,10 +45,96 @@ export default function App() {
   };
   return (
     <>
-      <header className="upperheader">
-        <div className="miniheadertxt">
-          <img className="firstimg" src="./homepics/Icon.png" alt="" />
-          {t("part1")}
+        <header className="upperheader">
+          <div className="miniheadertxt">
+            <img className="firstimg" src="./homepics/Icon.png" alt="" />
+            {t("part1")}
+          </div>
+          <div className="socialicons">
+
+
+          <a href="https://instagram.com/frenchdentist?igshid=YmMyMTA2M2Y=" target="_blank">
+          <img className="icon" src="./homepics/Instagram.png" alt="" />
+         </a>  
+
+
+
+         <a href="https://www.linkedin.com/company/french-dentist/" target="_blank">
+         <img className="icon" src="./homepics/linkedin.png" alt="" />
+         </a>  
+
+
+         <a href="#" target="_blank">
+         <img className="icon wechat" src="./homepics/wechat.png" alt="" />
+         </a>  
+            
+          </div>
+        </header>
+
+        <div className="bg-white" >
+          <Navbar collapseOnSelect expand="lg" >
+              <Container className="navbarrr">
+                <Navbar.Brand className="logo-top mainfrlink" href="/">{t("part2")}</Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
+                  <Nav className="me-auto navbarrrr">
+                    <Nav.Link className={`navelem ${pathnameis === '/about' ? 'current' : ''}`}  href="/about">{t("part3")}</Nav.Link>
+                    <Nav.Link className={`navelem ${pathnameis === '/team' ? 'current' : ''}`} href="/team">{t("part4")}</Nav.Link>
+                    <div className="dropdown">
+                      <Nav.Link className={`navelem dropbtn ${pathnameis === '/care' ? 'current' : ''}`}  href="/care">
+                        {t("part5")} 
+                      </Nav.Link>
+                      <div className="dropdown-content">
+                        <a  href="/comprehensive-care">{t("part911")}</a>
+                        <a href="/teeth-whitening">{t("part912")}</a>
+                        <a href="/orthodontics">{t("part913")}</a>
+                        <a href="/dental-implants">{t("part914")}</a>
+                        <a href="/porcelain-veneers">{t("part915")}</a>
+                        <a href="/emergencies-and-more">{t("part916")}</a>
+                      </div>
+                    </div> 
+                    <Nav.Link className={`navelem  ${pathnameis === '/blog' ? 'current' : ''}`} href="/blog">{t("part6")}</Nav.Link>
+                    <Nav.Link className={`navelem  ${pathnameis === '/contactus' ? 'current' : ''}`} href="/contactus">{t("part7")}</Nav.Link>
+                    <Nav.Link>  
+                      <div className="language-select"> 
+                        <LanguageSelect/>
+                      </div>
+                    </Nav.Link>
+                  </Nav>
+                </Navbar.Collapse>
+              </Container>
+            </Navbar>
+
+
+
+          {/* A <Switch> looks through its children <Route>s and
+            renders the first one that matches the current URL. */}
+          <Routes>
+            <Route exact path="/" element={<Home />}>
+            </Route>
+            <Route exact path="/about" element={<About />}>
+            </Route>
+            <Route exact path="/team" element={<Team />}>
+            </Route>
+            <Route exact path="/care" element={<Care />}>
+            </Route>
+            <Route exact path="/comprehensive-care" element={<ComprehensiveCare />}>
+            </Route>
+            <Route exact path="/teeth-whitening" element={<TeethWhitening />}>
+            </Route>
+            <Route exact path="/orthodontics" element={<Orthodontics />}>
+            </Route>
+            <Route exact path="/dental-implants" element={<Veneers />}>
+            </Route>
+            <Route exact path="/porcelain-veneers" element={<Invisalign />}>
+            </Route>
+            <Route exact path="/emergencies-and-more" element={<EmergenciesAndMore />}>
+            </Route>
+            <Route exact path="/blog" element={<Blog />}>
+            </Route>
+            <Route exact path="/contactus" element={<Contactus />}>
+            </Route>
+          </Routes>
         </div>
         <div className="socialicons">
           <img className="icon" src="./homepics/Instagram.png" alt="" />

@@ -31,12 +31,13 @@ const LanguageSelect = () => {
  }
   return (
     <div className="d-flex justify-content-end align-items-center language-select-root">
+  
       <Button 
       // onClick={(e)=>handleBtnClick}
       onClick={({ currentTarget }) => handleBtnClick(currentTarget)}
       >
-        {languageMap[selected].label}
-        <ArrowDropDown fontSize="small" />
+        {languageMap.label}
+        <img src="./homepics/language.svg" className="languageswitch" alt="language-change-icon"  />
       </Button>
       <Popover
         open={open}
