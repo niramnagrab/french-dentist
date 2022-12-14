@@ -48,7 +48,9 @@ export default function App() {
       <header className="upperheader">
         <div className="miniheadertxt">
           <img className="firstimg" src="./homepics/Icon.png" alt="" />
-          {t("part1")}
+          <div className="miniHeaderContactUs">
+            <div>{t("part1")}</div> &nbsp;<div>{t("part1.2")}</div>
+          </div>
         </div>
         <div className="socialicons">
           <img className="icon" src="./homepics/Instagram.png" alt="" />
@@ -161,7 +163,11 @@ export default function App() {
           ></Route>
           <Route exact path="/blog" element={<Blog />}></Route>
           <Route exact path="/contactus" element={<Contactus />}></Route>
-          <Route exact path="/blog-detail/:slug" element={<BlogDetails />}></Route>
+          <Route
+            exact
+            path="/blog-detail/:slug"
+            element={<BlogDetails />}
+          ></Route>
         </Routes>
       </div>
       <div className="footer">
