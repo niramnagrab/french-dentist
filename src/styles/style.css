@@ -548,7 +548,6 @@ a li {
 }
 
 .treatment-image img {
-.treatment-image img {
   flex-grow: 2;
   height: 80vh;
 }
@@ -1268,7 +1267,6 @@ a li {
   height: 100%;
 }
 
-.heroimg {
 .heroimg {
   /* height: 100vh; */
   width: 100%;
