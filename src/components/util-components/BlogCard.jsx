@@ -8,6 +8,7 @@ function BlogCard(props) {
   return (
     <Card
       style={{ marginBottom: "2rem", cursor: "pointer" }}
+      mx="2"
       onClick={() => navigate(`/blog-detail/${slug}`, { state })}
     >
       <div

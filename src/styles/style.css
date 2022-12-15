@@ -1405,6 +1405,17 @@ a li {
 }
 
 @media screen and (max-width: 577px) {
+  .card-body {
+    text-align: center;
+  }
+  .bloghero {
+    flex-direction: column-reverse;
+    margin-bottom: 2rem;
+  }
+  .blogherotext {
+    padding: 0;
+    text-align: center;
+  }
   .call-us-btn {
     text-align: center;
   }
