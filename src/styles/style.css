@@ -1279,7 +1279,6 @@ a li {
 .quotation-text {
   color: #014f86 !important;
 }
-
 /* .hometxt1 {
   width: 50%;
   padding: 30px 60px;
@@ -1406,6 +1405,63 @@ a li {
 }
 
 @media screen and (max-width: 577px) {
+  .hero-img {
+    position: relative;
+  }
+  .hero-img img {
+    width: 100%;
+    right: 0;
+  }
+  .home-hero {
+    position: relative;
+    flex-direction: column;
+    padding: 0;
+  }
+  .about-hero-text {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .seeTreatbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  .right {
+    padding: 0 2rem;
+  }
+  .main-img {
+    position: inherit;
+    z-index: 0;
+    width: auto;
+    height: auto;
+    padding: 1rem;
+  }
+  .home-team {
+    display: flex;
+    flex-direction: column;
+  }
+  .normal-p-text {
+    text-align: center;
+  }
+  .carouselSection {
+    width: 90vw;
+  }
+  .carouselContainer {
+    flex-direction: column;
+  }
+  .aboutsect1 {
+    padding: 0 !important;
+    font-size: 1.25rem !important;
+  }
+  .sect4 {
+    padding: 0 !important;
+  }
+  .aboutsect3 {
+    margin-top: 1rem !important;
+  }
   .herotext {
     width: 85% !important;
     bottom: 0rem !important;
@@ -1497,6 +1553,17 @@ a li {
   }
 }
 @media screen and (max-width: 500px) {
+  .aboutSecImg {
+    margin: 0 1rem !important;
+  }
+  .locationtext {
+    text-align: center !important;
+    margin-top: 2rem !important;
+  }
+
+  .home-team {
+    padding: 0;
+  }
   .navbarrr {
     margin-top: 2rem;
     margin-left: 10px !important;
@@ -1585,7 +1652,7 @@ a li {
 }
 @media screen and (max-width: 380px) {
   .secttext {
-    margin-top: -50%;
+    margin-top: -20%;
   }
   .homeimg3 {
     top: -289px;
