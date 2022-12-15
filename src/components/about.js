@@ -93,7 +93,7 @@ function About() {
 
             <div className="pb-5">
                 <div className="title-header-center mt-5 ">{t("part58")}</div>
-                <div><span class='line-middle'></span></div>
+                <div><span className='line-middle'></span></div>
                 <div className="sect4">
                     <div className="aboutsect3 mr-5">
                         <img className="locationimages mr-4" src="./homepics/shanghaimart.png" alt="" />
