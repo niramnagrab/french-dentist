@@ -1405,6 +1405,27 @@ a li {
 }
 
 @media screen and (max-width: 577px) {
+  .call-us-btn {
+    text-align: center;
+  }
+  .main-team {
+    width: 100%;
+  }
+  .doctor-image {
+    text-align: center;
+  }
+  .doctor-description h1 {
+    width: auto;
+    text-align: center;
+  }
+  .new-doctor {
+    flex-direction: column;
+    padding: 0;
+    margin-top: 1rem;
+  }
+  .new-doctor-alt {
+    flex-direction: column-reverse;
+  }
   .hero-img {
     position: relative;
   }
