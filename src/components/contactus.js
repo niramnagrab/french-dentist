@@ -221,7 +221,7 @@ function Contactus() {
                 </div>
               </div>
             </div>
-            <div style={{ width: "50%" }}>
+            <div className={"contactLstChild"}>
               <img
                 className="w-100 contacthero"
                 src="./homepics/maps.png"
