@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/style.css";
 import { useTranslation } from "react-i18next";
-import { Container, Navbar, Nav } from "react-bootstrap";
+import {  Nav } from "react-bootstrap";
 
 const CARD_DATA = [
   {

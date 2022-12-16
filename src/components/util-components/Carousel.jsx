@@ -1,10 +1,11 @@
 import Carousel from "react-bootstrap/Carousel";
+import "../../styles/style.css";
 
 function CarousalComponent({ orderNumber }) {
   // by using order number, will change the image
   return (
     <div className="carouselSection">
-      <Carousel fade={true} >
+      <Carousel fade={true} controls={false}>
         <Carousel.Item>
           <img
             className="d-block w-100"
