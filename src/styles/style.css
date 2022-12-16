@@ -1279,6 +1279,14 @@ a li {
 .quotation-text {
   color: #014f86 !important;
 }
+.blogCard {
+  margin-bottom: 2rem;
+  transition: all 500ms ease-in-out;
+}
+.blogCard:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 /* .hometxt1 {
   width: 50%;
   padding: 30px 60px;
@@ -1290,6 +1298,17 @@ a li {
 .contactLstChild {
   width: 50%;
 }
+.blogContainer {
+  padding: 5rem;
+}
+.cardBody {
+  height: 16rem;
+  overflow: hidden;
+}
+.blogImg {
+  max-height: 20rem;
+}
+
 @media screen and (max-width: 992px) {
   .homeherosection {
     flex-direction: column;
@@ -1587,6 +1606,35 @@ a li {
   }
 }
 @media screen and (max-width: 500px) {
+  .care-hero {
+    height: auto !important;
+  }
+  .treatment-image {
+    text-align: center;
+  }
+  .other-treatment {
+    text-align: center;
+    padding-top: 0rem !important;
+  }
+  .team-btn {
+    width: 100%;
+    margin: 1rem 0 0 0 !important;
+  }
+  .care-blogsect {
+    height: auto !important;
+  }
+  .carecardimg {
+    width: 100% !important;
+  }
+  .blogImg {
+    max-width: 20rem;
+  }
+  .cardBody {
+    height: unset;
+  }
+  .blogContainer {
+    padding: 2rem;
+  }
   .caresect {
     width: 80%;
   }
@@ -1628,6 +1676,7 @@ a li {
   }
   .subheader-bold-left {
     text-align: center !important;
+    font-size: 14px;
   }
   .homeimg2 {
     padding-top: 0;
@@ -1759,8 +1808,9 @@ a li {
     width: 80%;
   }
   .upperheader {
-    height: 20%;
+    height: 7rem;
   }
+
   .navbar > .container,
   .navbar > .container-fluid,
   .navbar > .container-lg,
