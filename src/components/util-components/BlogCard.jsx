@@ -7,7 +7,8 @@ function BlogCard(props) {
   const state = props;
   return (
     <Card
-      style={{ marginBottom: "2rem", cursor: "pointer" }}
+      className={"blogCard"}
+      mx="2"
       onClick={() => navigate(`/blog-detail/${slug}`, { state })}
     >
       <div
@@ -18,7 +19,7 @@ function BlogCard(props) {
       >
         <Card.Img variant="top" src={imgURL} />
       </div>
-      <Card.Body style={{ height: "16rem", overFlow: "hidden" }}>
+      <Card.Body className={"cardBody"}>
         <Card.Title>{title}</Card.Title>
         <Card.Text>{description.substring(0, 250)}</Card.Text>
       </Card.Body>
