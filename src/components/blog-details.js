@@ -12,7 +12,7 @@ function BlogDetails() {
       <div className="detailContainer">
         <h2>{title}</h2>
         <div className="imageContainer">
-          <img src={imgURL} />
+          <img src={imgURL} className={"blogImg"} />
         </div>
         <p>{description}</p>
       </div>

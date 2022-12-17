@@ -51,7 +51,7 @@ function Blog() {
       <div className="blogs">
         <h2 className="h2-bold">More From Our blog</h2>
         <div className="blogtiles">
-          <Container>
+          <div className="blogContainer">
             <Row>
               {blogs.map((blog) => {
                 const { description, title, image, slug } = blog;
@@ -67,7 +67,7 @@ function Blog() {
                 );
               })}
             </Row>
-          </Container>
+          </div>
         </div>
       </div>
     </div>
