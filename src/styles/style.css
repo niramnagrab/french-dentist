@@ -1314,11 +1314,26 @@ a li {
   .homeherosection {
     flex-direction: column;
     margin-bottom: 300px;
+    margin-top: 8rem;
   }
   .hometxt1 {
     width: 90%;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 45px !important;
+  }
+  .secttext {
+    margin-top: 15%;
+    margin-right: 0;
+  }
+  .homeimg2 {
+    padding-top: 0;
+    width: 100%;
+  }
+  .homeservices {
+    margin-top: -15rem;
+  }
+  .zindexx {
+    margin-top: -8rem;
   }
 }
 
