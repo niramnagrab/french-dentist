@@ -1277,7 +1277,7 @@ a li {
 @media screen and (max-width: 992px) {
   .homeherosection {
     flex-direction: column;
-    margin-bottom: 500px;
+    margin-bottom: 300px;
   }
   .hometxt1 {
     width: 90%;
