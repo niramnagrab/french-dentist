@@ -1338,6 +1338,26 @@ a li {
 }
 
 @media screen and (max-width: 800px) {
+  .new-doctor-alt {
+    flex-direction: column-reverse;
+  }
+  .main-team {
+    width: 100%;
+    text-align: center;
+  }
+  .new-doctor {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
+  .doctor-description {
+    width: 100%;
+    text-align: -webkit-center;
+  }
+  .subheader-bold-left {
+    text-align: center;
+  }
   .main-img {
     position: relative;
   }
