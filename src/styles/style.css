@@ -1286,6 +1286,7 @@ a li {
 .blogCard:hover {
   cursor: pointer;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: scale(1.05);
 }
 /* .hometxt1 {
   width: 50%;
@@ -1313,15 +1314,75 @@ a li {
   .homeherosection {
     flex-direction: column;
     margin-bottom: 300px;
+    margin-top: 8rem;
   }
   .hometxt1 {
     width: 90%;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 45px !important;
+  }
+  .secttext {
+    margin-top: 15%;
+    margin-right: 0;
+  }
+  .homeimg2 {
+    padding-top: 0;
+    width: 100%;
+  }
+  .homeservices {
+    margin-top: -15rem;
+  }
+  .zindexx {
+    margin-top: -8rem;
   }
 }
 
 @media screen and (max-width: 800px) {
+  .new-doctor-alt {
+    flex-direction: column-reverse;
+  }
+  .main-team {
+    width: 100%;
+    text-align: center;
+  }
+  .new-doctor {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
+  .doctor-description {
+    width: 100%;
+    text-align: -webkit-center;
+  }
+  .subheader-bold-left {
+    text-align: center;
+  }
+  .main-img {
+    position: relative;
+  }
+  .home-team {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .home-hero {
+    position: relative;
+    flex-direction: column;
+    padding: 0 6rem !important;
+  }
+  .about-hero-text {
+    width: 100%;
+    text-align: center;
+  }
+  .hero-img img {
+    width: 100%;
+    right: 0;
+  }
+  .hero-img {
+    position: relative;
+    justify-content: center;
+  }
   .homeimg3 {
     position: relative;
     top: -620px;
