@@ -1338,6 +1338,31 @@ a li {
 }
 
 @media screen and (max-width: 800px) {
+  .main-img {
+    position: relative;
+  }
+  .home-team {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .home-hero {
+    position: relative;
+    flex-direction: column;
+    padding: 0 6rem !important;
+  }
+  .about-hero-text {
+    width: 100%;
+    text-align: center;
+  }
+  .hero-img img {
+    width: 100%;
+    right: 0;
+  }
+  .hero-img {
+    position: relative;
+    justify-content: center;
+  }
   .homeimg3 {
     position: relative;
     top: -620px;
