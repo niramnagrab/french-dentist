@@ -8,7 +8,7 @@ function ComprehensiveCare() {
     <div className="ml-5 mr-5 blogpage">
       <div className="care-hero">
         <img className="w-100" src="./homepics/blog.png" alt="" />
-        <div className="herotext">
+        <div className="care-hero-text herotext">
           <h2>{t("comprehensive_care")}</h2>
           <div>{t("part951")}</div>
           <div className="team-btn mt-5">{t("part93")}</div>

@@ -1338,8 +1338,101 @@ a li {
 }
 
 @media screen and (max-width: 800px) {
+  .blogpage div.care-hero {
+    height: 20rem;
+  }
+  .other-treatment {
+    padding: 3rem 3rem 0 3rem;
+  }
+  .blogpage {
+    margin: 0 !important;
+  }
+  .herotext {
+    width: 64% !important;
+    bottom: 15rem !important;
+    font-size: 10px;
+  }
+  .care-hero-text {
+    width: 55% !important;
+    padding: 0;
+    font-size: 13px;
+  }
+  .care-hero-text div.team-btn {
+    margin-top: 3px !important;
+  }
+
+  .cardheading {
+    text-align: center;
+    font-size: 30px;
+  }
+  .team-btn {
+    margin-right: 0 !important;
+  }
+  .treatment-image {
+    text-align: center;
+  }
+  .blogbtn {
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+  .care-blogsect {
+    height: auto;
+  }
+  .slider-text {
+    text-align: center;
+  }
+
+  .carecardimg {
+    width: 100% !important;
+  }
+  .caretext {
+    line-height: 30px;
+    font-size: 20px;
+  }
+  .carehero {
+    margin-top: 0;
+  }
+  .screenContainer p {
+    text-align: center;
+  }
+  .blogs {
+    margin-top: 2rem;
+  }
+  .blogs h2 {
+    padding: 0;
+  }
+  .blogContainer {
+    padding: 1rem;
+  }
+  .bloghero {
+    padding-top: 0;
+    flex-direction: column;
+    text-align: center;
+  }
+  .blogherotext {
+    padding-top: 1rem;
+  }
+  .contacthero {
+    margin-top: 0;
+  }
+  .map-container {
+    width: 100%;
+  }
+  .contactLstChild {
+    width: 100%;
+    padding-top: 1rem;
+  }
+  .contactlst {
+    flex-direction: column;
+  }
+  .contactsect {
+    align-items: center;
+  }
+  .contact-hero img {
+    margin-top: 0;
+  }
   .new-doctor-alt {
-    flex-direction: column-reverse;
+    flex-direction: column-reverse !important;
   }
   .main-team {
     width: 100%;
@@ -1411,11 +1504,7 @@ a li {
     text-align: center;
     margin-bottom: 10px;
   }
-  .herotext {
-    width: 64% !important;
-    bottom: 15rem !important;
-    font-size: 10px;
-  }
+
   .blogsect {
     display: flex;
     flex-direction: column;
@@ -1667,6 +1756,9 @@ a li {
   }
 }
 @media screen and (max-width: 500px) {
+  .zindexx {
+    margin-top: 0;
+  }
   .care-hero {
     height: auto !important;
   }
