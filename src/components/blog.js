@@ -56,7 +56,7 @@ function Blog() {
               {blogs.map((blog) => {
                 const { description, title, image, slug } = blog;
                 return (
-                  <Col xs={12} md={4}>
+                  <Col xs={12} md={6} lg={4} >
                     <BlogCard
                       description={description}
                       title={title}
