@@ -133,9 +133,6 @@ a li {
   margin-left: 40%;
 }
 
-/* .hrr {
-  width: 70%;
-} */
 .centerbt {
   display: flex;
   justify-content: center;
@@ -1756,6 +1753,9 @@ a li {
   }
 }
 @media screen and (max-width: 500px) {
+  .hrr2 {
+    display: flex;
+  }
   .zindexx {
     margin-top: 0;
   }
@@ -1795,9 +1795,11 @@ a li {
     align-items: center;
     display: flex;
     flex-direction: column;
+    width: 50%;
   }
   .contactLstChild {
     width: 100%;
+    margin-top: 1rem;
   }
   .contactlst {
     flex-direction: column;
@@ -1826,6 +1828,8 @@ a li {
   }
   .title-header-left {
     text-align: center !important;
+    font-size: 25px;
+    line-height: 34px;
   }
   .subheader-bold-left {
     text-align: center !important;
@@ -1900,39 +1904,11 @@ a li {
 .carecardimg {
   width: 100%;
 }
-@media screen and (max-width: 380px) {
-  .secttext {
-    margin-top: -20%;
-  }
-  .homeimg3 {
-    top: -289px;
-    height: 465px;
-    width: 148px;
-  }
-  .servtab {
-    display: flex;
-    flex-direction: column;
+
+@media screen and (max-width: 460px) {
+  .slider-text {
     width: 100%;
   }
-  .iphone {
-    position: relative;
-    top: -230px;
-  }
-  .iphonetxt {
-    margin-top: 136px;
-    width: 170%;
-  }
-
-  /* .careparagh{
-    width: 180%;
-    margin-left: -32px;
-    } */
-  .webbtn {
-    width: 124%;
-    padding: 7px;
-  }
-}
-@media screen and (max-width: 460px) {
   .imgwid {
     width: 95%;
   }
@@ -1982,6 +1958,53 @@ a li {
   }
 }
 
+@media screen and (max-width: 380px) {
+  .bg-white {
+    margin-bottom: 0 !important;
+  }
+  /* .nav-link {
+    margin: 10px !important;
+  } */
+  .footer {
+    position: initial;
+  }
+  .what-our-patient {
+    margin-top: -5rem;
+  }
+  .homeservices {
+    margin-top: -1rem;
+  }
+  .secttext {
+    margin-top: -20%;
+  }
+  .homeimg3 {
+    top: -289px;
+    height: 465px;
+    width: 148px;
+  }
+  .servtab {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .iphone {
+    position: relative;
+    top: -230px;
+  }
+  .iphonetxt {
+    margin-top: 136px;
+    width: 170%;
+  }
+
+  /* .careparagh{
+    width: 180%;
+    margin-left: -32px;
+    } */
+  .webbtn {
+    width: 124%;
+    padding: 7px;
+  }
+}
 .dropdown {
   float: left;
 }
