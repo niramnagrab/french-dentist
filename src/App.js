@@ -171,8 +171,8 @@ export default function App() {
         </Routes>
       </div>
       <div className="footer">
-        <footer className="upperfooter">
-          <div className="text-center pt-5">
+        <div className="upperfooter">
+          <div className="text-center pt-5 mt-5">
             <div className="fontsizefooter font-weight-450">{t("part8")}</div>
             <div className="fontsizefooter1">{t("part9")}</div>
           </div>
@@ -201,35 +201,35 @@ export default function App() {
               {t("part15")}
             </div>
           </div>
-        </footer>
+        </div>
         <div id="lowerfooter" className="lowerfooter">
           <div>
             <ul className="footernav">
-              <Nav.Link className="clr mr-3 mt-5" href="/team">
+              <Nav.Link className="clr mr-3 mt-md-5 mt-3" href="/team">
                 {t("part16")}
               </Nav.Link>
-              <Nav.Link className="clr mr-3 mt-5" href="/contactus">
+              <Nav.Link className="clr mr-3 mt-md-5 mt-3" href="/contactus">
                 {t("part17")}
               </Nav.Link>
-              <Nav.Link className="clr mr-3 mt-5" href="/blog">
+              <Nav.Link className="clr mr-3 mt-md-5 mt-3" href="/blog">
                 {t("part18")}
               </Nav.Link>
-              <Nav.Link className="clr mr-3 mt-5" href="/care">
+              <Nav.Link className="clr mr-3 mt-md-5 mt-3" href="/care">
                 {t("part19")}
               </Nav.Link>
-              <Nav.Link className="clr mr-3 mt-5" href="/">
+              <Nav.Link className="clr mr-3 mt-md-5 mt-3" href="/">
                 {t("part20")}
               </Nav.Link>
-              <Nav.Link className="clr mr-3 mt-5" href="/about">
+              <Nav.Link className="clr mr-3 mt-md-5 mt-3" href="/about">
                 {t("part21")}
               </Nav.Link>
-              <Nav.Link className="clr mr-3 mt-5" href="/contactus">
+              <Nav.Link className="clr mr-3 mt-md-5 mt-3" href="/contactus">
                 {t("part22")}
               </Nav.Link>
             </ul>
           </div>
           <hr className="hrfooter1" />
-          <div className="text-center pb-5">{t("part23")}</div>{" "}
+          <div className="text-center pb-2 pb-md-5">{t("part23")}</div>{" "}
         </div>
       </div>
     </>
