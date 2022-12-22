@@ -21,7 +21,7 @@ function Slider() {
                 alt=""
               />
             </div>
-            <div className="ml-5 slider-text">
+            <div className="ml-0 ml-md-5 slider-text">
               <div className="qouteImage">
                 {" "}
                 <img className="mb-5" src="./homepics/quote.png" alt="" />

@@ -45,7 +45,7 @@ function About() {
         </div>
         <div className="right">
           <p className="title-header-center">{t("part51")}</p>
-          <div className="hrr">
+          <div className="hrr hrr2">
             <span class="line-middle"></span>
           </div>
           <p className="normal-p-text">{t("aboutintro")}</p>
