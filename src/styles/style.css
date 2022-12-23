@@ -1621,7 +1621,7 @@ a li {
   .home-hero {
     position: relative;
     flex-direction: column;
-    padding: 0;
+    padding: 0px 2rem !important;
   }
   .about-hero-text {
     width: auto;
@@ -1759,6 +1759,11 @@ a li {
   }
 }
 @media screen and (max-width: 500px) {
+  .hometxt1 {
+    padding: 0;
+    bottom: unset;
+    top: unset;
+  }
   .hrr2 {
     display: flex;
   }
@@ -1831,6 +1836,7 @@ a li {
   }
   .homeherosection {
     margin-top: 0;
+    margin-bottom: 0;
   }
   .title-header-left {
     text-align: center !important;
@@ -1852,6 +1858,7 @@ a li {
   }
   .section1 {
     flex-direction: column-reverse;
+    margin-top: 90px !important;
   }
   .subheader-normal-left {
     text-align: center;
