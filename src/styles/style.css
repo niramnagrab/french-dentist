@@ -1768,6 +1768,9 @@ a li {
   }
 }
 @media screen and (max-width: 500px) {
+  .blogherotext .h2-bold {
+    padding-top: 30px;
+  }
   .cardheadingparagragh {
     padding: 0;
   }
