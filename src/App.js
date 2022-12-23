@@ -53,9 +53,19 @@ export default function App() {
           </div>
         </div>
         <div className="socialicons">
-          <img className="icon" src="./homepics/Instagram.png" alt="" />
-          <img className="icon" src="./homepics/Twitter.png" alt="" />
-          <img className="icon" src="./homepics/Youtube.png" alt="" />
+
+        <a href="https://www.instagram.com/frenchdentist/" target="_blank" rel="noreferrer">
+        <img className="icon" src="./homepics/Instagram.png" alt="" />
+        </a>
+
+        <a href="https://www.linkedin.com/company/french-dentist/" target="_blank" rel="noreferrer">
+        <img className="icon" src="./homepics/linkedin.png" alt="" />
+        </a>
+
+        <a href="https://www.instagram.com/frenchdentist/" target="_blank" rel="noreferrer">
+        <img className="icon" src="./homepics/wechat.png" alt="" />
+        </a>
+
         </div>
       </header>
 
@@ -63,7 +73,7 @@ export default function App() {
         <Navbar collapseOnSelect expand="lg">
           <Container className="navbarrr">
             <Navbar.Brand className="mainfrlink" href="/">
-              {t("part2")}
+            <img className="logo" src="./homepics/logo.svg" alt="" />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
@@ -116,7 +126,7 @@ export default function App() {
                   }`}
                   href="/contactus"
                 >
-                  {t("part7")}
+                  {t("part6")}
                 </Nav.Link>
                 <Nav.Link>
                   <div className="language-select">
@@ -188,17 +198,39 @@ export default function App() {
                 {t("part1113")}
                 <br />
                 {t("part1114")}
+                <br />
+                {t("part1115")}
+                <br />
+                {t("part1116")}
+                <br />
               </div>
             </div>
             <div className="text-justify col-lg-3 address-padding">
               <h4>{t("part12")}</h4>
-              {t("part13")}
+              {t("monday")}
               <br />
-              {t("part131")}
+              {t("tuesday")}
+              <br />
+              {t("wednesday")}
+              <br />
+              {t("thursday")}
+              <br />
+              {t("friday")}
+              <br />
+              {t("saturday")}
             </div>
             <div className="text-justify col-lg-3 address-padding">
               <h4>{t("part14")}</h4>
-              {t("part15")}
+              {t("part1411")}
+              <br />
+              {t("part1412")}
+              <br />
+              {t("part1413")}
+              <br />
+              {t("part1414")}
+              <br />
+              {t("part1415")}
+              <br />
             </div>
           </div>
         </div>
