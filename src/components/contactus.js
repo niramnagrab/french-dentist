@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/style.css";
 import { useTranslation } from "react-i18next";
-import { useGoogleMaps } from "react-hook-google-maps";
+// import { useGoogleMaps } from "react-hook-google-maps";
 import { asyncWrapper } from "react-baidu-maps";
 import { BaiduMap } from "react-baidu-maps";
 import { Map, APILoader } from "@uiw/react-baidu-map";
