@@ -133,9 +133,6 @@ a li {
   margin-left: 40%;
 }
 
-/* .hrr {
-  width: 70%;
-} */
 .centerbt {
   display: flex;
   justify-content: center;
@@ -1293,6 +1290,7 @@ a li {
 .blogCard:hover {
   cursor: pointer;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: scale(1.05);
 }
 /* .hometxt1 {
   width: 50%;
@@ -1320,15 +1318,168 @@ a li {
   .homeherosection {
     flex-direction: column;
     margin-bottom: 300px;
+    margin-top: 8rem;
   }
   .hometxt1 {
     width: 90%;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 45px !important;
+  }
+  .secttext {
+    margin-top: 15%;
+    margin-right: 0;
+  }
+  .homeimg2 {
+    padding-top: 0;
+    width: 100%;
+  }
+  .homeservices {
+    margin-top: -15rem;
+  }
+  .zindexx {
+    margin-top: -8rem;
   }
 }
 
 @media screen and (max-width: 800px) {
+  .blogpage div.care-hero {
+    height: 20rem;
+  }
+  .other-treatment {
+    padding: 3rem 3rem 0 3rem;
+  }
+  .blogpage {
+    margin: 0 !important;
+  }
+  .herotext {
+    width: 64% !important;
+    bottom: 15rem !important;
+    font-size: 10px;
+  }
+  .care-hero-text {
+    width: 55% !important;
+    padding: 0;
+    font-size: 13px;
+  }
+  .care-hero-text div.team-btn {
+    margin-top: 3px !important;
+  }
+
+  .cardheading {
+    text-align: center;
+    font-size: 30px;
+  }
+  .team-btn {
+    margin-right: 0 !important;
+  }
+  .treatment-image {
+    text-align: center;
+  }
+  .blogbtn {
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+  .care-blogsect {
+    height: auto;
+  }
+  .slider-text {
+    text-align: center;
+  }
+
+  .carecardimg {
+    width: 100% !important;
+  }
+  .caretext {
+    line-height: 30px;
+    font-size: 20px;
+  }
+  .carehero {
+    margin-top: 0;
+  }
+  .screenContainer p {
+    text-align: center;
+  }
+  .blogs {
+    margin-top: 2rem;
+  }
+  .blogs h2 {
+    padding: 0;
+  }
+  .blogContainer {
+    padding: 1rem;
+  }
+  .bloghero {
+    padding-top: 0;
+    flex-direction: column;
+    text-align: center;
+  }
+  .blogherotext {
+    padding-top: 1rem;
+  }
+  .contacthero {
+    margin-top: 0;
+  }
+  .map-container {
+    width: 100%;
+  }
+  .contactLstChild {
+    width: 100%;
+    padding-top: 1rem;
+  }
+  .contactlst {
+    flex-direction: column;
+  }
+  .contactsect {
+    align-items: center;
+  }
+  .contact-hero img {
+    margin-top: 0;
+  }
+  .new-doctor-alt {
+    flex-direction: column-reverse !important;
+  }
+  .main-team {
+    width: 100%;
+    text-align: center;
+  }
+  .new-doctor {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
+  .doctor-description {
+    width: 100%;
+    text-align: -webkit-center;
+  }
+  .subheader-bold-left {
+    text-align: center;
+  }
+  .main-img {
+    position: relative;
+  }
+  .home-team {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .home-hero {
+    position: relative;
+    flex-direction: column;
+    padding: 0 6rem !important;
+  }
+  .about-hero-text {
+    width: 100%;
+    text-align: center;
+  }
+  .hero-img img {
+    width: 100%;
+    right: 0;
+  }
+  .hero-img {
+    position: relative;
+    justify-content: center;
+  }
   .homeimg3 {
     position: relative;
     top: -620px;
@@ -1357,11 +1508,7 @@ a li {
     text-align: center;
     margin-bottom: 10px;
   }
-  .herotext {
-    width: 64% !important;
-    bottom: 15rem !important;
-    font-size: 10px;
-  }
+
   .blogsect {
     display: flex;
     flex-direction: column;
@@ -1613,6 +1760,12 @@ a li {
   }
 }
 @media screen and (max-width: 500px) {
+  .hrr2 {
+    display: flex;
+  }
+  .zindexx {
+    margin-top: 0;
+  }
   .care-hero {
     height: auto !important;
   }
@@ -1649,9 +1802,11 @@ a li {
     align-items: center;
     display: flex;
     flex-direction: column;
+    width: 50%;
   }
   .contactLstChild {
     width: 100%;
+    margin-top: 1rem;
   }
   .contactlst {
     flex-direction: column;
@@ -1680,6 +1835,8 @@ a li {
   }
   .title-header-left {
     text-align: center !important;
+    font-size: 25px;
+    line-height: 34px;
   }
   .subheader-bold-left {
     text-align: center !important;
@@ -1754,39 +1911,11 @@ a li {
 .carecardimg {
   width: 100%;
 }
-@media screen and (max-width: 380px) {
-  .secttext {
-    margin-top: -20%;
-  }
-  .homeimg3 {
-    top: -289px;
-    height: 465px;
-    width: 148px;
-  }
-  .servtab {
-    display: flex;
-    flex-direction: column;
+
+@media screen and (max-width: 460px) {
+  .slider-text {
     width: 100%;
   }
-  .iphone {
-    position: relative;
-    top: -230px;
-  }
-  .iphonetxt {
-    margin-top: 136px;
-    width: 170%;
-  }
-
-  /* .careparagh{
-    width: 180%;
-    margin-left: -32px;
-    } */
-  .webbtn {
-    width: 124%;
-    padding: 7px;
-  }
-}
-@media screen and (max-width: 460px) {
   .imgwid {
     width: 95%;
   }
@@ -1836,6 +1965,53 @@ a li {
   }
 }
 
+@media screen and (max-width: 380px) {
+  .bg-white {
+    margin-bottom: 0 !important;
+  }
+  /* .nav-link {
+    margin: 10px !important;
+  } */
+  .footer {
+    position: initial;
+  }
+  .what-our-patient {
+    margin-top: -5rem;
+  }
+  .homeservices {
+    margin-top: -1rem;
+  }
+  .secttext {
+    margin-top: -20%;
+  }
+  .homeimg3 {
+    top: -289px;
+    height: 465px;
+    width: 148px;
+  }
+  .servtab {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .iphone {
+    position: relative;
+    top: -230px;
+  }
+  .iphonetxt {
+    margin-top: 136px;
+    width: 170%;
+  }
+
+  /* .careparagh{
+    width: 180%;
+    margin-left: -32px;
+    } */
+  .webbtn {
+    width: 124%;
+    padding: 7px;
+  }
+}
 .dropdown {
   float: left;
 }
