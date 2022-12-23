@@ -1023,6 +1023,7 @@ a li {
   font-size: 18px;
   border: none;
   color: blue;
+  margin: 1rem auto;
 }
 
 .read-more:hover {
