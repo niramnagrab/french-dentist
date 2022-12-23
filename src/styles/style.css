@@ -1768,6 +1768,12 @@ a li {
   }
 }
 @media screen and (max-width: 500px) {
+  .detailContainer {
+    max-width: 100% !important;
+  }
+  .detailContainer p {
+    margin: auto 2rem 2rem 2rem;
+  }
   .detailContainer h2 {
     text-align: center;
     font-size: 2rem;
