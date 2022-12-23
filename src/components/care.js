@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/style.css";
 import { useTranslation } from "react-i18next";
-import {  Nav } from "react-bootstrap";
+import { Nav } from "react-bootstrap";
 
 const CARD_DATA = [
   {
@@ -47,7 +47,7 @@ function Care() {
 
   return (
     <div className="carepage">
-      <div>
+      <div className="carehero-container ">
         <img
           className="carehero w-100"
           src="./homepics/treatment2.webp"

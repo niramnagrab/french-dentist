@@ -1314,6 +1314,14 @@ a li {
   max-height: 20rem;
 }
 
+.carepage img.carehero {
+  width: 100%;
+}
+
+.carehero-container {
+  width: 100%;
+  overflow: hidden;
+}
 @media screen and (max-width: 992px) {
   .homeherosection {
     flex-direction: column;
@@ -1760,6 +1768,9 @@ a li {
   }
 }
 @media screen and (max-width: 500px) {
+  .carepage img.carehero {
+    width: 150% !important;
+  }
   .hometxt1 {
     padding: 0;
     bottom: unset;
