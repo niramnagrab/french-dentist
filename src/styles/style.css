@@ -1120,7 +1120,6 @@ a li {
   height: 80px;
 }
 
-
 @media screen and (max-width: 1050px) {
   .homescroll {
     display: flex;
@@ -1906,6 +1905,12 @@ a li {
   .homeservices {
     margin-top: -2rem;
   }
+  .socialicons {
+    margin: 0;
+  }
+  .upperheader {
+    justify-content: space-evenly;
+  }
 }
 
 .carecardimg {
@@ -1945,6 +1950,7 @@ a li {
   }
   .upperheader {
     height: 7rem;
+    justify-content: space-evenly;
   }
 
   .navbar > .container,
@@ -1962,6 +1968,7 @@ a li {
   .socialicons {
     height: 30%;
     padding-bottom: 20px;
+    margin: 0;
   }
 }
 
