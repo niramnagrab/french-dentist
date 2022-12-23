@@ -1943,6 +1943,10 @@ a li {
 }
 
 @media screen and (max-width: 460px) {
+  .treatment-image img {
+    width: 80%;
+    height: auto;
+  }
   .slider-text {
     width: 100%;
   }
