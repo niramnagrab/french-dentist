@@ -1768,6 +1768,9 @@ a li {
   }
 }
 @media screen and (max-width: 500px) {
+  .cardheadingparagragh {
+    padding: 0;
+  }
   .carepage img.carehero {
     width: 150% !important;
   }
