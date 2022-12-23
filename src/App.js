@@ -126,7 +126,7 @@ export default function App() {
                   }`}
                   href="/contactus"
                 >
-                  {t("part7")}
+                  {t("part6")}
                 </Nav.Link>
                 <Nav.Link>
                   <div className="language-select">
