@@ -141,7 +141,7 @@ a li {
   justify-content: center;
 }
 .miniheadertxt {
-  margin: 0.6rem 0 0 1.5rem;
+  margin: 0 0 0 1.5rem;
   display: flex;
   align-items: center;
 }
@@ -652,6 +652,7 @@ a li {
 }
 .upperfooter {
   background-color: #bfc0c0;
+  padding-top: 100px;
   /* margin-bottom: 213px; */
 }
 .lowerfooter {
@@ -1092,6 +1093,7 @@ a li {
 .normal-p-text {
   font-size: 19px;
   line-height: 25px;
+  padding-bottom: 20px;
 }
 
 .normal-p-small {
@@ -1116,6 +1118,11 @@ a li {
 .wechat:hover {
   background-image: "../../public/homepics/QR.png";
 }
+
+.logo {
+  height: 80px;
+}
+
 
 @media screen and (max-width: 1050px) {
   .homescroll {
@@ -1818,7 +1825,7 @@ a li {
   .navbar > .container-sm,
   .navbar > .container-xl,
   .navbar > .container-xxl {
-    margin-top: 35%;
+    margin-top: 25%;
   }
   .text-justify {
     margin-bottom: 10%;
