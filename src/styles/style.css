@@ -1768,6 +1768,10 @@ a li {
   }
 }
 @media screen and (max-width: 500px) {
+  .detailContainer h2 {
+    text-align: center;
+    font-size: 2rem;
+  }
   .blogherotext .h2-bold {
     padding-top: 30px;
   }
@@ -1775,6 +1779,13 @@ a li {
     padding: 0;
   }
   .carepage img.carehero {
+    width: 150% !important;
+  }
+  .contact-hero {
+    width: 100%;
+    overflow: hidden;
+  }
+  .contact-hero img.contacthero {
     width: 150% !important;
   }
   .hometxt1 {
