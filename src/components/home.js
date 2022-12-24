@@ -27,7 +27,7 @@ function Home() {
         
       </div> */}
 
-      <div>
+      <div className="homeherosection">
         <div>
           <video className="heroimg" autoPlay muted loop>
             <source src={Video} type="video/mp4" />
@@ -35,7 +35,7 @@ function Home() {
         </div>
         <div className="hometxt1">
           <div className="title-header-left">{t("part25")}</div>
-          <p className="">{t("part26")}</p>
+          <p className="subheader-bold-left">{t("part26")}</p>
           <a className="team-btn" href="tel:+8602151699696">
             {t("callus")}
           </a>
