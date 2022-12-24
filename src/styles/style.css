@@ -1795,9 +1795,10 @@ a li {
     width: 150% !important;
   }
   .hometxt1 {
-    padding: 0;
+    padding: 5% 10%;
     bottom: unset;
     top: unset;
+    width: 100%;
   }
   .hrr2 {
     display: flex;
@@ -1894,7 +1895,6 @@ a li {
   }
   .section1 {
     flex-direction: column-reverse;
-    margin-top: 90px !important;
   }
   .subheader-normal-left {
     text-align: center;
@@ -2034,6 +2034,9 @@ a li {
   }
   .homeservices {
     margin-top: -1rem;
+  }
+  .section1 .secttext {
+    margin-top: 0;
   }
   .secttext {
     margin-top: -20%;
