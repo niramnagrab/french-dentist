@@ -90,7 +90,7 @@ function Contactus() {
       <div className="contactdetails">
         <div className="contactsect mt-5">
           <img
-            className="mr-5 mt-4 imgggg"
+            className="mr-0 mr-md-5 mt-4 imgggg"
             src="./homepics/appointment.png"
             alt=""
           />
@@ -101,7 +101,7 @@ function Contactus() {
         </div>
         <div className="contactsect  mt-5">
           <img
-            className="mr-5 mt-4 imgggg"
+            className="mr-0 mr-md-5 mt-4 imgggg"
             src="./homepics/payment-mehotd.png"
             alt=""
           />
@@ -112,7 +112,7 @@ function Contactus() {
         </div>
         <div className="contactsect  mt-5">
           <img
-            className="mr-5 mt-4 imgggg"
+            className="mr-0 mr-md-5 mt-4 imgggg"
             src="./homepics/affection 1.png"
             alt=""
           />
@@ -122,14 +122,22 @@ function Contactus() {
           </div>
         </div>
         <div className="contactsect  mt-5">
-          <img className="mr-5 mt-4 imgggg" src="./homepics/care.png" alt="" />
+          <img
+            className="mr-0 mr-md-5 mt-4 imgggg"
+            src="./homepics/care.png"
+            alt=""
+          />
           <div className="mt-3">
             <h5 className="mb-3 subheader-bold-left">{t("part1181")}</h5>
             <h6 className="pcon p-text">{t("part1182")}</h6>
           </div>
         </div>
         <div className="contactsect  mt-5">
-          <img className="mr-5 mt-4 imgggg" src="./homepics/relax.png" alt="" />
+          <img
+            className="mr-0 mr-md-5 mt-4 imgggg"
+            src="./homepics/relax.png"
+            alt=""
+          />
           <div className="mt-3">
             <h5 className="mb-3 subheader-bold-left">{t("part1191")}</h5>
             <h6 className="pcon p-text">{t("part1192")}</h6>

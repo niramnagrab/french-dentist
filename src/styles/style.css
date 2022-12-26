@@ -1757,6 +1757,9 @@ a li {
   }
 }
 @media screen and (max-width: 500px) {
+  .imgggg {
+    text-align: center;
+  }
   .detailContainer {
     max-width: 100% !important;
   }
@@ -1805,7 +1808,7 @@ a li {
     text-align: center;
     padding-top: 0rem !important;
   }
-  .team-btn {
+  .care-hero-text div.team-btn {
     width: 100%;
     margin: 1rem 0 !important;
   }
@@ -1950,6 +1953,9 @@ a li {
 }
 
 @media screen and (max-width: 460px) {
+  .imgggg {
+    margin-left: 0;
+  }
   .treatment-image img {
     width: 80%;
     height: auto;
