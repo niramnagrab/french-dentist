@@ -1580,6 +1580,9 @@ a li {
   .card-body {
     text-align: center;
   }
+  .care-hero .care-hero-text {
+    margin-top: 1rem;
+  }
   .bloghero {
     flex-direction: column-reverse;
     margin-bottom: 2rem;
