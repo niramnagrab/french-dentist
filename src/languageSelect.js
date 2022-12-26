@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import i18next from "i18next";
 
@@ -12,7 +12,7 @@ import ListItem from "@material-ui/core/ListItem";
 const languageMap = {
   en: { label: "English", dir: "ltr", active: true },
   fr: { label: "Français", dir: "ltr", active: false },
-  chi: { label: "中文", dir: "ltr", active: false },
+  chi: { label: "中文", dir: "ltr", active: false }
 };
 
 const LanguageSelect = () => {
@@ -24,20 +24,22 @@ const LanguageSelect = () => {
   React.useEffect(() => {
     document.body.dir = languageMap[selected].dir;
   }, [menuAnchor, selected]);
- const handleBtnClick=(currentTarget)=>{
-  setMenuAnchor(currentTarget)
-  setOpen(!open)
-
- }
+  const handleBtnClick = (currentTarget) => {
+    setMenuAnchor(currentTarget);
+    setOpen(!open);
+  };
   return (
     <div className="d-flex justify-content-end align-items-center language-select-root">
-  
-      <Button 
-      // onClick={(e)=>handleBtnClick}
-      onClick={({ currentTarget }) => handleBtnClick(currentTarget)}
+      <Button
+        // onClick={(e)=>handleBtnClick}
+        onClick={({ currentTarget }) => handleBtnClick(currentTarget)}
       >
         {languageMap.label}
-        <img src="./homepics/language.svg" className="languageswitch" alt="language-change-icon"  />
+        <img
+          src="./homepics/language.svg"
+          className="languageswitch"
+          alt="language-change-icon"
+        />
       </Button>
       <Popover
         open={open}
@@ -54,19 +56,19 @@ const LanguageSelect = () => {
       >
         <div>
           <List>
-            {/* <ListSubheader>{t("select_language")}</ListSubheader> */}
-            {Object.keys(languageMap)?.map(item => (
-              <ListItem
-                button
-                key={item}
-                onClick={() => {
-                  i18next.changeLanguage(item);
-                  setOpen(false);
-                }}
-              >
-                {languageMap[item].label}
-              </ListItem>
-            ))}
+            {Object.keys(languageMap).map((item) => {
+              return (
+                <ListItem
+                  button
+                  onClick={() => {
+                    i18next.changeLanguage(item);
+                    setOpen(false);
+                  }}
+                >
+                  {languageMap[item].label}
+                </ListItem>
+              );
+            })}
           </List>
         </div>
       </Popover>
