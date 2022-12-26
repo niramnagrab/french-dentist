@@ -1757,6 +1757,9 @@ a li {
   }
 }
 @media screen and (max-width: 500px) {
+  .blogbtn a.team-btn {
+    width: 100%;
+  }
   .imgggg {
     text-align: center;
   }
