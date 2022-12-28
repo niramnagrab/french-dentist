@@ -130,7 +130,9 @@ function Home() {
       </div>
 
       <div className="zindexx what-our-patient pt-3 pt-md-5 pb-3">
-        <div className="title-header-center mt-0 mt-md-5 ">{t("part44")}</div>
+        <div className="title-header-center mt-0 mt-md-0 mt-sm-5">
+          {t("part44")}
+        </div>
         <span className="line-middle"></span>
       </div>
 
