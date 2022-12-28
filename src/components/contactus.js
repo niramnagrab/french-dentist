@@ -88,9 +88,9 @@ function Contactus() {
       <h2 className="title-header-center mt-5 ">{t("part113")}</h2>
 
       <div className="contactdetails">
-        <div className="contactsect mt-5">
+        <div className="contactsect mt-0 mt-md-5">
           <img
-            className="mr-5 mt-4 imgggg"
+            className="mr-0 mr-md-5 mt-4 imgggg"
             src="./homepics/appointment.png"
             alt=""
           />
@@ -99,9 +99,9 @@ function Contactus() {
             <h6 className="pcon p-text">{t("part115")}</h6>
           </div>
         </div>
-        <div className="contactsect  mt-5">
+        <div className="contactsect mt-0 mt-md-5">
           <img
-            className="mr-5 mt-4 imgggg"
+            className="mr-0 mr-md-5 mt-4 imgggg"
             src="./homepics/payment-mehotd.png"
             alt=""
           />
@@ -110,9 +110,9 @@ function Contactus() {
             <h6 className="pcon p-text">{t("part117")}</h6>
           </div>
         </div>
-        <div className="contactsect  mt-5">
+        <div className="contactsect mt-0 mt-md-5">
           <img
-            className="mr-5 mt-4 imgggg"
+            className="mr-0 mr-md-5 mt-4 imgggg"
             src="./homepics/affection 1.png"
             alt=""
           />
@@ -121,15 +121,23 @@ function Contactus() {
             <h6 className="pcon p-text">{t("part119")}</h6>
           </div>
         </div>
-        <div className="contactsect  mt-5">
-          <img className="mr-5 mt-4 imgggg" src="./homepics/care.png" alt="" />
+        <div className="contactsect mt-0 mt-md-5">
+          <img
+            className="mr-0 mr-md-5 mt-4 imgggg"
+            src="./homepics/care.png"
+            alt=""
+          />
           <div className="mt-3">
             <h5 className="mb-3 subheader-bold-left">{t("part1181")}</h5>
             <h6 className="pcon p-text">{t("part1182")}</h6>
           </div>
         </div>
-        <div className="contactsect  mt-5">
-          <img className="mr-5 mt-4 imgggg" src="./homepics/relax.png" alt="" />
+        <div className="contactsect mt-0 mt-md-5">
+          <img
+            className="mr-0 mr-md-5 mt-4 imgggg"
+            src="./homepics/relax.png"
+            alt=""
+          />
           <div className="mt-3">
             <h5 className="mb-3 subheader-bold-left">{t("part1191")}</h5>
             <h6 className="pcon p-text">{t("part1192")}</h6>
