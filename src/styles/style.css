@@ -1023,6 +1023,7 @@ a li {
   font-size: 18px;
   border: none;
   color: blue;
+  margin: 1rem auto;
 }
 
 .read-more:hover {
@@ -1120,7 +1121,6 @@ a li {
   height: 80px;
 }
 
-
 @media screen and (max-width: 1050px) {
   .homescroll {
     display: flex;
@@ -1183,7 +1183,6 @@ a li {
     text-align: center;
     clear: both;
     position: relative;
-    bottom: 20rem;
     width: 100%;
     padding: 0 5% 0;
   }
@@ -1250,9 +1249,6 @@ a li {
 
 .homeherosection {
   width: 100%;
-  height: calc(100vh - 0px);
-  height: calc(100vh - 0px);
-  margin-top: -100px;
   align-items: center;
   display: flex;
 }
@@ -1292,14 +1288,6 @@ a li {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transform: scale(1.05);
 }
-/* .hometxt1 {
-  width: 50%;
-  padding: 30px 60px;
-  /* margin-top: 100px; */
-/* } 
-  padding: 114px;
-  margin-top: 100px;
-} */
 .contactLstChild {
   width: 50%;
 }
@@ -1314,16 +1302,25 @@ a li {
   max-height: 20rem;
 }
 
+.carepage img.carehero {
+  width: 100%;
+}
+
+.carehero-container {
+  width: 100%;
+  overflow: hidden;
+}
 @media screen and (max-width: 992px) {
   .homeherosection {
     flex-direction: column;
-    margin-bottom: 300px;
-    margin-top: 8rem;
   }
   .hometxt1 {
     width: 90%;
     padding: 20px;
     margin-top: 45px !important;
+  }
+  .title-header-left {
+    text-align: center !important;
   }
   .secttext {
     margin-top: 15%;
@@ -1583,6 +1580,9 @@ a li {
   .card-body {
     text-align: center;
   }
+  .care-hero .care-hero-text {
+    margin-top: 1rem;
+  }
   .bloghero {
     flex-direction: column-reverse;
     margin-bottom: 2rem;
@@ -1622,7 +1622,7 @@ a li {
   .home-hero {
     position: relative;
     flex-direction: column;
-    padding: 0;
+    padding: 0px 2rem !important;
   }
   .about-hero-text {
     width: auto;
@@ -1760,6 +1760,44 @@ a li {
   }
 }
 @media screen and (max-width: 500px) {
+  .blogbtn a.team-btn {
+    width: 100%;
+  }
+  .imgggg {
+    text-align: center;
+  }
+  .detailContainer {
+    max-width: 100% !important;
+  }
+  .detailContainer p {
+    margin: auto 2rem 2rem 2rem;
+  }
+  .detailContainer h2 {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .blogherotext .h2-bold {
+    padding-top: 30px;
+  }
+  .cardheadingparagragh {
+    padding: 0;
+  }
+  .carepage img.carehero {
+    width: 150% !important;
+  }
+  .contact-hero {
+    width: 100%;
+    overflow: hidden;
+  }
+  .contact-hero img.contacthero {
+    width: 150% !important;
+  }
+  .hometxt1 {
+    padding: 5% 10%;
+    bottom: unset;
+    top: unset;
+    width: 100%;
+  }
   .hrr2 {
     display: flex;
   }
@@ -1776,9 +1814,9 @@ a li {
     text-align: center;
     padding-top: 0rem !important;
   }
-  .team-btn {
+  .care-hero-text div.team-btn {
     width: 100%;
-    margin: 1rem 0 0 0 !important;
+    margin: 1rem 0 !important;
   }
   .care-blogsect {
     height: auto !important;
@@ -1832,6 +1870,7 @@ a li {
   }
   .homeherosection {
     margin-top: 0;
+    margin-bottom: 0;
   }
   .title-header-left {
     text-align: center !important;
@@ -1844,6 +1883,7 @@ a li {
   }
   .homeimg2 {
     padding-top: 0;
+    padding-bottom: 0;
   }
   .about-image {
     justify-content: center;
@@ -1906,6 +1946,12 @@ a li {
   .homeservices {
     margin-top: -2rem;
   }
+  .socialicons {
+    margin: 0;
+  }
+  .upperheader {
+    justify-content: space-evenly;
+  }
 }
 
 .carecardimg {
@@ -1913,6 +1959,13 @@ a li {
 }
 
 @media screen and (max-width: 460px) {
+  .imgggg {
+    margin-left: 0;
+  }
+  .treatment-image img {
+    width: 80%;
+    height: auto;
+  }
   .slider-text {
     width: 100%;
   }
@@ -1945,6 +1998,7 @@ a li {
   }
   .upperheader {
     height: 7rem;
+    justify-content: space-evenly;
   }
 
   .navbar > .container,
@@ -1962,6 +2016,7 @@ a li {
   .socialicons {
     height: 30%;
     padding-bottom: 20px;
+    margin: 0;
   }
 }
 
@@ -1980,6 +2035,9 @@ a li {
   }
   .homeservices {
     margin-top: -1rem;
+  }
+  .section1 .secttext {
+    margin-top: 0;
   }
   .secttext {
     margin-top: -20%;
@@ -2139,7 +2197,6 @@ a li {
 }
 .imageContainer {
   overflow: hidden;
-  border-radius: 1rem;
   margin: 2rem auto;
 }
 

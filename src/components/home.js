@@ -9,7 +9,7 @@ function Home() {
   const { t } = useTranslation();
   return (
     <div>
-      <div className="homeherosection">
+      {/* <div className="homeherosection">
         <div className="homevada zindexx">
           <video className="heroimg" autoPlay muted loop>
             <source src={Video} type="video/mp4" />
@@ -22,6 +22,23 @@ function Home() {
           <a className="team-btn" href="tel:+8602151699696">
             {t("callus")}
           </a>{" "}
+        </div>
+
+        
+      </div> */}
+
+      <div className="homeherosection">
+        <div>
+          <video className="heroimg" autoPlay muted loop>
+            <source src={Video} type="video/mp4" />
+          </video>
+        </div>
+        <div className="hometxt1">
+          <div className="title-header-left">{t("part25")}</div>
+          <p className="subheader-bold-left">{t("part26")}</p>
+          <a className="team-btn" href="tel:+8602151699696">
+            {t("callus")}
+          </a>
         </div>
       </div>
 
@@ -112,8 +129,8 @@ function Home() {
         </div>
       </div>
 
-      <div className="zindexx what-our-patient pt-5 pb-3">
-        <div className="title-header-center mt-5 ">{t("part44")}</div>
+      <div className="zindexx what-our-patient pt-3 pt-md-5 pb-3">
+        <div className="title-header-center mt-0 mt-md-5 ">{t("part44")}</div>
         <span className="line-middle"></span>
       </div>
 
