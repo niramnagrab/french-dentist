@@ -323,10 +323,10 @@ a li {
   padding: 5%;
   /* margin-bottom: 90vh; */
 }
-
+/* 
 .address-padding {
   padding: 15px 0px;
-}
+} */
 
 .address-padding h4 {
   font-size: 16px;
@@ -490,7 +490,7 @@ a li {
 }
 
 .cardheadingparagragh {
-  padding: 30px;
+  padding: 10px;
 }
 
 .cardheading {
@@ -568,7 +568,7 @@ a li {
 }
 .contactdetails {
   width: 80%;
-  margin: 50px 10%;
+  padding: 50px 5%;
 }
 .contactpros {
   display: flex;
@@ -641,10 +641,9 @@ a li {
 .footeradd {
   display: flex;
   flex-direction: row;
-  /* padding: 2% 5%; */
+  padding-bottom: 2%;
   justify-content: space-evenly;
   /* width: 100%; */
-  padding: 0 !important;
   margin: 0 !important;
 }
 .upperfooter {
@@ -1077,7 +1076,7 @@ a li {
   margin: auto;
   font-weight: bolder;
   padding-top: 10px;
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
 }
 
 .subheader-normal-left {
@@ -1095,7 +1094,7 @@ a li {
 }
 
 .normal-p-small {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 25px;
 }
 
@@ -1118,7 +1117,7 @@ a li {
 }
 
 .logo {
-  height: 80px;
+  height: 60px;
 }
 
 @media screen and (max-width: 1050px) {
@@ -1197,6 +1196,7 @@ a li {
     clear: both;
     display: flex;
     flex-direction: column;
+    padding: 5% 5% 0%;
   }
   .homeimg2 {
     width: 80%;
@@ -1207,6 +1207,13 @@ a li {
     margin-right: 10%;
     margin-top: -20%;
   }
+
+  .new-doctor {
+    /* border: 2px solid red; */
+    display: flex;
+    padding: 5%;
+  }
+
   .homeimg3 {
     position: relative;
     bottom: 750px;
@@ -1293,7 +1300,7 @@ a li {
   width: 50%;
 }
 .blogContainer {
-  padding: 5rem;
+  padding: 3rem;
 }
 .cardBody {
   height: 16rem;
@@ -1335,12 +1342,38 @@ a li {
     margin-top: -15rem;
   }
   .zindexx {
-    /* margin-top: -8rem; */
+    margin-top: -6rem;
+  }
+
+  .upperfooter {
+    padding-top: 190px;
+  }
+
+  .caresect {
+    width: 40%;
+    margin-bottom: 15px;
+  }
+
+  .doctor-description h1 {
+    width: 100%;
+    text-align: center;
+    padding: 8px 12px;
   }
 
 
 .subheader-bold-60 {
   width: 80%;
+}
+
+.caresect2 {
+  width: 40%;
+  text-align: center;
+  padding: 20px 0;
+  margin-right: 20px;
+}
+
+.carecardimg {
+  width: 100% !important;
 }
 }
 
@@ -1457,7 +1490,7 @@ a li {
     text-align: -webkit-center;
   }
   .subheader-bold-left {
-    text-align: center;
+    text-align: left;
   }
   .main-img {
     position: relative;
@@ -1498,7 +1531,7 @@ a li {
   .caresect {
     width: 42%;
     text-align: center;
-    margin: 2% 0;
+    margin: 2%;
   }
   .carecard {
     display: flex;
@@ -1508,9 +1541,9 @@ a li {
     width: 100%;
   }
   .caresect2 {
-    width: 70%;
+    width: 90%;
     text-align: center;
-    margin-bottom: 10px;
+    padding: 20px 0;
   }
 
   .blogsect {
@@ -1531,7 +1564,7 @@ a li {
 
 
 .subheader-bold-60 {
-  width: 80%;
+  width: 100%;
 }
 }
 @media screen and (max-width: 700px) {
@@ -1590,8 +1623,8 @@ a li {
   .upperfooter {
     background-color: #bfc0c0;
     padding-top: 100px;
-    display: flex; 
-    align-items: center;
+    /* display: flex;  */
+    /* align-items: center; */
     /* margin-bottom: 213px; */
   }
 }
@@ -1607,6 +1640,13 @@ a li {
     flex-direction: column-reverse;
     margin-bottom: 2rem;
   }
+
+  .contactdetails {
+    width: 100%;
+    padding: 50px 5%;
+  }
+
+
   .blogherotext {
     padding: 0;
     text-align: center;
@@ -1621,8 +1661,9 @@ a li {
     text-align: center;
   }
   .doctor-description h1 {
-    width: auto;
+    width: 100%;
     text-align: center;
+    padding: 8px 12px;
   }
   .new-doctor {
     flex-direction: column;
@@ -1657,7 +1698,7 @@ a li {
     margin-bottom: 1rem;
   }
   .right {
-    padding: 0 2rem;
+    padding: 0 5%;
   }
   .main-img {
     position: inherit;
@@ -1727,7 +1768,7 @@ a li {
 
   .caretext {
     font-size: 25px;
-    padding-top: 40px;
+    padding: 0 5% !important;
   }
   .homeimg3 {
     position: relative;
@@ -1851,7 +1892,7 @@ a li {
     height: unset;
   }
   .blogContainer {
-    padding: 2rem;
+    /* padding: 2rem; */
   }
   .caresect {
     width: 80%;
@@ -1898,7 +1939,7 @@ a li {
     line-height: 34px;
   }
   .subheader-bold-left {
-    text-align: center !important;
+    text-align: left !important;
     font-size: 14px;
   }
   .homeimg2 {
@@ -1972,6 +2013,11 @@ a li {
   .upperheader {
     justify-content: space-evenly;
   }
+
+
+.doctor-quotation {
+  padding: 0 5%;
+}
 }
 
 .carecardimg {
