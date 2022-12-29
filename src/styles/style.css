@@ -231,8 +231,8 @@ a li {
   clear: both;
   position: absolute;
   top: 10%;
-  right: 0;
-  width: 50%;
+  right: 10%;
+  width: 40%;
   padding: 10% 7% 0 0;
 }
 
@@ -1203,6 +1203,7 @@ a li {
     position: relative;
     width: 100%;
     padding: 0 5% 0;
+    right: 0%;
   }
   .heroimg {
     height: auto;
@@ -1437,8 +1438,13 @@ a li {
     margin-top: -15rem;
   }
   .zindexx {
-    margin-top: -8rem;
+    /* margin-top: -8rem; */
   }
+
+
+.subheader-bold-60 {
+  width: 80%;
+}
 }
 
 @media screen and (max-width: 825px) {
@@ -1484,6 +1490,7 @@ a li {
   }
   .slider-text {
     text-align: center;
+    width: 100%;
   }
 
   .carecardimg {
@@ -1624,6 +1631,11 @@ a li {
     display: flex;
     flex-direction: column;
   }
+
+
+.subheader-bold-60 {
+  width: 80%;
+}
 }
 @media screen and (max-width: 700px) {
   .homeimg3 {
@@ -1675,7 +1687,15 @@ a li {
   .homeservices {
     background-color: #fafafa;
     padding: 10% 15%;
-    margin-top: -35rem;
+    /* margin-top: -35rem; */
+  }
+
+  .upperfooter {
+    background-color: #bfc0c0;
+    padding-top: 100px;
+    display: flex; 
+    align-items: center;
+    /* margin-bottom: 213px; */
   }
 }
 
@@ -1896,7 +1916,7 @@ a li {
     width: 150% !important;
   }
   .hometxt1 {
-    padding: 5% 10%;
+    padding: 5% 5%;
     bottom: unset;
     top: unset;
     width: 100%;
@@ -2088,7 +2108,7 @@ a li {
     width: 50%;
   }
   .homeservices {
-    margin-top: -5rem;
+    /* margin-top: -5rem; */
     padding: 5%;
   }
   .servtab {
