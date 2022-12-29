@@ -72,7 +72,7 @@ function Home() {
           <div>
             <img
               className="homefullwid"
-              src="./homepics/noun_dental care_3740157 2.png"
+              src="./homepics/teeth-cleaning.png"
               alt=""
             />
           </div>
@@ -107,7 +107,7 @@ function Home() {
         </div>
         <div className="servtab">
           <div>
-            <img className="homefullwid" src="./homepics/braces.png" alt="" />
+            <img className="homefullwid" src="./homepics/invisalign.png" alt="" />
           </div>
           <div className="ml-5 hometxtsect">
             <div className="h3-bold font-weight-bolder mb-3 servLink">

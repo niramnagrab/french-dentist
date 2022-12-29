@@ -45,7 +45,7 @@ function Contactus() {
           <p className="super-small">
             {t("part13")}
             <br />
-            {t("part131")}
+            {t("saturday")}
           </p>
         </div>
         <div className="caresect mr-3">
