@@ -14,10 +14,10 @@ import { Container, Navbar, Nav } from "react-bootstrap";
 
 import DentalCheckUp from "./components/services/dental-checkup";
 import TeethWhitening from "./components/services/teeth-whitening";
-import TeethCleanings from "./components/services/teeth-whitening";
+import TeethCleanings from "./components/services/teeth-cleaning";
 import Veneers from "./components/services/veneers";
 import Invisalign from "./components/services/invisalign";
-import EmergenciesAndMore from "./components/services/invisalign";
+import EmergenciesAndMore from "./components/services/emergencies-and-more";
 import BlogDetails from "./components/blog-details";
 
 export default function App() {
@@ -152,12 +152,12 @@ export default function App() {
           ></Route>
           <Route
             exact
-            path="/teeth-whitening"
+            path="/orthodontics"
             element={<TeethWhitening />}
           ></Route>
           <Route
             exact
-            path="/orthodontics"
+            path="/teeth-whitening"
             element={<TeethCleanings />}
           ></Route>
           <Route exact path="/dental-implants" element={<Veneers />}></Route>
