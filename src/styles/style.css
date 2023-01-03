@@ -65,8 +65,8 @@ a li {
 
 .navbar-light .navbar-nav .nav-link {
   color: #183047 !important;
-  padding-right: 1rem !important;
-  padding-left: 1rem !important;
+  padding-right: 1.3rem !important;
+  padding-left: 1.3rem !important;
 }
 
 .nav-link:hover {
@@ -278,7 +278,7 @@ a li {
   clear: both;
   display: flex;
   flex-direction: row;
-  padding: 5% 10% 0%;
+  padding: 10% 10% 0%;
   align-items: center;
 }
 
@@ -495,7 +495,7 @@ a li {
 
 .cardheading {
   color: #014f86;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .sectimg {
@@ -803,6 +803,13 @@ a li {
   /* gap: 2.5rem; */
   width: 50%;
 }
+
+.main2 {
+  width: 50%;
+  padding: 10% 5% 5% 5%;
+}
+
+
 .main .title {
   text-transform: uppercase;
   font-weight: 900;
@@ -825,6 +832,11 @@ a li {
   justify-content: space-between;
   align-items: flex-end;
 }
+
+.padding-bottom {
+  padding-bottom: 30px;
+}
+
 .hero-btn {
   background-color: #c7a17a;
   color: white;
@@ -1011,10 +1023,10 @@ a li {
 
 .doctor-description h1 {
   background-color: #c7a17a;
-  padding: 12px 24px;
+  padding: 8px 26px;
   border-radius: 24px;
   font-size: 25px;
-  width: 40%;
+  width: fit-content;
   color: white;
 }
 
@@ -1048,7 +1060,7 @@ a li {
 .title-header-left {
   text-align: left !important;
   line-height: 45px;
-  font-size: 36px;
+  font-size: 35px;
   color: #183047;
   font-weight: bolder !important;
 }
@@ -1094,7 +1106,7 @@ a li {
 }
 
 .normal-p-small {
-  font-size: 20px;
+  font-size: 15px;
   line-height: 25px;
 }
 
@@ -1257,6 +1269,7 @@ a li {
 
 .homeherosection {
   width: 100%;
+  height: 64vh;
   align-items: center;
   display: flex;
 }
@@ -1321,6 +1334,7 @@ a li {
 @media screen and (max-width: 992px) {
   .homeherosection {
     flex-direction: column;
+    height: auto;
   }
   .hometxt1 {
     width: 90%;
