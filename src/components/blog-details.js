@@ -12,7 +12,7 @@ function BlogDetails() {
       <div className="detailContainer">
         <h2>{title}</h2>
         <div className="imageContainer">
-          <img src={imgURL} className={"blogImg"} />
+          <img src={imgURL} className={"blogImg"} style={{ width: '100%' }} />
         </div>
         <p>{description}</p>
       </div>
