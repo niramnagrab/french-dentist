@@ -10,21 +10,27 @@ function Blog() {
   useEffect(() => {
     sanityClient
       .fetch(
-        `*[_type == "products"]{
+        `*[_type == "post"]{
             title,
-            description,
+            body,
             slug,
-            image
+            author->,
+            categories[]->,
+            publishedAt,
+            mainImage{asset->}
         }`
       )
-      //   .then((data) => setAllPosts(data))
-      .then((data) => setBlogs(data))
+      .then((data) => {
+        setBlogs(data)
+
+      })
       .catch((error) => {
         alert("Something went wrong...");
         console.log(error);
       });
   }, []);
   const { t } = useTranslation();
+  console.log(blogs)
   return (
     <div className="blogpage">
       <div className="bloghero">
@@ -54,14 +60,17 @@ function Blog() {
           <div className="blogContainer">
             <Row>
               {blogs.map((blog) => {
-                const { description, title, image, slug } = blog;
+        
                 return (
                   <Col xs={12} md={6} lg={4} >
                     <BlogCard
-                      description={description}
-                      title={title}
-                      imgURL={image}
-                      slug={slug}
+                      description={blog.body[0].children[0].text}
+                      title={blog.title}
+                      imgURL={blog.mainImage.asset.url}
+                      slug={blog.slug}
+                      author={blog.author.name}
+                      categories={blog.categories}
+                      published={blog.publishedAt}
                     />
                   </Col>
                 );
