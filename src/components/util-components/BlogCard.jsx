@@ -22,12 +22,12 @@ function BlogCard(props) {
         <Card.Img variant="top" src={imgURL} />
       </div>
       <Card.Body className={"cardBody"}>
-        <Card.Title style={{ fontWeight: 'bold' }}>{title}</Card.Title>
-        <Card.Subtitle className="mb-2 text-muted" style={{ fontSize: '19px' }} >Written by: <span style={{ fontWeight: 'bold', textTransform: 'capitalize', color: 'black' }}>{author}</span></Card.Subtitle>
-        {categories.length > 1 && (
+        <Card.Title style={{ fontWeight: 'bold' }}>{title && title}</Card.Title>
+       {author && ( <Card.Subtitle className="mb-2 text-muted" style={{ fontSize: '19px' }} >Written by: <span style={{ fontWeight: 'bold', textTransform: 'capitalize', color: 'black' }}>{author && author}</span></Card.Subtitle>)}
+        {categories && categories.length > 1 && (
           <Card.Subtitle className="mb-2 text-muted " style={{ fontSize: '19px', display: 'flex', gap: '6px' }}
           >Categories:
-            {categories.length > 1 && categories.map((item, i) => {
+            {categories && categories.length > 1 && categories.map((item, i) => {
               return <div key={i}
               >
                 <span style={{ fontWeight: 'bold', color: 'black' }}>
@@ -37,7 +37,7 @@ function BlogCard(props) {
             })}
           </Card.Subtitle>
         )}
-        {categories.length === 1 && (
+        {categories && categories.length === 1 && (
           <Card.Subtitle className="mb-2 text-muted" style={{ fontSize: '19px' }}
           >Categories:
             <span style={{ fontWeight: 'bold', color: 'black', marginLeft: '6px' }}>{categories[0].title}</span>
