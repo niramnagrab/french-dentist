@@ -65,10 +65,10 @@ function Blog() {
                   <Col xs={12} md={6} lg={4} >
                     <BlogCard
                       description={blog.body[0].children[0].text}
-                      title={blog.title}
+                      title={blog.title && blog.title}
                       imgURL={blog.mainImage.asset.url}
                       slug={blog.slug}
-                      author={blog.author.name}
+                      author={blog.author && blog.author.name}
                       categories={blog.categories}
                       published={blog.publishedAt}
                     />
