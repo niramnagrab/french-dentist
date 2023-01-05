@@ -23,6 +23,8 @@ function About() {
           <p className="subheader-bold-left">{t("abouttext")}</p>
           <Box marginTop={{lg : '30px'}}>
           <a href="/contact" className="team-btn" >
+          <p className="subheader-bold-left padding-bottom">{t("abouttext")}</p>
+          <a className="team-btn" href="tel:+8602151699696">
             {t("aboutbutton")}
           </a>
           </Box>
@@ -53,9 +55,14 @@ function About() {
           <div className="hrr hrr2">
             <span class="line-middle"></span>
           </div>
-          <p className="normal-p-text">{t("aboutintro")}</p>
+          <p className="normal-p-text">{t("aboutintro1")}
+   
+          </p>
+          <p className="normal-p-text">
+         {t("aboutintro2")}
+          </p>
           <div className="seeTreatbtn">
-            <a href="/" className="team-btn">
+            <a href="/care" className="team-btn">
               {t("abouttreatments")}
             </a>
           </div>

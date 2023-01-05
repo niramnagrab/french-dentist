@@ -21,18 +21,15 @@ function Team() {
         </div>
         <div className="main main-team">
           <p className="title-header-left">
-            A team of <span>international dentists</span>
+          Meet your new dentist
           </p>
-          <p className="subheader-bold-left">
-            French Dentist dentists and staff were selected for their
-            experience, commitment to excellent results and quality patient
-            care. Our mission is to provide a patient-first focus on ensuring
-            you are always comfortable during your visit.
+          <p className="subheader-bold-left padding-bottom">
+          French Dentist dentists and staff were selected for their experience, commitment to excellent results and quality patient care. Our mission is to provide a patient-first focus on ensuring you are always comfortable during your visit. Whether it is a general dental check-up or a cosmetic treatment, our team will support you throughout your visit. We've thought about every detail of your visit so you don't have to. We will work hard, but want it to feel effortless.
           </p>
           <div className="call-us-btn">
-            <a href="/contact" className="team-btn">
-              Call us now
-            </a>
+          <a className="team-btn" href="tel:+8602151699696">
+            {t("callus")}
+          </a>
           </div>
         </div>
       </div>
