@@ -33,12 +33,19 @@ function Home() {
             <source src={Video} type="video/mp4" />
           </video>
         </div>
-        <div className="hometxt1">
-          <div className="title-header-left">{t("part25")}</div>
-          <p className="subheader-bold-left">{t("part26")}</p>
+
+        <div className="main main-team main2">
+          <p className="title-header-left">
+          {t("part25")}
+          </p>
+          <p className="subheader-bold-left padding-bottom">
+          {t("part26")}
+          </p>
+          <div className="call-us-btn">
           <a className="team-btn" href="tel:+8602151699696">
             {t("callus")}
           </a>
+          </div>
         </div>
       </div>
 
@@ -46,7 +53,7 @@ function Home() {
         <div className="secttext">
           <div className="title-header-center">{t("part27")}</div>
           <span className="line-middle"></span>
-          <div className="text-center">{[t("part28")]}</div>
+          <div className="normal-p-text">{[t("part28")]}</div>
         </div>
         <div className="about-image">
           <img className="homeimg2" src="./homepics/reception1.jpg" alt="" />
