@@ -55,6 +55,7 @@ function Team() {
             ]}
             readMore={"Read More"}
             seeLess={"See Less"}
+            paraNo = '1st'
           />
         </div>
       </div>
@@ -73,6 +74,8 @@ function Team() {
             ]}
             readMore={"Read More"}
             seeLess={"See Less"}
+            paraNo = '2nd'
+
           />
         </div>
         <div className="doctor-image">
@@ -98,6 +101,8 @@ function Team() {
             ]}
             readMore={"Read More"}
             seeLess={"See Less"}
+            paraNo = '3rd'
+
           />
         </div>
       </div>

@@ -12,7 +12,13 @@ function Blog() {
       .fetch(
         `*[_type == "post"]{
             title,
-            body,
+            body[]{
+              ...,
+              _type == "image" => {
+                ...,
+                asset->
+              }
+            },
             slug,
             author->,
             categories[]->,
@@ -20,8 +26,13 @@ function Blog() {
             mainImage{asset->}
         }`
       )
-      .then((data) => {
+      .then(async(data) => {
         setBlogs(data)
+        await sanityClient.fetch(`*[_type == "reference" && _id == "image-998a9b93bf67377396ac6206978f8d1494b69f0b-1920x1080-png"]{
+        asset
+        }`).then(response => {
+          console.info('RESPONSE', response);
+        })
 
       })
       .catch((error) => {
@@ -64,13 +75,11 @@ function Blog() {
                 return (
                   <Col xs={12} md={6} lg={4} >
                     <BlogCard
-                      description={blog.body[0].children[0].text}
+                      description={blog.body}
                       title={blog.title && blog.title}
                       imgURL={blog.mainImage.asset.url}
                       slug={blog.slug}
-                      author={blog.author && blog.author.name}
                       categories={blog.categories}
-                      published={blog.publishedAt}
                     />
                   </Col>
                 );
