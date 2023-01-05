@@ -18,24 +18,12 @@ function About() {
         <div className="about-hero-text">
           <p className="title-header-left">{t("abouthero")}</p>
           <p className="subheader-bold-left padding-bottom">{t("abouttext")}</p>
-          <a className="team-btn" href="tel:+8602151699696">
+          {/* <a className="team-btn" href="tel:+8602151699696">
             {t("aboutbutton")}
-          </a>
+          </a> */}
+
         </div>
       </div>
-
-      {/* <div className="about-text">
-                <h1 className="caretext text-center font-weight-bolder mt-5">{t("part51")}</h1>
-                <div className="hrr">
-                  <span class="line-middle"></span>
-                </div>
-                <div className="aboutsect p-text text-justify">
-                    <div className=" p-text col-6 text-left">{t("part52")}
-                    </div>
-                    <div className="p-text col-6 text-left">{t("part53")}
-                    </div>
-                </div>
-            </div> */}
 
       <div className="home-team">
         <div className="left">
