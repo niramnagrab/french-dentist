@@ -1334,7 +1334,7 @@ a li {
   padding: 3rem;
 }
 .cardBody {
-  height: 16rem;
+  min-height: 8rem;
   overflow: hidden;
 }
 .blogImg {
