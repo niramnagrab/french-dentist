@@ -14,11 +14,10 @@ function About() {
         <div className="about-hero-text">
           <p className="title-header-left">{t("abouthero")}</p>
           <p className="subheader-bold-left">{t("abouttext")}</p>
-        </div>
         <a href="/contact" className="team-btn">
         {t("aboutbutton")}
         </a>
-
+        </div>
       </div>
 
       <div className="home-team">
