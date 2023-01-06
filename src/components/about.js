@@ -10,10 +10,6 @@ function About() {
   const greaterThen1400 = useMediaQuery('(min-width:1400px)')
   return (
     <div>
-      {/* <div className="heroabout">
-                <img className="abouthero" src="./homepics/reception.jpg" alt="" />
-            </div> */}
-
       <div className="home-hero">
         <div className="hero-img">
           <img src="./homepics/aboutus7.png" alt="blog-photo-dentist" />
@@ -25,6 +21,10 @@ function About() {
           <a href="/contact" className="team-btn" >
           <p className="subheader-bold-left padding-bottom">{t("abouttext")}</p>
         </div>
+        <a href="/contact" className="team-btn">
+        {t("aboutbutton")}
+        </a>
+
       </div>
 
       <div className="home-team">
