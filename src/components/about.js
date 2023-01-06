@@ -6,6 +6,7 @@ import CarouselComponent from "./util-components/Carousel";
 function About() {
   const { t } = useTranslation();
   return (
+    <>
     <div>
       {/* <div className="heroabout">
                 <img className="abouthero" src="./homepics/reception.jpg" alt="" />
@@ -135,6 +136,7 @@ function About() {
         </div>
       </div>
     </div>
+     </>
   );
 }
 
