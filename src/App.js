@@ -14,10 +14,10 @@ import { Container, Navbar, Nav } from "react-bootstrap";
 
 import DentalCheckUp from "./components/services/dental-checkup";
 import TeethWhitening from "./components/services/teeth-whitening";
-import TeethCleanings from "./components/services/teeth-whitening";
+import TeethCleanings from "./components/services/teeth-cleaning";
 import Veneers from "./components/services/veneers";
 import Invisalign from "./components/services/invisalign";
-import EmergenciesAndMore from "./components/services/invisalign";
+import EmergenciesAndMore from "./components/services/emergencies-and-more";
 import BlogDetails from "./components/blog-details";
 
 export default function App() {
@@ -70,7 +70,7 @@ export default function App() {
       </header>
 
       <div className="bg-white">
-        <Navbar collapseOnSelect expand="lg">
+        <Navbar collapseOnSelect  expand="lg">
           <Container className="navbarrr">
             <Navbar.Brand className="mainfrlink" href="/">
             <img className="logo" src="./homepics/logo.svg" alt="" />
@@ -138,8 +138,7 @@ export default function App() {
           </Container>
         </Navbar>
 
-        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
+        
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
           <Route exact path="/about" element={<About />}></Route>
@@ -152,12 +151,12 @@ export default function App() {
           ></Route>
           <Route
             exact
-            path="/teeth-whitening"
+            path="/orthodontics"
             element={<TeethWhitening />}
           ></Route>
           <Route
             exact
-            path="/orthodontics"
+            path="/teeth-whitening"
             element={<TeethCleanings />}
           ></Route>
           <Route exact path="/dental-implants" element={<Veneers />}></Route>

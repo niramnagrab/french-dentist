@@ -1,3 +1,5 @@
+import { Box, Container } from "@material-ui/core";
+import { PortableText } from "@portabletext/react";
 import React from "react";
 import { useLocation } from "react-router-dom";
 import "../styles/style.css";
@@ -7,16 +9,32 @@ function BlogDetails() {
     state: { description, title, imgURL, slug }
   } = useLocation();
 
+  const myPortableTextComponents = {
+    types: {
+      image: ({ value }) => <Box display={'flex'} justifyContent='center'>
+        <Box component={'img'} sx={{ width: { xs: '90%', sm: '400px' }, height: { xs: '300px', sm: '400px' }}} src={value.asset.url} />
+      </Box>
+    },
+  }
+
   return (
-    <div className="screenContainer">
-      <div className="detailContainer">
-        <h2>{title}</h2>
-        <div className="imageContainer">
-          <img src={imgURL} className={"blogImg"} style={{ width: '100%' }} />
+    <Box maxWidth='1200px' margin={'0 auto'} padding='0 1rem'>
+      <div className="">
+        <h2 style={{ textAlign: 'center', marginTop: '10px', marginBottom: '20px' }}>{title}</h2>
+        <Box display={'flex'} justifyContent='center'>
+          <Box component={'img'} src={imgURL} sx={{ width: { xs: '90%', sm: '500px' }, height: { xs: '400px', sm: '500px' } }} />
+        </Box>
+        <div>
+          <h1 style={{ textAlign: 'center', margin: '50px 0' }}>Blog</h1>
         </div>
-        <p>{description}</p>
+        <Box marginTop={'20px'}>
+          <PortableText
+            value={description}
+            components={myPortableTextComponents}
+          />
+        </Box>
       </div>
-    </div>
+    </Box>
   );
 }
 
