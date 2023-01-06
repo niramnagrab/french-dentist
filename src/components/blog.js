@@ -10,21 +10,38 @@ function Blog() {
   useEffect(() => {
     sanityClient
       .fetch(
-        `*[_type == "products"]{
+        `*[_type == "post"]{
             title,
-            description,
+            body[]{
+              ...,
+              _type == "image" => {
+                ...,
+                asset->
+              }
+            },
             slug,
-            image
+            author->,
+            categories[]->,
+            publishedAt,
+            mainImage{asset->}
         }`
       )
-      //   .then((data) => setAllPosts(data))
-      .then((data) => setBlogs(data))
+      .then(async(data) => {
+        setBlogs(data)
+        await sanityClient.fetch(`*[_type == "reference" && _id == "image-998a9b93bf67377396ac6206978f8d1494b69f0b-1920x1080-png"]{
+        asset
+        }`).then(response => {
+          console.info('RESPONSE', response);
+        })
+
+      })
       .catch((error) => {
         alert("Something went wrong...");
         console.log(error);
       });
   }, []);
   const { t } = useTranslation();
+  console.log(blogs)
   return (
     <div className="blogpage">
       <div className="bloghero">
@@ -47,14 +64,15 @@ function Blog() {
           <div className="blogContainer">
             <Row>
               {blogs.map((blog) => {
-                const { description, title, image, slug } = blog;
+        
                 return (
                   <Col xs={12} md={6} lg={4} >
                     <BlogCard
-                      description={description}
-                      title={title}
-                      imgURL={image}
-                      slug={slug}
+                      description={blog.body}
+                      title={blog.title && blog.title}
+                      imgURL={blog.mainImage.asset.url}
+                      slug={blog.slug}
+                      categories={blog.categories}
                     />
                   </Col>
                 );
