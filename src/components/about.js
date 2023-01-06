@@ -25,9 +25,12 @@ function About() {
           <Box marginTop={{lg : '30px'}}>
           <a href="/contact" className="team-btn" >
           <p className="subheader-bold-left padding-bottom">{t("abouttext")}</p>
-          {/* <a className="team-btn" href="tel:+8602151699696">
+        
+         <>
+          <a className="team-btn" href="tel:+8602151699696">
             {t("aboutbutton")}
           </a>
+          </>
         </div>
       </div>
 
@@ -49,9 +52,11 @@ function About() {
          {t("aboutintro2")}
           </p>
           <div className="seeTreatbtn">
+          <>
             <a href="/care" className="team-btn">
               {t("abouttreatments")}
             </a>
+            </>
           </div>
         </div>
       </div>
