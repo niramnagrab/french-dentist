@@ -6,7 +6,6 @@ import CarouselComponent from "./util-components/Carousel";
 function About() {
   const { t } = useTranslation();
   return (
-    <>
     <div>
       {/* <div className="heroabout">
                 <img className="abouthero" src="./homepics/reception.jpg" alt="" />
@@ -20,11 +19,9 @@ function About() {
           <p className="title-header-left">{t("abouthero")}</p>
           <p className="subheader-bold-left padding-bottom">{t("abouttext")}</p>
         
-         <>
           <a className="team-btn" href="tel:+8602151699696">
             {t("aboutbutton")}
           </a>
-          </>
 
         </div>
       </div>
@@ -47,11 +44,9 @@ function About() {
          {t("aboutintro2")}
           </p>
           <div className="seeTreatbtn">
-          <>
             <a href="/care" className="team-btn">
               {t("abouttreatments")}
             </a>
-            </>
           </div>
         </div>
       </div>
@@ -141,7 +136,6 @@ function About() {
         </div>
       </div>
     </div>
-     </>
   );
 }
 
