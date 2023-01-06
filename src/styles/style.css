@@ -427,9 +427,6 @@ a li {
   height: 100vh;
 }
 
-.teamsect:nth-child(odd) {
-  /* background-color: white; */
-}
 .careupper {
   display: flex;
   flex-direction: row;
@@ -437,9 +434,7 @@ a li {
   flex-wrap: wrap;
   margin-top: -10rem;
 }
-.carepage {
-  /* background-color: #f6f6f9; */
-}
+
 .carehero {
   /* margin-top: -5.3rem; */
   height: 70vh;
@@ -1904,9 +1899,7 @@ a li {
   .subhead {
     font-size: 15px;
   }
-  .paddingtophome {
-    /* padding-top: 150px; */
-  }
+  
   .maintxthome {
     padding-top: 80px;
   }
@@ -2008,9 +2001,7 @@ a li {
   .cardBody {
     height: unset;
   }
-  .blogContainer {
-    /* padding: 2rem; */
-  }
+
   .caresect {
     width: 80%;
   }
