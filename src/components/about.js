@@ -2,9 +2,12 @@ import React from "react";
 import "../styles/style.css";
 import { useTranslation } from "react-i18next";
 import CarouselComponent from "./util-components/Carousel";
+import { Box, useMediaQuery } from "@material-ui/core";
 
 function About() {
   const { t } = useTranslation();
+
+  const greaterThen1400 = useMediaQuery('(min-width:1400px)')
   return (
     <div>
       <div className="home-hero">
@@ -14,6 +17,10 @@ function About() {
         <div className="about-hero-text">
           <p className="title-header-left">{t("abouthero")}</p>
           <p className="subheader-bold-left">{t("abouttext")}</p>
+          <Box marginTop={{lg : '30px'}}>
+          <a href="/contact" className="team-btn" >
+          <p className="subheader-bold-left padding-bottom">{t("abouttext")}</p>
+        </div>
         <a href="/contact" className="team-btn">
         {t("aboutbutton")}
         </a>
@@ -31,9 +38,14 @@ function About() {
           <div className="hrr hrr2">
             <span class="line-middle"></span>
           </div>
-          <p className="normal-p-text">{t("aboutintro")}</p>
+          <p className="normal-p-text">{t("aboutintro1")}
+   
+          </p>
+          <p className="normal-p-text">
+         {t("aboutintro2")}
+          </p>
           <div className="seeTreatbtn">
-            <a href="/" className="team-btn">
+            <a href="/care" className="team-btn">
               {t("abouttreatments")}
             </a>
           </div>

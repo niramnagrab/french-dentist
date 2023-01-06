@@ -5,8 +5,11 @@ import { useNavigate } from "react-router-dom";
 
 function BlogCard(props) {
   const navigate = useNavigate();
-  const { description, title, imgURL, slug, author, categories, published } = props;
+  const { description, title, imgURL, slug, categories } = props;
   const state = props;
+
+  let firstText = description[0].children[0].text
+
   return (
     <Card
       className={"blogCard"}
@@ -23,7 +26,6 @@ function BlogCard(props) {
       </div>
       <Card.Body className={"cardBody"}>
         <Card.Title style={{ fontWeight: 'bold' }}>{title && title}</Card.Title>
-       {author && ( <Card.Subtitle className="mb-2 text-muted" style={{ fontSize: '19px' }} >Written by: <span style={{ fontWeight: 'bold', textTransform: 'capitalize', color: 'black' }}>{author && author}</span></Card.Subtitle>)}
         {categories && categories.length > 1 && (
           <Card.Subtitle className="mb-2 text-muted " style={{ fontSize: '19px', display: 'flex', gap: '6px' }}
           >Categories:
@@ -43,14 +45,13 @@ function BlogCard(props) {
             <span style={{ fontWeight: 'bold', color: 'black', marginLeft: '6px' }}>{categories[0].title}</span>
           </Card.Subtitle>
         )}
-        < Card.Subtitle className="mb-2 text-muted" style={{ fontSize: '19px' }} >Published At: <span style={{ fontWeight: 'bold', color: 'black' }}>{new Date(published).toDateString()}</span></Card.Subtitle >
         <Card.Text>
 
-          {description.length > 250 ? (
+          {firstText.length > 250 ? (
             <p >
-              {description.substring(0, 250)}...  <Box component={'span'} fontSize='19px' color='#1976d2'>read more</Box>
+              {firstText.substring(0, 250)}...  <Box component={'span'} fontSize='19px' color='#1976d2'>read more</Box>
             </p>
-          ) : description}
+          ) : firstText}
 
         </Card.Text>
       </Card.Body>

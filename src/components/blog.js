@@ -12,7 +12,13 @@ function Blog() {
       .fetch(
         `*[_type == "post"]{
             title,
-            body,
+            body[]{
+              ...,
+              _type == "image" => {
+                ...,
+                asset->
+              }
+            },
             slug,
             author->,
             categories[]->,
@@ -20,8 +26,13 @@ function Blog() {
             mainImage{asset->}
         }`
       )
-      .then((data) => {
+      .then(async(data) => {
         setBlogs(data)
+        await sanityClient.fetch(`*[_type == "reference" && _id == "image-998a9b93bf67377396ac6206978f8d1494b69f0b-1920x1080-png"]{
+        asset
+        }`).then(response => {
+          console.info('RESPONSE', response);
+        })
 
       })
       .catch((error) => {
@@ -36,17 +47,10 @@ function Blog() {
       <div className="bloghero">
         <div className="blogherotext">
           <h1 className="h2-bold">
-            The best international dental clinic in Shanghai since 2007
+          {t("blog1")}
           </h1>
           <p>
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. It is a
-            long established fact that a reader will be distracted by the
-            readable content of a page when looking at its layout. It is a long
-            established fact that a reader will be distracted by the readable
-            content of a page when looking at its layout. It is a long
-            established fact that a reader will be distracted by the readable
-            content of a page when looking at its layout.
+          {t("blog2")}
           </p>
         </div>
         <div className="blogheroimage">
@@ -55,7 +59,7 @@ function Blog() {
       </div>
 
       <div className="blogs">
-        <h2 className="h2-bold">More From Our blog</h2>
+        <h2 className="h2-bold"> {t("blog3")}</h2>
         <div className="blogtiles">
           <div className="blogContainer">
             <Row>
@@ -64,13 +68,11 @@ function Blog() {
                 return (
                   <Col xs={12} md={6} lg={4} >
                     <BlogCard
-                      description={blog.body[0].children[0].text}
+                      description={blog.body}
                       title={blog.title && blog.title}
                       imgURL={blog.mainImage.asset.url}
                       slug={blog.slug}
-                      author={blog.author && blog.author.name}
                       categories={blog.categories}
-                      published={blog.publishedAt}
                     />
                   </Col>
                 );

@@ -70,7 +70,7 @@ function Contactus() {
             alt=""
           />
           <h6 className="cardheading">{t("part112")}</h6>
-          <p className="super-small">187 1781 2487</p>
+          <p className="super-small">{t("phone")}</p>
         </div>
         <div className="caresect mr-3">
           <img
@@ -150,6 +150,9 @@ function Contactus() {
           {t("part47")}
         </div>
         <span className="line-middle"></span>
+        <h3 className="subheader-bold-60">
+          {t("billing_facility_intro_text")}
+        </h3>
         <div className="text-center billingsect">
           <div className="billingsect-card">
             <img
