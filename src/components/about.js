@@ -9,6 +9,7 @@ function About() {
 
   const greaterThen1400 = useMediaQuery('(min-width:1400px)')
   return (
+    <>
     <div>
       {/* <div className="heroabout">
                 <img className="abouthero" src="./homepics/reception.jpg" alt="" />
@@ -140,6 +141,7 @@ function About() {
         </div>
       </div>
     </div>
+     </>
   );
 }
 
