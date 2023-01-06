@@ -70,7 +70,7 @@ export default function App() {
       </header>
 
       <div className="bg-white">
-        <Navbar collapseOnSelect expand="lg">
+        <Navbar collapseOnSelect  expand="lg">
           <Container className="navbarrr">
             <Navbar.Brand className="mainfrlink" href="/">
             <img className="logo" src="./homepics/logo.svg" alt="" />

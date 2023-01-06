@@ -26,7 +26,7 @@ function Slider() {
                 {" "}
                 <img className="mb-5" src="./homepics/quote.png" alt="" />
               </div>
-              <div className="normal-p-text mb-5 quotation-text">
+              <div className="normal-p-text mb-5 mb-md-0 quotation-text">
                 {t("part45")}
               </div>
               <div className="p-text-bold font-weight-bold">{t("part46")}</div>
