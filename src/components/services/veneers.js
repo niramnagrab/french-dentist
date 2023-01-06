@@ -8,7 +8,7 @@ function Veneers() {
     <div className="ml-5 mr-5 blogpage">
       <div className="care-hero">
         <img className="w-100" src="./homepics/blog.png" alt="" />
-        <div className="herotext">
+        <div className="care-hero-text herotext">
           <h2>{t("part914")}</h2>
           <div className="padding-bottom">{t("part927")}</div>
           <a className="team-btn mt-5" href="tel:+8602151699696">{t("callus")}</a>
