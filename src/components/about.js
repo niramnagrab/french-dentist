@@ -7,10 +7,6 @@ function About() {
   const { t } = useTranslation();
   return (
     <div>
-      {/* <div className="heroabout">
-                <img className="abouthero" src="./homepics/reception.jpg" alt="" />
-            </div> */}
-
       <div className="home-hero">
         <div className="hero-img">
           <img src="./homepics/aboutus7.png" alt="blog-photo-dentist" />
@@ -19,6 +15,10 @@ function About() {
           <p className="title-header-left">{t("abouthero")}</p>
           <p className="subheader-bold-left">{t("abouttext")}</p>
         </div>
+        <a href="/contact" className="team-btn">
+        {t("aboutbutton")}
+        </a>
+
       </div>
 
       <div className="home-team">
