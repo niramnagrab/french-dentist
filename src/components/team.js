@@ -26,18 +26,15 @@ function Team() {
         </div>
         <div className="main main-team">
           <p className="title-header-left">
-            A team of <span>international dentists</span>
+          {t("team1")}
           </p>
-          <p className="subheader-bold-left">
-            French Dentist dentists and staff were selected for their
-            experience, commitment to excellent results and quality patient
-            care. Our mission is to provide a patient-first focus on ensuring
-            you are always comfortable during your visit.
+          <p className="subheader-bold-left padding-bottom">
+          {t("team2")}
           </p>
           <div className="call-us-btn">
-            <a href="/contact" className="team-btn">
-              Call us now
-            </a>
+          <a className="team-btn" href="tel:+8602151699696">
+            {t("callus")}
+          </a>
           </div>
         </div>
       </div>
@@ -48,9 +45,9 @@ function Team() {
         </div>
 
         <div className="doctor-description">
-          <h1>Dr. Louis Costa</h1>
+          <h1>{t("team3")}</h1>
           <p className="subheader-bold-left">
-            Dental surgeon and implantologist
+          {t("team4")}
           </p>
           <ReadMore
             className="normal-p-text"
@@ -67,9 +64,9 @@ function Team() {
 
       <div className="new-doctor new-doctor-alt">
         <div className="doctor-description">
-          <h1>Dr Honda Zheng</h1>
+          <h1>{t("team6")}</h1>
           <p className="subheader-bold-left">
-            Dental surgeon and cosmetic dentist
+          {t("team7")}
           </p>
           <ReadMore
             className="normal-p-text"
@@ -94,9 +91,9 @@ function Team() {
         </div>
 
         <div className="doctor-description">
-          <h1>Dr Daan Chiou</h1>
+          <h1>{t("team9")}</h1>
           <p className="subheader-bold-left">
-            Pediatric dentist and orthodontist
+          {t("team10")}
           </p>
           <ReadMore
             className="normal-p-text"

@@ -10,10 +10,6 @@ function About() {
   const greaterThen1400 = useMediaQuery('(min-width:1400px)')
   return (
     <div>
-      {/* <div className="heroabout">
-                <img className="abouthero" src="./homepics/reception.jpg" alt="" />
-            </div> */}
-
       <div className="home-hero">
         <div className="hero-img">
           <img src="./homepics/aboutus7.png" alt="blog-photo-dentist" />
@@ -29,19 +25,6 @@ function About() {
         </div>
       </div>
 
-      {/* <div className="about-text">
-                <h1 className="caretext text-center font-weight-bolder mt-5">{t("part51")}</h1>
-                <div className="hrr">
-                  <span class="line-middle"></span>
-                </div>
-                <div className="aboutsect p-text text-justify">
-                    <div className=" p-text col-6 text-left">{t("part52")}
-                    </div>
-                    <div className="p-text col-6 text-left">{t("part53")}
-                    </div>
-                </div>
-            </div> */}
-
       <div className="home-team">
         <div className="left">
           <div className="main-img">
@@ -53,9 +36,14 @@ function About() {
           <div className="hrr hrr2">
             <span class="line-middle"></span>
           </div>
-          <p className="normal-p-text">{t("aboutintro")}</p>
+          <p className="normal-p-text">{t("aboutintro1")}
+   
+          </p>
+          <p className="normal-p-text">
+         {t("aboutintro2")}
+          </p>
           <div className="seeTreatbtn">
-            <a href="/" className="team-btn">
+            <a href="/care" className="team-btn">
               {t("abouttreatments")}
             </a>
           </div>
