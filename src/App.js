@@ -19,6 +19,11 @@ import Veneers from "./components/services/veneers";
 import Invisalign from "./components/services/invisalign";
 import EmergenciesAndMore from "./components/services/invisalign";
 import BlogDetails from "./components/blog-details";
+import logoImg from './assets/logo.svg'
+import instaImg from './assets/Instagram.png'
+import linkImg from './assets/linkedin.png'
+import weChat from './assets/wechat.png'
+import iconPng from './assets/Icon.png'
 
 export default function App() {
   const { t } = useTranslation();
@@ -47,7 +52,7 @@ export default function App() {
     <>
       <header className="upperheader">
         <div className="miniheadertxt">
-          <img className="firstimg" src="./homepics/Icon.png" alt="" />
+          <img className="firstimg" src={iconPng} alt="" />
           <div className="miniHeaderContactUs">
             <div>{t("part1")}</div> &nbsp;<div>{t("part1.2")}</div>
           </div>
@@ -55,15 +60,15 @@ export default function App() {
         <div className="socialicons">
 
         <a href="https://www.instagram.com/frenchdentist/" target="_blank" rel="noreferrer">
-        <img className="icon" src="./homepics/Instagram.png" alt="" />
+        <img className="icon" src={instaImg} alt="" />
         </a>
 
         <a href="https://www.linkedin.com/company/french-dentist/" target="_blank" rel="noreferrer">
-        <img className="icon" src="./homepics/linkedin.png" alt="" />
+        <img className="icon" src={linkImg} alt="" />
         </a>
 
         <a href="https://www.instagram.com/frenchdentist/" target="_blank" rel="noreferrer">
-        <img className="icon" src="./homepics/wechat.png" alt="" />
+        <img className="icon" src={weChat} alt="" />
         </a>
 
         </div>
@@ -73,7 +78,7 @@ export default function App() {
         <Navbar collapseOnSelect  expand="lg">
           <Container className="navbarrr">
             <Navbar.Brand className="mainfrlink" href="/">
-            <img className="logo" src="./homepics/logo.svg" alt="" />
+            <img className="logo" src={logoImg} alt="" />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
