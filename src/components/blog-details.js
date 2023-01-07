@@ -11,17 +11,15 @@ function BlogDetails() {
 
   const myPortableTextComponents = {
     types: {
-      image: ({ value }) => <Box display={'flex'} justifyContent='center'>
-        <Box component={'img'} sx={{ width: { xs: '90%', sm: '400px' }, height: { xs: '300px', sm: '400px' }}} src={value.asset.url} />
+      image: ({ value }) => <Box display={'flex'} justifyContent='flex-start'>
+        <Box component={'img'} sx={{ width: { xs: '90%', sm: '400px' }, height: { xs: '300px', sm: '400px' } }} src={value.asset.url} />
       </Box>
     },
   }
 
   return (
-  <>
-        <Box maxWidth={'1350px'}  margin='0 auto' padding={{xs:'0 30px',md:'0'}}>
-          <h1 style={{fontWeight:'bold'}}>Blog</h1>
-        </Box>
+    <>
+
       <Box maxWidth='1200px' margin={'0 auto'} marginTop='35px' padding='0 1rem'>
         <div className="">
           <h2 style={{ textAlign: 'center', marginTop: '10px', marginBottom: '20px' }}>{title}</h2>

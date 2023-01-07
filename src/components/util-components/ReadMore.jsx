@@ -4,12 +4,13 @@ function ReadMore({ text, readMore, seeLess, minWords = 400, paraNo }) {
   const [viewMore, setViewMore] = useState(false);
   let x = minWords
   if (paraNo === '1st') {
-    x = 570
+    x = 569
   } else if (paraNo === '2nd') {
-    x = 596
+    x = 595
   } else if (paraNo === '3rd') {
-    x = 512
+    x = 524
   }
+
   return (
     <div>
       <p className="p-text text-justify">
