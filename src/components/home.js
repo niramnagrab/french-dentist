@@ -29,7 +29,7 @@ function Home() {
 
       <div className="homeherosection">
         <div>
-          <video className="heroimg" autoPlay muted loop>
+          <video className="heroimg" autoPlay muted loop playsinline>
             <source src={Video} type="video/mp4" />
           </video>
         </div>
