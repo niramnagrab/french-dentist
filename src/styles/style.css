@@ -155,9 +155,18 @@ a li {
   transition: 0.5s ease-out;
 }
 
-.blog-images img {
+.blog-images1 img {
   object-fit: contain;
+  justify-content: center;
 }
+
+
+.blog-images2 img {
+  object-fit: contain;
+  justify-content: flex-start;
+}
+
+
 .abouthero {
   margin-top: -5.3rem;
   width: 100%;
