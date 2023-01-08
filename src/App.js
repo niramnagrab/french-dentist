@@ -66,7 +66,7 @@ export default function App() {
         <a href="https://www.linkedin.com/company/french-dentist/" target="_blank" rel="noreferrer">
         <img className="icon" src={linkImg} alt="" />
         </a>
-        <a href="weixin://dl/business/?ticket=gh_3e8c2c98ce9d" target="_blank" rel="noreferrer">
+        <a href="weixin://dl/business/?ticket=frenchdentist" target="_blank" rel="noreferrer">
         <img className="icon" src="./homepics/wechat.png" alt="" />
         </a>
 
