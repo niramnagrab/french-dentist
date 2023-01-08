@@ -1,13 +1,44 @@
 import { Box, Container } from "@material-ui/core";
 import { PortableText } from "@portabletext/react";
-import React from "react";
-import { useLocation } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { useLocation, useParams } from "react-router-dom";
 import "../styles/style.css";
+import sanityClient from "../client.js";
 
 function BlogDetails() {
-  const {
-    state: { description, title, imgURL, slug }
-  } = useLocation();
+
+  const [description, setdescription] = useState()
+  const [title, settitle] = useState()
+  const [imgURL, setimgUrl] = useState()
+
+  const { slug: slugData } = useParams()
+
+  useEffect(() => {
+    sanityClient
+      .fetch(
+        `*[_type=="post" && slug.current == '${slugData}'][0]{
+          title,
+          body[]{
+            ...,
+            _type == "image" => {
+              ...,
+              asset->
+            }
+          },
+          slug,
+          mainImage{asset->}
+      }`
+      )
+      .then(async (data) => {
+        setdescription(data.body)
+        settitle(data.title)
+        setimgUrl(data.mainImage.asset.url)
+      })
+      .catch((error) => {
+        alert("Something went wrong...");
+        console.log(error);
+      });
+  }, []);
 
   const myPortableTextComponents = {
     types: {
