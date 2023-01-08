@@ -9,6 +9,7 @@ function Team() {
   let firstDesc = t("part66") + t("part67") + t("part68") + t("part69")
   let secondDesc = t("part72") + t("part73") + t("part74")
   let thirdDesc = t("part77") + t("part78") + t("part79")
+  let seeMore = t("seemore")
 
   return (
     <div>
@@ -55,7 +56,9 @@ function Team() {
               firstDesc,
               false
             ]}
-            readMore={"Read More"}
+            readMore={[
+              seeMore
+            ]}
             seeLess={"See Less"}
             paraNo = '1st'
           />
