@@ -54,7 +54,7 @@ function BlogDetails() {
       <Box maxWidth='1200px' margin={'0 auto'} marginTop='35px' padding='0 1rem'>
         <div className="">
           <h2 style={{ textAlign: 'center', marginTop: '10px', marginBottom: '20px' }}>{title}</h2>
-          <Box display={'flex'} justifyContent='center'>
+          <Box display={'flex'} justifyContent='center' objectFit="cover">
             <Box component={'img'} src={imgURL} sx={{ width: { xs: '90%', sm: '500px' }, height: { xs: '400px', sm: '500px' } }} />
           </Box>
           <Box marginTop={'20px'}>
