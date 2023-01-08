@@ -7,6 +7,7 @@ import Button from "@material-ui/core/Button";
 import Popover from "@material-ui/core/Popover";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
+import myImg from './assets/language.svg'
 // import ListSubheader from "@material-ui/core/ListSubheader";
 
 const languageMap = {
@@ -36,7 +37,7 @@ const LanguageSelect = () => {
       >
         {languageMap.label}
         <img
-          src="./homepics/language.svg"
+          src={myImg}
           className="languageswitch"
           alt="language-change-icon"
         />
