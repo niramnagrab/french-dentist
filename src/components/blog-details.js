@@ -11,8 +11,8 @@ function BlogDetails() {
 
   const myPortableTextComponents = {
     types: {
-      image: ({ value }) => <Box display={'flex'} justifyContent='flex-start'>
-        <Box component={'img'} sx={{ width: { xs: '90%', sm: '400px' }, height: { xs: '300px', sm: '400px' }, objectFit: { xs: "contain", sm: "contain", lg: "contain"} }} src={value.asset.url} />
+      image: ({ value }) => <Box display={'flex'} justifyContent='flex-start' class="blog-images">
+        <Box component={'img'} sx={{ width: { xs: '90%', sm: '400px' }, height: { xs: '300px', sm: '400px' }}} src={value.asset.url} />
       </Box>
     },
   }
@@ -23,8 +23,8 @@ function BlogDetails() {
       <Box maxWidth='1200px' margin={'0 auto'} marginTop='50px' marginBottom="100px"  padding='0 1rem'>
         <div className="">
           <h2 style={{ textAlign: 'center', marginTop: '10px', marginBottom: '20px' }}>{title}</h2>
-          <Box display={'flex'} justifyContent='center'>
-            <Box component={'img'} src={imgURL} sx={{ width: { xs: '90%', sm: '500px' }, height: { xs: '400px', sm: '500px' }, objectFit: { xs: "contain", sm: "contain", lg: "contain"} }} />
+          <Box display={'flex'} justifyContent='center' class="blog-images">
+            <Box component={'img'} src={imgURL} sx={{ width: { xs: '90%', sm: '500px' }, height: { xs: '400px', sm: '500px' } }} />
           </Box>
           <Box marginTop={'20px'}>
             <PortableText
