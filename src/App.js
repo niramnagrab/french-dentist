@@ -44,7 +44,7 @@ export default function App() {
 
     scrollY <= this.lastScroll
       ? (header.style.visibility = "visible")
-      : (header.style.visibility = "hidden");
+      : (header.style.visibility = "visible");
 
     this.lastScroll = scrollY;
   };
@@ -66,9 +66,8 @@ export default function App() {
         <a href="https://www.linkedin.com/company/french-dentist/" target="_blank" rel="noreferrer">
         <img className="icon" src={linkImg} alt="" />
         </a>
-
-        <a href="https://www.instagram.com/frenchdentist/" target="_blank" rel="noreferrer">
-        <img className="icon" src={weChat} alt="" />
+        <a href="weixin://dl/business/?ticket=gh_3e8c2c98ce9d" target="_blank" rel="noreferrer">
+        <img className="icon" src="./homepics/wechat.png" alt="" />
         </a>
 
         </div>
