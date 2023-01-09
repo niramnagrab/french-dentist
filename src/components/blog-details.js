@@ -24,7 +24,7 @@ function BlogDetails() {
         <div className="abc" marginTop='50px' marginBottom="100px">
           <h2 style={{ textAlign: 'center', marginTop: '10px', marginBottom: '20px' }}>{title}</h2>
           <Box display={'flex'} justifyContent='center' class="blog-images1">
-            <Box component={'img'} src={imgURL} sx={{ width: { xs: '90%', sm: '500px' }, height: { xs: '400px', sm: '500px' } }} />
+            <Box component={'img'} src={imgURL} sx={{ width: { xs: '90%', sm: '500px' }, height: { xs: 'auto', sm: 'auto' } }} />
           </Box>
           <Box marginTop={'20px'}>
             <PortableText
