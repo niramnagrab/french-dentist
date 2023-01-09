@@ -66,7 +66,7 @@ function Blog() {
               {blogs.map((blog) => {
         
                 return (
-                  <Col xs={10} md={6} lg={6} >
+                  <Col xs={10} md={6} lg={4} >
                     <BlogCard
                       description={blog.body}
                       title={blog.title && blog.title}
