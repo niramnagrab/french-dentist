@@ -20,7 +20,7 @@ function BlogDetails() {
   return (
     <>
 
-      <Box maxWidth='1200px' margin={'0 auto'} marginTop='50px' marginBottom="100px"  padding='0 1rem'>
+      <Box maxWidth='1200px' margin={'50px 20%'} marginTop='50px' marginBottom="10px"  padding='0 1rem'>
         <div className="abc" marginTop='50px' marginBottom="100px">
           <h2 style={{ textAlign: 'center', marginTop: '10px', marginBottom: '20px' }}>{title}</h2>
           <Box display={'flex'} justifyContent='center' class="blog-images1">
