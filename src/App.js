@@ -174,7 +174,7 @@ export default function App() {
           <Route exact path="/contactus" element={<Contactus />}></Route>
           <Route
             exact
-            path="/blog-detail/:slug"
+            path="/blog/:slug"
             element={<BlogDetails />}
           ></Route>
         </Routes>
