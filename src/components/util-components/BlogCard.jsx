@@ -14,7 +14,7 @@ function BlogCard(props) {
     <Card
       className={"blogCard"}
       mx="2"
-      onClick={() => navigate(`/blog-detail/${slug.current}`, { state })}
+      onClick={() => navigate(`/blog/${slug.current}`, { state })}
     >
       <div
         style={{
