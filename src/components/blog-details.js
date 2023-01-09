@@ -12,7 +12,7 @@ function BlogDetails() {
   const myPortableTextComponents = {
     types: {
       image: ({ value }) => <Box display={'flex'} justifyContent='flex-start' class="blog-images2">
-        <Box component={'img'} sx={{ width: { xs: '90%', sm: '400px' }, height: { xs: '300px', sm: '400px' }}} src={value.asset.url} />
+        <Box component={'img'} sx={{ width: { xs: '90%', sm: 'auto' }, height: { xs: '300px', sm: '600px' }}} src={value.asset.url} />
       </Box>
     },
   }
