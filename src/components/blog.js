@@ -64,7 +64,7 @@ function Blog() {
           <div className="blogContainer">
             <Row>
               {blogs.map((blog) => {
-        
+
                 return (
                   <Col xs={10} md={6} lg={4} >
                     <BlogCard

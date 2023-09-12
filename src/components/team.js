@@ -20,29 +20,28 @@ function Team() {
                     <p className="iphonetxt p-text">{t("part63")}</p>
                 </div>
             </div> */}
-
-      <div className="home-hero">
-        <div className="hero-img">
-          <img src="./homepics/girl-smiling.jpg" alt="blog-photo-dentist" />
+        <div className="bloghero">
+            <div className="blogherotext team">
+                <h1 className="title-header-left">
+                    {t("team1")}
+                </h1>
+                <p className="subheader-bold-left">
+                    {t("team2")}
+                </p>
+                <p className="mt-5">
+                    <a className="team-btn" href="tel:+8602151699696">
+                        {t("callus")}
+                    </a>
+                </p>
+            </div>
+            <div className="blogheroimage">
+                <img src="./homepics/girl-smiling.jpg" alt="blog-photo-dentist" />
+            </div>
         </div>
-        <div className="main main-team">
-          <p className="title-header-left">
-          {t("team1")}
-          </p>
-          <p className="subheader-bold-left padding-bottom">
-          {t("team2")}
-          </p>
-          <div className="call-us-btn">
-          <a className="team-btn" href="tel:+8602151699696">
-            {t("callus")}
-          </a>
-          </div>
-        </div>
-      </div>
 
       <div className="new-doctor">
         <div className="doctor-image">
-          <img src="./homepics/costa.jpeg" alt="" />
+          <img src="./photos/Costa_profile.jpg" alt="" />
         </div>
 
         <div className="doctor-description">
@@ -112,7 +111,7 @@ function Team() {
         </div>
       </div>
 
-      {/* 
+      {/*
             <div className="teamsect text-justify p-text">
                 <img className="costa-photo mr-5" src="./homepics/teamimg.png" alt="" />
                 <div className="mt-5">
