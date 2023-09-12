@@ -222,7 +222,7 @@ export default function App() {
               <br />
               {t("saturday")}
             </div>
-            <div className="text-justify col-lg-3 address-padding">
+{/*            <div className="text-justify col-lg-3 address-padding">
               <h4>{t("part14")}</h4>
               {t("part1411")}
               <br />
@@ -234,7 +234,7 @@ export default function App() {
               <br />
               {t("part1415")}
               <br />
-            </div>
+            </div>*/}
           </div>
         </div>
         <div id="lowerfooter" className="lowerfooter">
@@ -264,7 +264,8 @@ export default function App() {
             </ul>
           </div>
           <hr className="hrfooter1" />
-          <div className="text-center pb-2 pb-md-5">{t("part23")}</div>{" "}
+          <div className="text-center pb-2 pb-md-5">{t("part23").replace("2022", new Date().getFullYear()+"")} &nbsp;<a
+              href="https://www.dezign41.com">{t("design.by")}</a></div>{" "}
         </div>
       </div>
     </>
