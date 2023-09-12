@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/style.css";
 import { useTranslation } from "react-i18next";
-import Video from "../home3.mp4";
+import Video from "../assets/photos/homepage.mov";
 import Slider from "./slider";
 import ReadMore from "./util-components/ReadMore";
 
@@ -24,7 +24,7 @@ function Home() {
           </a>{" "}
         </div>
 
-        
+
       </div> */}
 
       <div className="homeherosection">

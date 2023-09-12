@@ -81,7 +81,7 @@ a li {
 .navbarrrr {
   align-items: inherit !important;
 }
-/* 
+/*
 .navelem {
   margin-top: 6px;
 } */
@@ -227,7 +227,8 @@ a li {
   margin-right: 1rem;
 }
 .heroimg {
-  height: calc(100vh - 2rem);
+  width: 50vw;
+  height: auto;
   float: left;
 }
 .herosection {
@@ -336,7 +337,7 @@ a li {
   padding: 5%;
   /* margin-bottom: 90vh; */
 }
-/* 
+/*
 .address-padding {
   padding: 15px 0px;
 } */
@@ -752,7 +753,7 @@ a li {
   width: 100%;
   height: 100%;
 }
-/* 
+/*
 .blogheroimage {
   flex-grow: 1;
 } */
@@ -1303,11 +1304,6 @@ a li {
 .homevada {
   width: fit-content;
   height: 100%;
-}
-
-.heroimg {
-  /* height: 100vh; */
-  width: 100%;
 }
 
 .container {
@@ -1912,7 +1908,7 @@ a li {
   .subhead {
     font-size: 15px;
   }
-  
+
   .maintxthome {
     padding-top: 80px;
   }
