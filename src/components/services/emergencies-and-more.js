@@ -18,7 +18,9 @@ function EmergenciesAndMore() {
             <div>
                 <h2 className="mt-5 mb-5 cardheading">{t("part96")}</h2>
                 <div className="blogsect">
-                    <img src="./homepics/veneers2.jpg" alt="" />
+                    <div className="treatment-image">
+                        <img src="./homepics/veneers2.jpg" alt="" />
+                    </div>
                     <div className="p-2 ml-4">
                         <div className="mt-3">
                             <h5>{t("part97")}</h5>
@@ -36,7 +38,7 @@ function EmergenciesAndMore() {
                 </div>
             </div>
 
-            <div style={{marginTop: '80px'}}>
+            <div className="other-treatment">
                 <h2 >{t("part103")} </h2>
                 <div className="blogbtn">
                     <a  className="team-btn mb-3 mb-md-0 mr-md-5 mr-0" href="/teeth-whitening">{t("part104")}</a>

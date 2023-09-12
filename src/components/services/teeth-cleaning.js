@@ -38,7 +38,7 @@ function Orthodontics() {
           </div>
         </div>
       </div>
-            <div className="">
+            <div className="other-treatment">
                 <h2 className="">{t("part103")} </h2>
                 <div className="blogbtn">
                     <a  className="team-btn mb-3 mb-md-0 mr-md-5 mr-0" href="/teeth-whitening">{t("part104")}</a>
