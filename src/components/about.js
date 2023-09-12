@@ -2,6 +2,9 @@ import React from "react";
 import "../styles/style.css";
 import { useTranslation } from "react-i18next";
 import CarouselComponent from "./util-components/Carousel";
+
+import CarousalRightComponent from "./util-components/CarouselRight";
+
 import { Box, useMediaQuery } from "@material-ui/core";
 
 function About() {
@@ -18,7 +21,7 @@ function About() {
           <p className="title-header-left">{t("abouthero")}</p>
           <p className="subheader-bold-left">{t("abouttext")}</p>
           <Box marginTop={{lg : '30px'}}>
-          <a href="/contact" className="team-btn" >
+          <a href="tel:+8602151699696" className="team-btn" >
             {t("aboutbutton")}
           </a>
           </Box>
@@ -37,7 +40,7 @@ function About() {
             <span class="line-middle"></span>
           </div>
           <p className="normal-p-text">{t("aboutintro1")}
-   
+
           </p>
           <p className="normal-p-text">
          {t("aboutintro2")}
@@ -58,7 +61,7 @@ function About() {
           </div>
         </div>
         <div className="doctor-photo">
-          <img className="costa-photo" src="./homepics/costa.jpeg" alt="" />
+          <img className="costa-photo" src="./photos/Costa_profile.jpg" alt="" />
         </div>
         <div>{t("part55")}</div>
       </div>
@@ -73,7 +76,7 @@ function About() {
             </div> */}
       <div className="carouselContainer">
         <CarouselComponent />
-        <CarouselComponent orderNumber={2} />
+        <CarousalRightComponent orderNumber={2} />
       </div>
 
       <div className="aboutsect1 patient">
@@ -120,16 +123,18 @@ function About() {
               alt=""
             />
             <div className="locationtext">
-              <h3 className="h3-bold">{t("part14")}</h3>
-              {t("part1411")}
+              <h3 className="h3-bold">{t("part12")}</h3>
+              {t("monday")}
               <br />
-              {t("part1412")}
+              {t("tuesday")}
               <br />
-              {t("part1413")}
+              {t("wednesday")}
               <br />
-              {t("part1414")}
+              {t("thursday")}
               <br />
-              {t("part1415")}
+              {t("friday")}
+              <br />
+              {t("saturday")}
             </div>
           </div>
         </div>

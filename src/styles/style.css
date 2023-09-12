@@ -805,6 +805,7 @@ a li {
 .hero-img img {
   position: relative;
   right: 3rem;
+  width: 40%;
 }
 .main {
   display: flex;
@@ -2386,4 +2387,20 @@ a li {
 .miniHeaderContactUs {
   display: flex;
   flex-wrap: wrap;
+}
+
+.costa-photo {
+  width: 178px;
+}
+.d-Carousel{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.d-block {
+  width: 100%;
+  height: auto;
 }

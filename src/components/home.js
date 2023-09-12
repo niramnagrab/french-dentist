@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/style.css";
 import { useTranslation } from "react-i18next";
-import Video from "../assets/photos/homepage.mov";
+import Video from "../assets/homepage.mov";
 import Slider from "./slider";
 import ReadMore from "./util-components/ReadMore";
 
@@ -149,7 +149,7 @@ function Home() {
       <div className="homebilling">
         <div className="title-header-center ">{t("part47")}</div>
         <span className="line-middle"></span>
-        <h3 className="subheader-bold-60">
+        <h3 className="subheader-bold-60" style={{fontWeight: 'normal'}}>
           {t("billing_facility_intro_text")}
         </h3>
         <div className="billingsect mt-5">

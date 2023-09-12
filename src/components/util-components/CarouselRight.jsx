@@ -2,7 +2,7 @@ import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "../../styles/style.css";
 
-function CarousalComponent({ orderNumber }) {
+function CarousalRightComponent({ orderNumber }) {
   // by using order number, will change the image
   return (
     <div className="carouselSection">
@@ -11,45 +11,45 @@ function CarousalComponent({ orderNumber }) {
           <div className="d-Carousel">
             <img
                 className="d-block"
-                src="./photos/slide/6.jpg"
+                src="./photos/slide/1.jpg"
                 alt="First slide"
             />
           </div>
         </Carousel.Item>
         <Carousel.Item>
           <div className="d-Carousel">
-          <img
-            className="d-block"
-            src="./photos/slide/7.jpg"
-            alt="Second slide"
-          />
+            <img
+                className="d-block"
+                src="./photos/slide/2.jpg"
+                alt="Second slide"
+            />
           </div>
         </Carousel.Item>
         <Carousel.Item>
           <div className="d-Carousel">
-          <img
-            className="d-block "
-            src="./photos/slide/8.jpg"
-            alt="Third slide"
-          />
+            <img
+                className="d-block "
+                src="./photos/slide/3.jpg"
+                alt="Third slide"
+            />
           </div>
         </Carousel.Item>
         <Carousel.Item>
           <div className="d-Carousel">
-          <img
-              className="d-block "
-              src="./photos/slide/9.jpg"
-              alt="Third slide"
-          />
+            <img
+                className="d-block "
+                src="./photos/slide/4.jpg"
+                alt="Third slide"
+            />
           </div>
         </Carousel.Item>
         <Carousel.Item>
           <div className="d-Carousel">
-          <img
-              className="d-block "
-              src="./photos/slide/10.jpg"
-              alt="Third slide"
-          />
+            <img
+                className="d-block "
+                src="./photos/slide/5.jpg"
+                alt="Third slide"
+            />
           </div>
         </Carousel.Item>
       </Carousel>
@@ -57,4 +57,4 @@ function CarousalComponent({ orderNumber }) {
   );
 }
 
-export default CarousalComponent;
+export default CarousalRightComponent;
