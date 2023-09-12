@@ -13,7 +13,7 @@ function About() {
   const greaterThen1400 = useMediaQuery('(min-width:1400px)')
   return (
     <div>
-      <div className="bloghero">
+      <div className="bloghero" style={{padding: "0 5%"}}>
         <div className="blogherotext about">
           <h1 className="title-header-left">
             {t("abouthero")}
