@@ -13,18 +13,22 @@ function About() {
   const greaterThen1400 = useMediaQuery('(min-width:1400px)')
   return (
     <div>
-      <div className="home-hero">
-        <div className="hero-img">
-          <img src="./homepics/aboutus7.png" alt="blog-photo-dentist" />
+      <div className="bloghero">
+        <div className="blogherotext about">
+          <h1 className="title-header-left">
+            {t("abouthero")}
+          </h1>
+          <p className="subheader-bold-left">
+            {t("abouttext")}
+          </p>
+          <p className="mt-5">
+            <a href="tel:+8602151699696" className="team-btn" >
+              {t("aboutbutton")}
+            </a>
+          </p>
         </div>
-        <div className="about-hero-text">
-          <p className="title-header-left">{t("abouthero")}</p>
-          <p className="subheader-bold-left">{t("abouttext")}</p>
-          <Box marginTop={{lg : '30px'}}>
-          <a href="tel:+8602151699696" className="team-btn" >
-            {t("aboutbutton")}
-          </a>
-          </Box>
+        <div className="blogheroimage">
+          <img src="./homepics/aboutus7.png" alt="blog-photo-dentist" />
         </div>
       </div>
 
