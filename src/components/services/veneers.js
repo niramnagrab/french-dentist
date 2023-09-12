@@ -18,7 +18,9 @@ function Veneers() {
       <div>
         <h2 className="mt-5 mb-5 cardheading">{t("part962")}</h2>
         <div className="blogsect care-blogsect">
-          <img src="./homepics/implant.jpeg" alt="" />
+          <div className="treatment-image">
+            <img src="./homepics/implant.jpeg" alt="" />
+          </div>
           <div className="p-2 ml-4">
             <div className="mt-3">
               <h5>{t("part928")}</h5>
@@ -36,7 +38,7 @@ function Veneers() {
         </div>
       </div>
 
-      <div className="other-treatment" style={{marginTop: '80px'}}>
+      <div className="other-treatment">
         <h2>{t("part103")} </h2>
         <div className="blogbtn">
           <a className="team-btn mb-3 mb-md-0 mr-md-5 mr-0" href="/teeth-whitening">{t("part104")}</a>
