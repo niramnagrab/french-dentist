@@ -441,6 +441,14 @@ a li {
   height: 100vh;
 }
 
+
+.cardheading-md {
+  text-align: center;
+  font-size: 20px;
+  color: #014f86;
+}
+
+
 .careupper {
   display: flex;
   flex-direction: row;
@@ -704,8 +712,8 @@ a li {
 }
 
 .imgggg {
-  width: 75px;
-  height: 75px;
+  width: 40px;
+  height: 40px;
 }
 
 .homefullwid {
@@ -1351,7 +1359,7 @@ a li {
 }
 @media screen and (max-width: 992px) {
   .care-hero-text .team-btn {
-    margin: 1rem 20rem !important;
+
   }
   .homeimg2 {
     padding-bottom: 0;
@@ -1517,7 +1525,6 @@ a li {
   .care-hero-text div.team-btn {
     margin-top: 3px !important;
   }
-
   .cardheading {
     text-align: center;
     font-size: 30px;
@@ -2092,7 +2099,6 @@ a li {
     flex-direction: column;
   }
   .imgggg {
-    width: 20%;
     margin-left: 36%;
   }
   .contactlast {

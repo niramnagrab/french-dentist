@@ -36,8 +36,8 @@ function EmergenciesAndMore() {
                 </div>
             </div>
 
-            <div className="pt-5">
-                <h2 className="mt-5">{t("part103")} </h2>
+            <div style={{marginTop: '80px'}}>
+                <h2 >{t("part103")} </h2>
                 <div className="blogbtn">
                     <a  className="team-btn mb-3 mb-md-0 mr-md-5 mr-0" href="/teeth-whitening">{t("part104")}</a>
                     <a  className="team-btn mb-3 mb-md-0 mr-md-5 mr-0" href="/orthodontics">{t("part105")}</a>

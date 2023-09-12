@@ -15,9 +15,9 @@ function Orthodontics() {
                 </div>
             </div>
 
-          
+
       <div>
-        <h2 className="cardheading">{t("part96")}</h2>
+        <h2 className="mt-5 mb-5 cardheading">{t("part96")}</h2>
         <div className="blogsect care-blogsect">
           <div className="treatment-image">
             <img src="./homepics/whitening3.jpg" alt="" />
@@ -38,8 +38,8 @@ function Orthodontics() {
           </div>
         </div>
       </div>
-            <div className="pt-5">
-                <h2 className="mt-5">{t("part103")} </h2>
+            <div className="">
+                <h2 className="">{t("part103")} </h2>
                 <div className="blogbtn">
                     <a  className="team-btn mb-3 mb-md-0 mr-md-5 mr-0" href="/teeth-whitening">{t("part104")}</a>
                     <a  className="team-btn mb-3 mb-md-0 mr-md-5 mr-0" href="/orthodontics">{t("part105")}</a>

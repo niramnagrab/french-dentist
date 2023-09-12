@@ -27,7 +27,7 @@ function Contactus() {
       <div className="contact-hero">
         <img
           className="w-100 contacthero"
-          src="./homepics/contact10.jpg"
+          src="./photos/slide/9.jpg"
           alt=""
         />
       </div>
@@ -41,7 +41,7 @@ function Contactus() {
             width="75px"
             alt=""
           />
-          <h6 className="cardheading">{t("part109")}</h6>
+          <h6 className="cardheading-md">{t("part109")}</h6>
           <p className="super-small">
             {t("part13")}
             <br />
@@ -56,7 +56,7 @@ function Contactus() {
             width="75px"
             alt=""
           />
-          <h6 className="cardheading">{t("part111")}</h6>
+          <h6 className="cardheading-md">{t("part111")}</h6>
           <p className="super-small">
             info@frenchdentist.cn thefrenchdentalclinic@gmail.com
           </p>
@@ -69,7 +69,7 @@ function Contactus() {
             width="75px"
             alt=""
           />
-          <h6 className="cardheading">{t("part112")}</h6>
+          <h6 className="cardheading-md">{t("part112")}</h6>
           <p className="super-small">{t("phone")}</p>
         </div>
         <div className="caresect mr-3">
@@ -80,8 +80,8 @@ function Contactus() {
             width="75px"
             alt=""
           />
-          <h6 className="cardheading">{t("wechat")}</h6>
-          <img src="./homepics/QR.png" alt="" />
+          <h6 className="cardheading-md">{t("wechat")}</h6>
+          <img style={{width: '60px',height: '60px'}} src="./homepics/QR.png" alt="" />
         </div>
       </div>
 
@@ -150,7 +150,7 @@ function Contactus() {
           {t("part47")}
         </div>
         <span className="line-middle"></span>
-        <h3 className="subheader-bold-60">
+        <h3 className="subheader-bold-60" style={{fontWeight: 'normal'}}>
           {t("billing_facility_intro_text")}
         </h3>
         <div className="text-center billingsect">
@@ -216,7 +216,7 @@ function Contactus() {
                   </p>
                 </div>
               </div>
-              <div className="contactlast mt-5">
+{/*              <div className="contactlast mt-5">
                 <img className="mr-4" src="./homepics/jimao.png" alt="" />
                 <div>
                   <h3 className="h3-bold">{t("part14")}</h3>
@@ -230,7 +230,7 @@ function Contactus() {
                   <br />
                   {t("part1415")}
                 </div>
-              </div>
+              </div>*/}
             </div>
             <div className={"contactLstChild"}>
               <img
