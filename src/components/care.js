@@ -115,7 +115,7 @@ function Care() {
                 alt=""
               />
               <div className="cardheadingparagragh">
-                <h3 className="cardheading">{t(item.heading)}</h3>
+                <h3 className="mt-5 mb-5 cardheading">{t(item.heading)}</h3>
                 <div className="hrr">
                   <span className="line"></span>
                 </div>
