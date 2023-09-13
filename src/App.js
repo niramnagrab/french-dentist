@@ -9,7 +9,7 @@ import Care from "./components/care";
 import Blog from "./components/blog";
 import Contactus from "./components/contactus";
 import Home from "./components/home";
-import { Container, Navbar, Nav } from "react-bootstrap";
+import { Container, Navbar, Nav, OverlayTrigger, Popover } from "react-bootstrap";
 // import { useHistory } from 'react-router-dom'
 
 import DentalCheckUp from "./components/services/dental-checkup";
@@ -66,10 +66,17 @@ export default function App() {
         <a href="https://www.linkedin.com/company/french-dentist/" target="_blank" rel="noreferrer">
         <img className="icon" src={linkImg} alt="" />
         </a>
-        <a href="weixin://dl/business/?ticket=frenchdentist" target="_blank" rel="noreferrer">
-        <img className="icon" src="./homepics/wechat.png" alt="" />
-        </a>
-
+          <OverlayTrigger trigger="hover" placement="bottom" overlay={ (<Popover>
+            <Popover.Body>
+              <div className="qrcode-white">
+                <img className="qrcode" src="./photos/qrcode/Official_Accounts.jpg" alt="" />
+              </div>
+            </Popover.Body>
+          </Popover>) }>
+            <a href="weixin://dl/business/?ticket=frenchdentist" target="_blank" rel="noreferrer">
+            <img className="icon" src="./homepics/wechat.png" alt="" />
+            </a>
+          </OverlayTrigger>
         </div>
       </header>
 

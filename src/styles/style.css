@@ -2407,3 +2407,10 @@ a li {
   width: 100%;
   height: auto;
 }
+.qrcode {
+  width: 100px;
+  height: 100px;
+}
+.qrcode-white{
+  background-color: white;
+}
