@@ -12,8 +12,8 @@ import myImg from './assets/language.svg'
 
 const languageMap = {
   en: { label: "English", dir: "ltr", active: true },
-  fr: { label: "Français", dir: "ltr", active: false },
-  chi: { label: "中文", dir: "ltr", active: false }
+  fr: { label: "Français", dir: "ltr", active: false }/*,
+  chi: { label: "中文", dir: "ltr", active: false }*/
 };
 
 const LanguageSelect = () => {
