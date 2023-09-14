@@ -342,6 +342,10 @@ a li {
   padding: 15px 0px;
 } */
 
+.address-padding{
+  text-align: justify!important;
+}
+
 .address-padding h4 {
   font-size: 16px;
   font-weight: bolder;
@@ -1244,6 +1248,12 @@ a li {
     width: 100%;
     padding: 0 5% 0;
     right: 0%;
+  }
+  .address-padding {
+    text-align: center!important;
+  }
+  .address-padding-top {
+    padding-top: 20px;
   }
   .heroimg {
     height: auto;
