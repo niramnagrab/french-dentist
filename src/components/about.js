@@ -27,7 +27,7 @@ function About() {
             </a>
           </p>
         </div>
-        <div className="blogheroimage">
+        <div className="blogheroimage about">
           <img src="./homepics/aboutus7.png" alt="blog-photo-dentist" />
         </div>
       </div>
@@ -123,7 +123,8 @@ function About() {
           <div className="aboutsect3">
             <img
               className="mr-4 aboutSecImg"
-              src="./homepics/jimao.png"
+              style={{borderRadius: '10px'}}
+              src="./photos/jimao.jpg"
               alt=""
             />
             <div className="locationtext">

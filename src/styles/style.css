@@ -729,7 +729,7 @@ a li {
 .bloghero {
   display: flex;
   align-items: center;
-  padding: 5%;
+  padding: 0 5% 5%;
 }
 
 .blogherotext {
@@ -740,7 +740,7 @@ a li {
   width: 50%;
 }
 .blogherotext.team {
-  width: 60%;
+  width: 55%;
 }
 
 .blogtile {
@@ -770,15 +770,21 @@ a li {
 .blogheroimage {
   flex-grow: 1;
 } */
+.blogheroimage {
+  height: calc(100vh - 10rem);
+  overflow-y: hidden;
+}
 
 .blogheroimage img {
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 
 .testimonials-slider {
   width: 100%;
   height: 100%;
+  text-align: center;
+  max-width: 400px;
 }
 
 .testimonials-slider img {
@@ -980,6 +986,15 @@ a li {
   font-weight: bold;
 }
 
+.contact-hero {
+  width: 100%;
+  height: 70vh;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+}
+
 /* .team-btn {
   background-color: #c7a17a;
   color: white;
@@ -1168,6 +1183,7 @@ a li {
     display: flex;
     flex-direction: column;
     margin: 5%;
+    align-items: center;
   }
   .homeresimg {
     width: 100%;
@@ -1233,6 +1249,16 @@ a li {
     height: auto;
     width: 100%;
     margin-top: 0rem;
+  }
+
+  .blogheroimage {
+    height: 100%;
+    overflow-y: visible;
+  }
+
+  .blogheroimage img {
+    width: 100%;
+    height: 100%;
   }
 
   .section1 {
@@ -1303,6 +1329,7 @@ a li {
   height: 64vh;
   align-items: center;
   display: flex;
+  overflow: hidden;
 }
 
 .homevada {
@@ -1351,6 +1378,14 @@ a li {
 
 .carepage img.carehero {
   width: 100%;
+}
+
+.contact-address {
+  height: 224px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .carehero-container {
@@ -2397,11 +2432,13 @@ a li {
 }
 .d-Carousel{
   width: 100%;
-  height: 450px;
+  height: 380px;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  background-color: #e7e7e7;
+  border-radius: 20px;
 }
 .d-block {
   width: 100%;
