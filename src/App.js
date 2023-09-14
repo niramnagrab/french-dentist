@@ -199,7 +199,7 @@ export default function App() {
           <span className="hrfooterr"></span>
           <div className="footeradd row">
             <div className="col-lg-3">
-              <div className="text-justify address-padding">
+              <div className="address-padding">
                 <h4>{t("part10")}</h4>
                 {t("part1111")}
                 <br />
@@ -209,13 +209,13 @@ export default function App() {
                 <br />
                 {t("part1114")}
                 <br />
-                {t("part1115")}
+                {t("part1115")}<a href="tel:+8602151699696">{t("contact.phone")}</a>,
                 <br />
                 {t("part1116")}
                 <br />
               </div>
             </div>
-            <div className="text-justify col-lg-3 address-padding">
+            <div className="col-lg-3 address-padding address-padding-top">
               <h4>{t("part12")}</h4>
               {t("monday")}
               <br />

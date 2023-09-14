@@ -42,12 +42,12 @@ function Slider() {
                 alt=""
               />
             </div>
-            <div className="ml-5 slider-text">
+            <div className="ml-0 ml-md-5 slider-text">
               <div>
                 {" "}
                 <img className="mb-5" src="./homepics/quote.png" alt="" />
               </div>
-              <div className="p-text text-justify mb-5 quotation-text">
+              <div className="normal-p-text mb-5 mb-md-0 quotation-text">
                 {t("review.p2")}
               </div>
               <div className="p-text-bold font-weight-bold">{t("review.a2")}</div>
@@ -63,12 +63,12 @@ function Slider() {
                 alt=""
               />
             </div>
-            <div className="ml-5 slider-text">
+            <div className="ml-0 ml-md-5 slider-text">
               <div>
                 {" "}
                 <img className="mb-5" src="./homepics/quote.png" alt="" />
               </div>
-              <div className="p-text text-justify mb-5 quotation-text">
+              <div className="normal-p-text mb-5 mb-md-0 quotation-text">
                 {t("review.p3")}
               </div>
               <div className="p-text-bold font-weight-bold">{t("review.a3")}</div>
@@ -84,12 +84,12 @@ function Slider() {
                   alt=""
               />
             </div>
-            <div className="ml-5 slider-text">
+            <div className="ml-0 ml-md-5  slider-text">
               <div>
                 {" "}
                 <img className="mb-5" src="./homepics/quote.png" alt="" />
               </div>
-              <div className="p-text text-justify mb-5 quotation-text">
+              <div className="normal-p-text mb-5 mb-md-0 quotation-text">
                 {t("review.p4")}
               </div>
               <div className="p-text-bold font-weight-bold">{t("review.a4")}</div>
