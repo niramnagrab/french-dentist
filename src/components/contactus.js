@@ -24,12 +24,8 @@ function Contactus() {
 
   return (
     <div>
-      <div className="contact-hero">
-        <img
-          className="w-100 contacthero"
-          src="./photos/slide/9.jpg"
-          alt=""
-        />
+      <div className="contact-hero" style={{backgroundImage: 'url("./photos/slide/9.jpg")'}}>
+
       </div>
 
       <div className="careupper">
@@ -199,9 +195,9 @@ function Contactus() {
                   src="./homepics/shanghaimart.png"
                   alt=""
                 />
-                <div>
+                <div className="contact-address">
                   <h3 className="h3-bold">{t("part10")}</h3>
-                  <p>
+                  <p style={{marginBottom: '0px'}}>
                     {t("part1111")}
                     <br />
                     {t("part1112")}
@@ -234,8 +230,8 @@ function Contactus() {
             </div>
             <div className={"contactLstChild"}>
               <img
-                className="w-100 contacthero"
-                src="./homepics/maps.png"
+                className="w-100"
+                src="./photos/map.png"
                 alt=""
               />
               {/* <APILoader akay="GTrnXa5hwXGwgQnTBG28SHBubErMKm3f">

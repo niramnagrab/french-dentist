@@ -209,7 +209,7 @@ export default function App() {
                 <br />
                 {t("part1114")}
                 <br />
-                {t("part1115")}
+                {t("part1115")}<a href="tel:+8602151699696">{t("contact.phone")}</a>,
                 <br />
                 {t("part1116")}
                 <br />

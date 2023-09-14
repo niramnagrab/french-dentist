@@ -52,6 +52,11 @@ function Blog() {
           <p>
           {t("blog2")}
           </p>
+          <p className="mt-5">
+            <a className="team-btn" href="tel:+8602151699696">
+              {t("callus")}
+            </a>
+          </p>
         </div>
         <div className="blogheroimage">
           <img src="./homepics/blog.jpeg" alt="blog-photo-dentist" />
