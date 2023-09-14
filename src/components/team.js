@@ -34,14 +34,14 @@ function Team() {
                     </a>
                 </p>
             </div>
-            <div className="blogheroimage">
+            <div className="blogheroimage team">
                 <img src="./homepics/girl-smiling.jpg" alt="blog-photo-dentist" />
             </div>
         </div>
 
       <div className="new-doctor">
         <div className="doctor-image">
-          <img src="./photos/Costa_profile.jpg" alt="" />
+          <img src="./photos/Costa_profile_600.jpg" alt="" />
         </div>
 
         <div className="doctor-description">

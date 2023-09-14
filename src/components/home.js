@@ -1,9 +1,7 @@
 import React from "react";
 import "../styles/style.css";
 import { useTranslation } from "react-i18next";
-import Video from "../assets/homepage.mov";
 import Slider from "./slider";
-import ReadMore from "./util-components/ReadMore";
 
 function Home() {
   const { t } = useTranslation();
@@ -29,9 +27,7 @@ function Home() {
 
       <div className="homeherosection">
         <div>
-          <video className="heroimg" autoPlay muted loop playsinline>
-            <source src={Video} type="video/mp4" />
-          </video>
+          <img className="heroimg" src="./photos/clinic-new-reception.jpg" alt="" />
         </div>
 
         <div className="main main-team main2">
