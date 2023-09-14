@@ -77,7 +77,7 @@ function Contactus() {
             alt=""
           />
           <h6 className="cardheading-md">{t("wechat")}</h6>
-          <img style={{width: '60px',height: '60px'}} src="./homepics/QR.png" alt="" />
+          <img style={{width: '45px',height: '45px'}} src="./homepics/QR.png" alt="" />
         </div>
       </div>
 
