@@ -177,9 +177,11 @@ a li {
 }
 .main .title-header-left{
   color: white;
+  margin-bottom: 0.2rem;
 }
 .main .subheader-bold-left{
   color: white;
+  font-size: 17px;
 }
 
 
@@ -1287,7 +1289,7 @@ a li {
 .home-hero-main{
   position: relative;
   z-index: 2;
-  padding: 3% 0 0 5%;
+  padding: 0 0 0 5%;
 }
 
 .homevada {
