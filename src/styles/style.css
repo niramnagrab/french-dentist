@@ -1353,6 +1353,8 @@ a li {
 @media screen and (max-width: 1000px) {
   .main .title-header-left{
     color: #183047!important;
+    margin-bottom: 0!important;
+    margin-top: 0.8rem;
   }
   .main .subheader-bold-left{
     color: black!important;
@@ -1364,9 +1366,12 @@ a li {
     display: block;
   }
   .home-hero-main {
-    text-align: center;
     width: 100%;
     padding: 3%;
+    text-align: center;
+  }
+  .call-us-btn{
+    text-align: left!important;
   }
   .homeherosection {
     flex-direction: column;
