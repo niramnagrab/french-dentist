@@ -166,12 +166,14 @@ a li {
   justify-content: flex-start;
 }
 .homepage-bg {
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0 -15vw;
+  background-position: top left;
   background-image: url("/photos/banner/homepage.jpeg");
   position: relative;
   top: -5.5rem;
+  padding-top: 5.5rem;
+  height: calc(100vh - 5rem);
 }
 .main .title-header-left{
   color: white;
@@ -233,6 +235,14 @@ a li {
   width: 30px;
   height: 30px;
   background-image: "../../public/homepics/QR.png";
+}
+
+.home-hero-block{
+ display: none;
+}
+.home-hero-block img{
+  width: 100%;
+  height: auto;
 }
 
 .firstimg {
@@ -746,19 +756,18 @@ a li {
 
 .bloghero {
   display: flex;
-  align-items: center;
-  padding: 0 5% 5%;
+  padding: 3% 5%;
 }
 
 .blogherotext {
-  width: 70%;
-  padding: 60px 60px 60px 0px;
+  width: 50%;
+  padding-right: 2rem;
 }
 .blogherotext.about {
-  width: 70%;
+  width: 50%;
 }
 .blogherotext.team {
-  width: 70%;
+  width: 50%;
 }
 
 .blogtile {
@@ -789,8 +798,9 @@ a li {
   flex-grow: 1;
 } */
 .blogheroimage {
-  height: calc(100vh - 10rem);
+  height: calc(100vh - 12rem);
   overflow-y: hidden;
+  width: 50%;
 }
 
 .blogheroimage img {
@@ -818,6 +828,8 @@ a li {
 .home {
   width: 100vw;
   overflow-x: hidden;
+  position: relative;
+  z-index: 2;
 }
 .home-hero {
   position: relative;
@@ -1009,7 +1021,7 @@ a li {
   height: 70vh;
   overflow: hidden;
   background-repeat: no-repeat;
-  background-position: top left;
+  background-position: 0;
   background-size: cover;
 }
 
@@ -1272,6 +1284,11 @@ a li {
   align-items: center;
   display: flex;
 }
+.home-hero-main{
+  position: relative;
+  z-index: 2;
+  padding: 3% 0 0 5%;
+}
 
 .homevada {
   width: fit-content;
@@ -1339,6 +1356,17 @@ a li {
   }
   .main .subheader-bold-left{
     color: black!important;
+  }
+  .homepage-bg{
+    padding-top: 0!important;
+  }
+  .home-hero-block{
+    display: block;
+  }
+  .home-hero-main {
+    text-align: center;
+    width: 100%;
+    padding: 3%;
   }
   .homeherosection {
     flex-direction: column;
@@ -1648,10 +1676,18 @@ a li {
     padding-top: 0;
     flex-direction: column;
     text-align: center;
+    flex-direction: column-reverse;
+    margin-bottom: 2rem;
   }
   .blogherotext, .blogherotext.about, .blogherotext.team {
     width: 100%;
     padding-top: 1rem;
+  }
+  .aboutsect3{
+    margin-top: 2rem;
+  }
+  .blogheroimage{
+    width: 100%;
   }
   .contacthero {
     margin-top: 0;
