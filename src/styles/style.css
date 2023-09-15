@@ -741,10 +741,10 @@ a li {
   padding: 60px 60px 60px 0px;
 }
 .blogherotext.about {
-  width: 50%;
+  width: 70%;
 }
 .blogherotext.team {
-  width: 55%;
+  width: 70%;
 }
 
 .blogtile {
@@ -1821,6 +1821,7 @@ a li {
     padding: 0;
     width: 100%;
     text-align: center;
+    margin-top: 20px;
   }
   .call-us-btn {
     text-align: center;

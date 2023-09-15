@@ -28,7 +28,7 @@ function About() {
           </p>
         </div>
         <div className="blogheroimage about">
-          <img src="./homepics/aboutus7.png" alt="blog-photo-dentist" />
+          <img src="./photos/banner/about.jpeg" alt="blog-photo-dentist" />
         </div>
       </div>
 
