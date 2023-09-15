@@ -165,6 +165,20 @@ a li {
   object-fit: contain;
   justify-content: flex-start;
 }
+.homepage-bg {
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: 0 -15vw;
+  background-image: url("/photos/banner/homepage.jpeg");
+  position: relative;
+  top: -5.5rem;
+}
+.main .title-header-left{
+  color: white;
+}
+.main .subheader-bold-left{
+  color: white;
+}
 
 
 .abouthero {
@@ -741,10 +755,10 @@ a li {
   padding: 60px 60px 60px 0px;
 }
 .blogherotext.about {
-  width: 50%;
+  width: 70%;
 }
 .blogherotext.team {
-  width: 55%;
+  width: 70%;
 }
 
 .blogtile {
@@ -1163,6 +1177,17 @@ a li {
 .logo {
   height: 60px;
 }
+@media screen and (max-width: 1380px) {
+  .homepage-bg{
+    background-position: 0 -5vw!important;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .homepage-bg{
+    background-position: 0 0!important;
+  }
+}
 
 @media screen and (max-width: 1050px) {
   .hometxt1 {
@@ -1232,7 +1257,93 @@ a li {
   }
 }
 
+.hometxt1 .webbtn {
+  width: 200px;
+  padding: 16px;
+  /* height: 40px; */
+  /* padding: 0; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeherosection {
+  width: 100%;
+  align-items: center;
+  display: flex;
+}
+
+.homevada {
+  width: fit-content;
+  height: 100%;
+}
+
+.container {
+  padding: 0 !important;
+  margin-right: 0 !important;
+}
+
+.carousel-control-prev-icon {
+  color: #c7a17a !important;
+}
+
+.carousel-control-next-icon {
+  color: #c7a17a !important;
+}
+
+.quotation-text {
+  color: #014f86 !important;
+}
+.blogCard {
+  margin-bottom: 2rem;
+  transition: all 500ms ease-in-out;
+}
+.blogCard:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: scale(1.05);
+}
+.contactLstChild {
+  width: 50%;
+}
+.blogContainer {
+  padding: 3rem;
+}
+.cardBody {
+  min-height: 8rem;
+  overflow: hidden;
+}
+.blogImg {
+  max-height: 20rem;
+}
+
+.carepage img.carehero {
+  width: 100%;
+}
+
+.contact-address {
+  height: 224px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carehero-container {
+  width: 100%;
+  overflow: hidden;
+}
 @media screen and (max-width: 1000px) {
+  .main .title-header-left{
+    color: #183047!important;
+  }
+  .main .subheader-bold-left{
+    color: black!important;
+  }
+  .homeherosection {
+    flex-direction: column;
+    height: auto;
+  }
   .carecardimg {
     width: 151% !important;
   }
@@ -1322,92 +1433,11 @@ a li {
   .contacthero {
     margin-top: -3.5rem;
   }
-}
-
-.hometxt1 .webbtn {
-  width: 200px;
-  padding: 16px;
-  /* height: 40px; */
-  /* padding: 0; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.homeherosection {
-  width: 100%;
-  height: 64vh;
-  align-items: center;
-  display: flex;
-  overflow: hidden;
-}
-
-.homevada {
-  width: fit-content;
-  height: 100%;
-}
-
-.container {
-  padding: 0 !important;
-  margin-right: 0 !important;
-}
-
-.carousel-control-prev-icon {
-  color: #c7a17a !important;
-}
-
-.carousel-control-next-icon {
-  color: #c7a17a !important;
-}
-
-.quotation-text {
-  color: #014f86 !important;
-}
-.blogCard {
-  margin-bottom: 2rem;
-  transition: all 500ms ease-in-out;
-}
-.blogCard:hover {
-  cursor: pointer;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  transform: scale(1.05);
-}
-.contactLstChild {
-  width: 50%;
-}
-.blogContainer {
-  padding: 3rem;
-}
-.cardBody {
-  min-height: 8rem;
-  overflow: hidden;
-}
-.blogImg {
-  max-height: 20rem;
-}
-
-.carepage img.carehero {
-  width: 100%;
-}
-
-.contact-address {
-  height: 224px;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.carehero-container {
-  width: 100%;
-  overflow: hidden;
-}
-@media screen and (max-width: 992px) {
-  .care-hero-text .team-btn {
-
-  }
   .homeimg2 {
     padding-bottom: 0;
+  }
+  .main2{
+    text-align: center;
   }
   .contacthero {
     margin-top: 1rem;
@@ -1488,10 +1518,6 @@ a li {
   .contactLstChild {
     width: 100%;
   }
-  .homeherosection {
-    flex-direction: column;
-    height: auto;
-  }
   .hometxt1 {
     width: 90%;
     padding: 20px;
@@ -1545,6 +1571,10 @@ a li {
 .carecardimg {
   width: 100% !important;
 }
+  .homepage-bg {
+    top: 0!important;
+    background-image: none!important;
+  }
 }
 
 @media screen and (max-width: 825px) {
@@ -1821,6 +1851,7 @@ a li {
     padding: 0;
     width: 100%;
     text-align: center;
+    margin-top: 20px;
   }
   .call-us-btn {
     text-align: center;
@@ -2461,3 +2492,4 @@ a li {
 .qrcode-white{
   background-color: white;
 }
+

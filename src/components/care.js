@@ -47,12 +47,8 @@ function Care() {
 
   return (
     <div className="carepage">
-      <div className="carehero-container ">
-        <img
-          className="carehero w-100"
-          src="./homepics/treatment2.webp"
-          alt=""
-        />
+      <div className="contact-hero" style={{backgroundImage: 'url("./photos/banner/care.jpeg")'}}>
+
       </div>
 
       <div className="careupper">

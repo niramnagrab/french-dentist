@@ -6,7 +6,7 @@ import Slider from "./slider";
 function Home() {
   const { t } = useTranslation();
   return (
-    <div>
+    <div className="homepage-bg">
       {/* <div className="homeherosection">
         <div className="homevada zindexx">
           <video className="heroimg" autoPlay muted loop>
@@ -26,10 +26,6 @@ function Home() {
       </div> */}
 
       <div className="homeherosection">
-        <div>
-          <img className="heroimg" src="./photos/clinic-new-reception.jpg" alt="" />
-        </div>
-
         <div className="main main-team main2">
           <p className="title-header-left">
           {t("part25")}

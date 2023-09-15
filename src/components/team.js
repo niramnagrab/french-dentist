@@ -35,7 +35,7 @@ function Team() {
                 </p>
             </div>
             <div className="blogheroimage team">
-                <img src="./homepics/girl-smiling.jpg" alt="blog-photo-dentist" />
+                <img src="./photos/banner/team.jpeg" alt="blog-photo-dentist" />
             </div>
         </div>
 
