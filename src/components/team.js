@@ -20,7 +20,7 @@ function Team() {
                     <p className="iphonetxt p-text">{t("part63")}</p>
                 </div>
             </div> */}
-        <div className="bloghero" style={{padding: "0 5%"}}>
+        <div className="bloghero">
             <div className="blogherotext team">
                 <h1 className="title-header-left">
                     {t("team1")}
