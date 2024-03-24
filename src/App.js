@@ -54,7 +54,7 @@ export default function App() {
         <div className="miniheadertxt">
           <img className="firstimg" src={iconPng} alt="" />
           <div className="miniHeaderContactUs">
-            <div>{t("part1")}</div> &nbsp;<div>{t("part1.2")}&nbsp;<a href="tel:+8602151699696">{t("part1.3")}</a></div>
+            <div>{t("part1")}</div> &nbsp;<div>{t("part1.2")}&nbsp;<a href="tel:+8602151699696" style={{ fontWeight:' bold', color: '#FFFFFF' }}>{t("part1.3")}</a></div>
           </div>
         </div>
         <div className="socialicons">
