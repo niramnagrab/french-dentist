@@ -62,7 +62,7 @@ function Home() {
         <span className="line-middle"></span>
         <div className="servtab">
           <div>
-            <img className="homefullwid" src="./homepics/001.png" alt="" />
+            <img className="homefullwid" src="./homepics/icons/DENTA-CHECK-UP.svg" alt="" />
           </div>
           <div className="hometxtsect ml-5">
             <div className="h3-bold font-weight-bolder mb-3 servLink">
@@ -75,7 +75,7 @@ function Home() {
           <div>
             <img
               className="homefullwid"
-              src="./homepics/teeth-cleaning.png"
+              src="./homepics/icons/TEETH-CLEANINGS.svg"
               alt=""
             />
           </div>
@@ -88,7 +88,7 @@ function Home() {
         </div>
         <div className="servtab">
           <div>
-            <img className="homefullwid" src="./homepics/003.png" alt="" />
+            <img className="homefullwid" src="./homepics/icons/VENEERS.svg" alt="" />
           </div>
           <div className="ml-5 hometxtsect">
             <div className="h3-bold font-weight-bolder mb-3 servLink">
@@ -99,7 +99,7 @@ function Home() {
         </div>
         <div className="servtab">
           <div>
-            <img className="homefullwid" src="./homepics/004.png" alt="" />
+            <img className="homefullwid" src="./homepics/icons/WHITENING.svg" alt="" />
           </div>
           <div className="ml-5 hometxtsect">
             <div className="h3-bold font-weight-bolder mb-3 servLink">
@@ -110,7 +110,7 @@ function Home() {
         </div>
         <div className="servtab">
           <div>
-            <img className="homefullwid" src="./homepics/invisalign.png" alt="" />
+            <img className="homefullwid" src="./homepics/icons/INVISALIGN.svg" alt="" />
           </div>
           <div className="ml-5 hometxtsect">
             <div className="h3-bold font-weight-bolder mb-3 servLink">
@@ -121,7 +121,7 @@ function Home() {
         </div>
         <div className="servtab">
           <div>
-            <img className="homefullwid" src="./homepics/006.png" alt="" />
+            <img className="homefullwid" src="./homepics/icons/EMERGENCIES-AND-MORE.svg" alt="" />
           </div>
           <div className="ml-5 hometxtsect">
             <div className="h3-bold font-weight-bolder mb-3 servLink">
