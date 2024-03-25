@@ -23,7 +23,7 @@ const LanguageSelect = () => {
   const [menuAnchor, setMenuAnchor] = React.useState(null);
   const [open, setOpen] = useState(false);
   React.useEffect(() => {
-    document.body.dir = languageMap[selected].dir;
+    document.body.dir = languageMap[selected] && languageMap[selected].dir ? languageMap[selected].dir : 'ltr';
   }, [menuAnchor, selected]);
   const handleBtnClick = (currentTarget) => {
     setMenuAnchor(currentTarget);
