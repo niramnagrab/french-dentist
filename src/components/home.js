@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/style.css";
 import { useTranslation } from "react-i18next";
+import Video from "../assets/homepage.mov";
 import Slider from "./slider";
 
 function Home() {
@@ -26,23 +27,25 @@ function Home() {
       </div> */}
 
       <div className="homeherosection homepage-bg">
-        <div className="home-hero-block">
-          <img src="./photos/banner/homepage.jpeg" alt="" />
-        </div>
-
         <div className="main home-hero-main">
           <p className="title-header-left">
-          {t("part25")}
+            {t("part25")}
           </p>
           <p className="subheader-bold-left padding-bottom">
-          {t("part26")}
+            {t("part26")}
           </p>
           <div className="call-us-btn">
-          <a className="team-btn" href="tel:+8602151699696">
-            {t("callus")}
-          </a>
+            <a className="team-btn" href="tel:+8602151699696">
+              {t("callus")}
+            </a>
           </div>
         </div>
+        <div>
+          <video className="heroimg" autoPlay muted loop playsInline>
+            <source src={Video} type="video/mp4"/>
+          </video>
+        </div>
+
       </div>
 
       <div className="section1 zindexx">

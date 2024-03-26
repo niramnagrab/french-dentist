@@ -169,7 +169,7 @@ a li {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top left;
-  background-image: url("/photos/banner/homepage.jpeg");
+  background-image: linear-gradient(to right, #233654 , #889BAA);
   position: relative;
   top: -5.5rem;
   padding-top: 5.5rem;
