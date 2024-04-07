@@ -272,7 +272,7 @@ export default function App() {
           </div>
           <hr className="hrfooter1" />
           <div className="text-center pb-2 pb-md-5">{t("part23").replace("2022", new Date().getFullYear()+"")} &nbsp;<a
-              href="https://www.dezign41.com">{t("design.by")}</a></div>{" "}
+              href="https://www.dezign41.com" style={{ color: '#FFFFFF' }} >{t("design.by")}</a></div>{" "}
         </div>
       </div>
     </>

@@ -55,8 +55,7 @@ function Home() {
           <div className="normal-p-text">{[t("part28")]}</div>
         </div>
         <div className="about-image">
-          <img className="homeimg2" src="./homepics/reception1.jpg" alt="" />
-          <img className="homeimg3" src="./homepics/section1.png" alt="" />
+          <img className="homeimg2" src="./homepics/reception-new.png" alt="" />
         </div>
       </div>
 
