@@ -81,7 +81,9 @@ export default function App() {
       </header>
 
       <div className="bg-white">
-        <Navbar collapseOnSelect  expand="lg" style={{backgroundColor: pathnameis=='/'?'transparent':'white'}}>
+        <Navbar collapseOnSelect  expand="lg"     className={`navelem ${
+            pathnameis === "/" ? "nav-home" : "nav-new"
+        }`}>
           <Container className="navbarrr">
             <Navbar.Brand className="mainfrlink" href="/">
             <img className="logo" src={logoImg} alt="" />
