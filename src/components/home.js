@@ -41,7 +41,7 @@ function Home() {
           </div>
         </div>
         <div>
-          <video className="heroimg" autoPlay muted loop playsInline>
+          <video className="hero-video" autoPlay muted loop playsInline>
             <source src={Video} type="video/mp4"/>
           </video>
         </div>
@@ -68,7 +68,7 @@ function Home() {
           </div>
           <div className="hometxtsect ml-5">
             <div className="h3-bold font-weight-bolder mb-3 servLink">
-              <a href="/comprehensive-care">{t("part32")}</a>
+              <a className="sub-title" href="/comprehensive-care">{t("part32")}</a>
             </div>
             <div className="subheader-normal-left">{t("part33")}</div>
           </div>
@@ -83,7 +83,7 @@ function Home() {
           </div>
           <div className="ml-5 hometxtsect">
             <div className="h3-bold font-weight-bolder mb-3 servLink">
-              <a href="/comprehensive-care">{t("part34")}</a>
+              <a className="sub-title" href="/comprehensive-care">{t("part34")}</a>
             </div>
             <div className="subheader-normal-left">{t("part35")} </div>
           </div>
@@ -94,7 +94,7 @@ function Home() {
           </div>
           <div className="ml-5 hometxtsect">
             <div className="h3-bold font-weight-bolder mb-3 servLink">
-              <a href="/porcelain-veneers">{t("part36")}</a>
+              <a className="sub-title" href="/porcelain-veneers">{t("part36")}</a>
             </div>
             <div className="subheader-normal-left">{t("part37")}</div>
           </div>
@@ -105,7 +105,7 @@ function Home() {
           </div>
           <div className="ml-5 hometxtsect">
             <div className="h3-bold font-weight-bolder mb-3 servLink">
-              <a href="/teeth-whitening">{t("part38")}</a>
+              <a className="sub-title" href="/teeth-whitening">{t("part38")}</a>
             </div>
             <div className="subheader-normal-left">{t("part39")} </div>
           </div>
@@ -116,7 +116,7 @@ function Home() {
           </div>
           <div className="ml-5 hometxtsect">
             <div className="h3-bold font-weight-bolder mb-3 servLink">
-              <a href="/orthodontics">{t("part40")}</a>
+              <a className="sub-title" href="/orthodontics">{t("part40")}</a>
             </div>
             <div className="subheader-normal-left">{t("part41")}</div>
           </div>
@@ -127,7 +127,7 @@ function Home() {
           </div>
           <div className="ml-5 hometxtsect">
             <div className="h3-bold font-weight-bolder mb-3 servLink">
-              <a href="/emergencies-and-more">{t("part42")}</a>
+              <a className="sub-title" href="/emergencies-and-more">{t("part42")}</a>
             </div>
             <div className="subheader-normal-left">{t("part43")}</div>
           </div>

@@ -166,13 +166,7 @@ a li {
   justify-content: flex-start;
 }
 .homepage-bg {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top left;
-  background-image: linear-gradient(to right, #233654 , #889BAA);
   position: relative;
-  top: -5.5rem;
-  padding-top: 5.5rem;
   height: calc(100vh - 5rem);
 }
 .main .title-header-left{
@@ -256,6 +250,13 @@ a li {
   width: 50vw;
   height: auto;
   float: left;
+}
+.hero-video{
+  width: 100vw;
+  height: auto;
+  position: absolute;
+  top: -5.5rem;
+  left: 0;
 }
 .herosection {
   position: absolute;
@@ -1118,6 +1119,10 @@ a li {
   font-weight: bolder !important;
 }
 
+.sub-title {
+  color: #0E4963;
+}
+
 .title-header-left {
   text-align: left !important;
   line-height: 45px;
@@ -1354,6 +1359,10 @@ a li {
   overflow: hidden;
 }
 @media screen and (max-width: 1000px) {
+  .hero-video{
+    position: static;
+    margin-top: 1rem;
+  }
   .main .title-header-left{
     color: #183047!important;
     margin-bottom: 0!important;
@@ -2536,4 +2545,12 @@ a li {
 .qrcode-white{
   background-color: white;
 }
-
+.nav-home {
+  width: 100vw;
+  position: relative;
+  z-index: 2;
+  background-color: rgba(255,255,255,0.6);
+}
+.nav-new {
+  background-color: #ffffff;
+}
