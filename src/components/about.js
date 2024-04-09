@@ -13,7 +13,7 @@ function About() {
   const greaterThen1400 = useMediaQuery('(min-width:1400px)')
   return (
     <div>
-      <div className="bloghero">
+      <div className="bloghero about">
         <div className="blogherotext about">
           <h1 className="title-header-left">
             {t("abouthero")}
@@ -28,7 +28,7 @@ function About() {
           </p>
         </div>
         <div className="blogheroimage about">
-          <img src="./photos/banner/about.jpeg" alt="blog-photo-dentist" />
+          <img src="./photos/about/IMG_5917.JPG" alt="blog-photo-dentist" />
         </div>
       </div>
 

@@ -769,6 +769,8 @@ a li {
 }
 .blogherotext.about {
   width: 50%;
+  position: relative;
+  z-index: 2;
 }
 .blogherotext.team {
   width: 50%;
@@ -805,6 +807,17 @@ a li {
   height: calc(100vh - 12rem);
   overflow-y: hidden;
   width: 50%;
+}
+.blogheroimage.about{
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  top: -4rem;
+  height: calc(100vh + 5rem);
+}
+.bloghero.about{
+  display: flex;
+  height: calc(100vh - 6rem);
 }
 
 .blogheroimage img {
@@ -1421,6 +1434,10 @@ a li {
     height: 100%;
     overflow-y: visible;
   }
+  .blogheroimage.about img{
+    width: 100%;
+    height: auto!important;
+  }
 
   .blogheroimage img {
     width: 100%;
@@ -1892,6 +1909,12 @@ a li {
   .bloghero {
     flex-direction: column-reverse;
     margin-bottom: 2rem;
+  }
+  .bloghero.about{
+    height: auto!important;
+  }
+  .blogheroimage.about img{
+   display: none;
   }
 
   .contactdetails {
