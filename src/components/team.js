@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/style.css";
 import { useTranslation } from "react-i18next";
 import ReadMore from "./util-components/ReadMore";
 
 function Team() {
   const { t } = useTranslation();
-
+  const [viewMore, setViewMore] = useState(false);
+  const [viewMore1, setViewMore1] = useState(false);
+  const [viewMore2, setViewMore2] = useState(false);
   let firstDesc = t("part66") + t("part67") + t("part68") + t("part69")
   let secondDesc = t("part72") + t("part73") + t("part74")
   let thirdDesc = t("part77") + t("part78") + t("part79")
@@ -56,7 +58,11 @@ function Team() {
               ]}
               seeLess={"See Less"}
               paraNo='1st'
+              viewMore={viewMore1}
             />
+            <div className="read-more team-btn" onClick={() => setViewMore1(!viewMore1)}>
+              {viewMore1 ? "See Less" : seeMore}
+            </div>
           </div>
           <div class="teamss-card">
             <img src="./homepics/zheng.jpg" alt="zheng" className="imgBorder" />
@@ -71,8 +77,11 @@ function Team() {
                 seeMore
               ]}
               seeLess={"See Less"}
-              paraNo='2rd'
+              viewMore={viewMore2}
             />
+            <div className="read-more team-btn" onClick={() => setViewMore2(!viewMore2)}>
+              {viewMore2 ? "See Less" : seeMore}
+            </div>
           </div>
 
           <div class="teamss-card">
@@ -89,7 +98,11 @@ function Team() {
               ]}
               seeLess={"See Less"}
               paraNo='3rd'
+              viewMore={viewMore}
             />
+            <div className="read-more team-btn" onClick={() => setViewMore(!viewMore)}>
+              {viewMore ? "See Less" : seeMore}
+            </div>
           </div>
 
         </div>

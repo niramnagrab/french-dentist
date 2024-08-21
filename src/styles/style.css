@@ -96,32 +96,24 @@ a li {
   margin-top: 6px;
 } */
 
-.testcontainer {
 
-  display: flex;
-  justify-content: space-between;
-  margin: 20px;
-
-}
 
 
 
 
 
 .testimonial {
-  display: flex;
-  flex-direction: column;
   border: 1px solid #ccc;
-  position: relative;
-  padding: 20px;
-  width: 32%;
   background-color: #f2f2f2;
+  width: 20%;
+  padding: 10px;
+  margin-left:auto;
+  margin-right: auto;
 }
 
 .testimonial-content {
   margin-bottom: 10px;
   flex: 1;
-  /* Allows content to grow and push the author section to the bottom */
 }
 
 
@@ -1282,8 +1274,6 @@ a li {
 .parent-container-read-more {
   display: flex;
   flex-direction: column;
-
-  height: 50vh;
 }
 
 .read-more {
@@ -1291,6 +1281,7 @@ a li {
   width: 40%;
   margin-top: auto;
   cursor: pointer;
+  align-self: flex-end;
 }
 
 .read-more:hover {
@@ -2664,6 +2655,10 @@ a li {
     border-radius: 0.5rem;
   }
 
+  .carousel-inner {
+    width: 100%
+  }
+
   .contactsect {
     display: flex;
     flex-direction: column;
@@ -3111,4 +3106,49 @@ a li {
 
 .teamss-button:hover {
   background-color: #0062cc;
+}
+
+
+
+
+
+.testcontainer {
+  display: flex;
+  margin-left: 20px;
+  margin-Right: 20px;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .testimonial {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin: 20px 0;
+
+  }
+
+  .testcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .teamss-card-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .teamss-card {
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }

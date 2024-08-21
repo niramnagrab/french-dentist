@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
-function ReadMore({ text, readMore, seeLess, minWords = 400, paraNo }) {
-  const [viewMore, setViewMore] = useState(false);
+function ReadMore({ text, readMore, seeLess, minWords = 400, paraNo ,viewMore}) {
   let x = minWords
   if (paraNo === '1st') {
     x = 569
@@ -19,9 +18,6 @@ function ReadMore({ text, readMore, seeLess, minWords = 400, paraNo }) {
         <br />
         {viewMore && text[1] && text[1]}
       </p>
-      <div className="read-more team-btn" onClick={() => setViewMore(!viewMore)}>
-        {viewMore ? seeLess : readMore}
-      </div>
     </div>
   );
 }
