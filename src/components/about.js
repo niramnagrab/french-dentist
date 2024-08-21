@@ -15,10 +15,10 @@ function About() {
     <div>
       <div className="bloghero about">
         <div className="blogherotext about">
-          <h1 className="title-header-left">
+          <h1 className="title-header-left" style={{color:'white'}}>
             {t("abouthero")}
           </h1>
-          <p className="subheader-bold-left">
+          <p className="subheader-bold-left" style={{color:'white'}}>
             {t("abouttext")}
           </p>
           <p className="mt-5">
@@ -28,7 +28,7 @@ function About() {
           </p>
         </div>
         <div className="blogheroimage about">
-          <img src="./photos/about/IMG_5917.JPG" alt="blog-photo-dentist" />
+          <img src="./photos/about/Group5555.png" alt="blog-photo-dentist" />
         </div>
       </div>
 
