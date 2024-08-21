@@ -24,7 +24,7 @@ function Contactus() {
 
   return (
     <div>
-      <div className="contact-hero" style={{backgroundImage: 'url("./photos/slide/9.jpg")'}}>
+      <div className="contact-hero" style={{ backgroundImage: 'url("./photos/slide/9.jpg")' }}>
 
       </div>
 
@@ -32,7 +32,7 @@ function Contactus() {
         <div className="caresect mr-3">
           <img
             className="m-4 sectimg"
-            src="https://img.icons8.com/ios-filled/50/4a90e2/wall-clock.png"
+            src="./photos/icon7.png"
             height="75px"
             width="75px"
             alt=""
@@ -47,7 +47,7 @@ function Contactus() {
         <div className="caresect mr-3">
           <img
             className="m-4 sectimg"
-            src="https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/64/4a90e2/external-email-contact-us-xnimrodx-lineal-xnimrodx-4.png"
+            src="./photos/icon6.png"
             height="75px"
             width="75px"
             alt=""
@@ -60,7 +60,7 @@ function Contactus() {
         <div className="caresect mr-3">
           <img
             className="m-4 sectimg"
-            src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/64/4a90e2/external-emergency-health-care-and-medical-flatart-icons-solid-flatarticons.png"
+            src="./photos/icon4.png"
             height="75px"
             width="75px"
             alt=""
@@ -71,17 +71,20 @@ function Contactus() {
         <div className="caresect mr-3">
           <img
             className="m-4 sectimg"
-            src="https://img.icons8.com/ios-filled/50/4a90e2/weixing.png"
+            src="./photos/icon8.png"
             height="75px"
             width="75px"
             alt=""
           />
           <h6 className="cardheading-md">{t("wechat")}</h6>
-          <img style={{width: '45px',height: '45px'}} src="./homepics/QR.png" alt="" />
+          <img style={{ width: '45px', height: '45px' }} src="./homepics/QR.png" alt="" />
         </div>
       </div>
 
       <h2 className="title-header-center mt-5 ">{t("part113")}</h2>
+      <div className="hrr hrr2">
+        <span class="line-middle"></span>
+      </div>
 
       <div className="contactdetails">
         <div className="contactsect mt-0 mt-md-5">
@@ -146,15 +149,15 @@ function Contactus() {
           {t("part47")}
         </div>
         <span className="line-middle"></span>
-        <h3 className="subheader-bold-60" style={{fontWeight: 'normal'}}>
+        <h3 className="subheader-bold-60" style={{ fontWeight: 'normal' }}>
           {t("billing_facility_intro_text")}
         </h3>
         <div className="text-center billingsect">
           <div className="billingsect-card">
             <img
-              src="https://img.icons8.com/external-flat-wichaiwi/64/000000/external-convenient-generation-z-flat-wichaiwi.png"
-              width="75px"
-              height="75px"
+              src="./photos/icon1.png"
+                width="55px"
+              height="55px"
               alt=""
             />
             <div className="subheader-bold mb-3">{t("part48")}</div>
@@ -162,9 +165,9 @@ function Contactus() {
           </div>
           <div className="billingsect-card">
             <img
-              src="https://img.icons8.com/fluency/48/4a90e2/privacy-policy.png"
-              width="75px"
-              height="75px"
+              src="./photos/icon2.png"
+                width="75px"
+              height="65px"
               alt=""
             />
             <div className="subheader-bold mb-3">{t("part49")}</div>
@@ -172,9 +175,9 @@ function Contactus() {
           </div>
           <div className="billingsect-card">
             <img
-              src="https://img.icons8.com/external-xnimrodx-blue-xnimrodx/64/4a90e2/external-good-customer-review-xnimrodx-blue-xnimrodx.png"
-              width="75px"
-              height="75px"
+              src="./photos/icon3.png"
+              width="55px"
+              height="55px"
               alt=""
             />
             <div className="subheader-bold mb-3">{t("part50")} </div>
@@ -197,7 +200,7 @@ function Contactus() {
                 />
                 <div className="contact-address">
                   <h3 className="h3-bold">{t("part10")}</h3>
-                  <p style={{marginBottom: '0px'}}>
+                  <p style={{ marginBottom: '0px' }}>
                     {t("part1111")}
                     <br />
                     {t("part1112")}
@@ -212,7 +215,7 @@ function Contactus() {
                   </p>
                 </div>
               </div>
-{/*              <div className="contactlast mt-5">
+              {/*              <div className="contactlast mt-5">
                 <img className="mr-4" src="./homepics/jimao.png" alt="" />
                 <div>
                   <h3 className="h3-bold">{t("part14")}</h3>
@@ -233,6 +236,7 @@ function Contactus() {
                 className="w-100"
                 src="./photos/map.png"
                 alt=""
+                style={{borderBottom:"20px solid #003942",borderRight:"20px solid #003942"}}
               />
               {/* <APILoader akay="GTrnXa5hwXGwgQnTBG28SHBubErMKm3f">
                 <Map center="上海">

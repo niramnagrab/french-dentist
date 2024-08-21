@@ -388,7 +388,7 @@ a li {
 
 .billingsect-card {
   width: 33%;
-  padding: 10px 20px;
+  padding: 50px 20px;
 }
 
 .intro-text {
@@ -438,8 +438,9 @@ a li {
 .aboutsect3 {
   display: flex;
   flex-direction: row;
-  width: 40%;
-  /* padding: 2% 10%; */
+  align-items: center; 
+  width: 40%; 
+ 
 }
 .sect4 {
   display: flex;
@@ -485,7 +486,7 @@ a li {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: -10rem;
+  margin-top: -2rem;
 }
 
 .carehero {
@@ -524,10 +525,14 @@ a li {
 .caretext {
   line-height: 55px;
   font-size: 35px;
-
-  /* width: 90%; */
   color: #183047;
   padding: 0 50px !important;
+  text-align: center; 
+  word-break: break-word; 
+}
+.caretext .break-here::after {
+  content: "\family"; 
+  white-space: pre; 
 }
 .carecard {
   display: flex;
@@ -614,9 +619,14 @@ a li {
   /* margin-top: -10rem; */
   height: 60vh;
 }
+
 .contactdetails {
-  width: 80%;
+  width: 100%;
   padding: 10px 5%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between; 
 }
 .contactpros {
   display: flex;
@@ -634,8 +644,11 @@ a li {
   font-size: 18px;
 }
 .contactsect {
-  display: flex;
-  flex-direction: row;
+  background-color: "FAFAFA";
+  width: 48%; 
+  margin-bottom: 20px; 
+  border-bottom: 2px solid #35A8D7;
+  padding-bottom: 20px; 
 }
 .contactlst {
   width: 100%;
@@ -645,6 +658,7 @@ a li {
 
 .map-container {
   width: 50%;
+  align-items: center;
 }
 .contactlast {
   display: flex;
@@ -760,6 +774,7 @@ a li {
 
 .bloghero {
   display: flex;
+  align-items: center;
   padding: 3% 5%;
 }
 
@@ -1035,11 +1050,11 @@ a li {
 
 .contact-hero {
   width: 100%;
-  height: 70vh;
+  height: 35vh; 
   overflow: hidden;
   background-repeat: no-repeat;
-  background-position: 0;
-  background-size: cover;
+  background-position: center; 
+  background-size: cover; 
 }
 
 /* .team-btn {
