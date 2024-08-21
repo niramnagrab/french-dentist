@@ -20,96 +20,81 @@ function Team() {
                     <p className="iphonetxt p-text">{t("part63")}</p>
                 </div>
             </div> */}
-        <div className="bloghero">
-            <div className="blogherotext team">
-                <h1 className="title-header-left">
-                    {t("team1")}
-                </h1>
-                <p className="subheader-bold-left">
-                    {t("team2")}
-                </p>
-                <p className="mt-5">
-                    <a className="team-btn" href="tel:+8602151699696">
-                        {t("callus")}
-                    </a>
-                </p>
-            </div>
-            <div className="blogheroimage team">
-                <img src="./photos/banner/team.jpeg" alt="blog-photo-dentist" />
-            </div>
-        </div>
-
-      <div className="new-doctor">
-        <div className="doctor-image">
-          <img src="./photos/Costa_profile_600.jpg" alt="" />
-        </div>
-
-        <div className="doctor-description">
-          <h1>{t("team3")}</h1>
-          <p className="subheader-bold-left">
-          {t("team4")}
+      <div className="bloghero">
+        <div className="blogherotext team">
+          <h1 className="title-header-left">
+            <span className="underline">{t("team1")}</span>
+          </h1>
+          <p className="subheader-normal-left">
+            {t("team2")}
           </p>
-          <ReadMore
-            className="normal-p-text"
-            text={[
-              firstDesc,
-              false
-            ]}
-            readMore={[
-              seeMore
-            ]}
-            seeLess={"See Less"}
-            paraNo = '1st'
-          />
+          <p className="mt-5">
+            <a className="team-btn" href="tel:+8602151699696">
+              {t("callus")}
+            </a>
+          </p>
+        </div>
+        <div className="blogheroimage team">
+          <img src="./photos/banner/team.jpeg" alt="blog-photo-dentist" />
         </div>
       </div>
 
-      <div className="new-doctor new-doctor-alt">
-        <div className="doctor-description">
-          <h1>{t("team6")}</h1>
-          <p className="subheader-bold-left">
-          {t("team7")}
-          </p>
-          <ReadMore
-            className="normal-p-text"
-            text={[
-              secondDesc,
-              false
-            ]}
-            readMore={"Read More"}
-            seeLess={"See Less"}
-            paraNo = '2nd'
 
-          />
-        </div>
-        <div className="doctor-image">
-          <img src="./homepics/zheng.jpg" alt="" />
+      <div className="teamss-container">
+        <div className="teamss-card-container">
+          <div class="teamss-card">
+            <img src="./photos/Costa_profile_600.jpg" alt="Dr. Louis Costa" className="imgBorder" />
+            <h2><span class="underline" >{t("team3")}</span></h2>
+            <ReadMore
+              className="normal-p-text"
+              text={[
+                firstDesc,
+                false
+              ]}
+              readMore={[
+                seeMore
+              ]}
+              seeLess={"See Less"}
+              paraNo='1st'
+            />
+          </div>
+          <div class="teamss-card">
+            <img src="./homepics/zheng.jpg" alt="zheng" className="imgBorder" />
+            <h2><span class="underline" >{t("team6")}</span></h2>
+            <ReadMore
+              className="normal-p-text"
+              text={[
+                secondDesc,
+                false
+              ]}
+              readMore={[
+                seeMore
+              ]}
+              seeLess={"See Less"}
+              paraNo='2rd'
+            />
+          </div>
+
+          <div class="teamss-card">
+            <img src="./homepics/chiou.jpg" alt="zheng" className="imgBorder" />
+            <h2><span class="underline" >{t("team9")}</span></h2>
+            <ReadMore
+              className="normal-p-text"
+              text={[
+                thirdDesc,
+                false
+              ]}
+              readMore={[
+                seeMore
+              ]}
+              seeLess={"See Less"}
+              paraNo='3rd'
+            />
+          </div>
+
         </div>
       </div>
 
-      <div className="new-doctor">
-        <div className="doctor-image">
-          <img src="./homepics/chiou.jpg" alt="" />
-        </div>
-
-        <div className="doctor-description">
-          <h1>{t("team9")}</h1>
-          <p className="subheader-bold-left">
-          {t("team10")}
-          </p>
-          <ReadMore
-            className="normal-p-text"
-            text={[
-              thirdDesc,
-              false
-            ]}
-            readMore={"Read More"}
-            seeLess={"See Less"}
-            paraNo = '3rd'
-
-          />
-        </div>
-      </div>
 
       {/*
             <div className="teamsect text-justify p-text">

@@ -42,7 +42,7 @@ function Home() {
         </div>
         <div>
           <video className="hero-video" autoPlay muted loop playsInline>
-            <source src={Video} type="video/mp4"/>
+            <source src={Video} type="video/mp4" />
           </video>
         </div>
 
@@ -140,6 +140,7 @@ function Home() {
         </div>
         <span className="line-middle"></span>
       </div>
+   
 
       {/* carousal efect */}
       <Slider />
@@ -147,15 +148,15 @@ function Home() {
       <div className="homebilling">
         <div className="title-header-center ">{t("part47")}</div>
         <span className="line-middle"></span>
-        <h3 className="subheader-bold-60" style={{fontWeight: 'normal'}}>
+        <h3 className="subheader-bold-60" style={{ fontWeight: 'normal' }}>
           {t("billing_facility_intro_text")}
         </h3>
         <div className="billingsect mt-5">
           <div className="billingsect-card">
             <img
-              src="https://img.icons8.com/external-flat-wichaiwi/64/000000/external-convenient-generation-z-flat-wichaiwi.png"
-              width="75px"
-              height="75px"
+              src="./photos/icon1.png"
+              width="65px"
+              height="65px"
               alt=""
             />
             <div className="subheader-bold mt-3">{t("part48")}</div>
@@ -163,9 +164,9 @@ function Home() {
           </div>
           <div className="billingsect-card">
             <img
-              src="https://img.icons8.com/fluency/48/4a90e2/privacy-policy.png"
-              width="75px"
-              height="75px"
+              src="./photos/icon2.png"
+              width="65px"
+              height="65px"
               alt=""
             />
             <div className="subheader-bold mt-3">{t("part49")}</div>
@@ -173,9 +174,9 @@ function Home() {
           </div>
           <div className="billingsect-card">
             <img
-              src="https://img.icons8.com/external-xnimrodx-blue-xnimrodx/64/4a90e2/external-good-customer-review-xnimrodx-blue-xnimrodx.png"
-              width="75px"
-              height="75px"
+              src="./photos/icon3.png"
+              width="65px"
+              height="65px"
               alt=""
             />
             <div className="subheader-bold mt-3">{t("part50")}</div>

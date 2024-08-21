@@ -13,90 +13,120 @@ function Slider() {
     >
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <div className="homescroll">
-            <div className="testimonials-slider">
-              <img
-                className="homeresimg"
-                src="./photos/review/1.png"
-                alt=""
-              />
-            </div>
-            <div className="ml-0 ml-md-5 slider-text">
-              <div className="qouteImage">
-                {" "}
-                <img className="mb-5" src="./homepics/quote.png" alt="" />
-              </div>
-              <div className="normal-p-text mb-5 mb-md-0 quotation-text">
+          <div class="testcontainer">
+            <div class="testimonial">
+              <div class="testimonial-content">
                 {t("review.p1")}
               </div>
-              <div className="p-text-bold font-weight-bold">{t("review.a1")}</div>
-            </div>
-          </div>
-        </div>
-        <div className="carousel-item">
-          <div className="homescroll">
-            <div className="testimonials-slider">
-              <img
-                className="homeresimg"
-                src="./photos/review/2.png"
-                alt=""
-              />
-            </div>
-            <div className="ml-0 ml-md-5 slider-text">
-              <div>
-                {" "}
-                <img className="mb-5" src="./homepics/quote.png" alt="" />
+              <div class="stars">
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
               </div>
-              <div className="normal-p-text mb-5 mb-md-0 quotation-text">
+              <div class="testimonial-author">
+                <img src="./photos/review/1.png" alt="Maria"/>
+                <div>
+                  <span style={{ fontWeight: 'bold', color: 'white' }}> {t("review.a1")}</span>
+                  <br />
+                  <span style={{ color: 'lightgrey' }}>29 July 2024</span>
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="testimonial">
+
+              <div class="testimonial-content">
+
                 {t("review.p2")}
+
               </div>
-              <div className="p-text-bold font-weight-bold">{t("review.a2")}</div>
-            </div>
-          </div>
-        </div>
-        <div className="carousel-item">
-          <div className="homescroll">
-            <div className="testimonials-slider">
-              <img
-                className="homeresimg"
-                src="./photos/review/3.png"
-                alt=""
-              />
-            </div>
-            <div className="ml-0 ml-md-5 slider-text">
-              <div>
-                {" "}
-                <img className="mb-5" src="./homepics/quote.png" alt="" />
+
+              <div class="stars">
+
+                <span class="star">★</span>
+
+                <span class="star">★</span>
+
+                <span class="star">★</span>
+
+                <span class="star">★</span>
+
+                <span class="star">★</span>
+
               </div>
-              <div className="normal-p-text mb-5 mb-md-0 quotation-text">
+
+              <div class="testimonial-author">
+
+                <img src="./photos/review/2.png" alt="Amy" />
+
+                
+                <div>
+                  <span style={{ fontWeight: 'bold', color: 'white' }}> {t("review.a2")}</span>
+                  <br />
+                  <span style={{ color: 'lightgrey' }}>29 July 2024</span>
+                </div>
+
+              
+         </div>
+            </div>
+
+
+            <div class="testimonial">
+
+              <div class="testimonial-content">
                 {t("review.p3")}
               </div>
-              <div className="p-text-bold font-weight-bold">{t("review.a3")}</div>
+              <div class="stars">
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+              </div>
+              <div class="testimonial-author">
+                <img src="./photos/review/3.png" alt="Maria" />
+                <div>
+                  <span style={{ fontWeight: 'bold', color: 'white' }}> {t("review.a3")}</span>
+                  <br />
+                  <span style={{ color: 'lightgrey' }}>29 July 2024</span>
+                </div>
+
+              </div>
+
             </div>
           </div>
         </div>
         <div className="carousel-item">
-          <div className="homescroll">
-            <div className="testimonials-slider">
-              <img
-                  className="homeresimg"
-                  src="./photos/review/4.png"
-                  alt=""
-              />
-            </div>
-            <div className="ml-0 ml-md-5  slider-text">
-              <div>
-                {" "}
-                <img className="mb-5" src="./homepics/quote.png" alt="" />
-              </div>
-              <div className="normal-p-text mb-5 mb-md-0 quotation-text">
+          <div class="testcontainer">
+            <div class="testimonial">
+              <div class="testimonial-content">
                 {t("review.p4")}
               </div>
-              <div className="p-text-bold font-weight-bold">{t("review.a4")}</div>
+              <div class="stars">
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+              </div>
+              <div class="testimonial-author">
+                <img src="./photos/review/4.png" alt="Maria" />
+                <div>
+                  <span style={{ fontWeight: 'bold', color: 'white' }}> {t("review.a4")}</span>
+                  <br />
+                  <span style={{ color: 'lightgrey' }}>29 July 2024</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
+
       <a
         className="carousel-control-prev"
         href="#carouselExampleControls"
