@@ -102,6 +102,9 @@ function Care() {
         <h2 className="caretext text-center font-weight-bold mt-5 ">
           {t("part89")}
         </h2>
+        <div className="hrr hrr2">
+        <span class="line-middle"></span>
+      </div>
         <div className="carecard mt-5 mb-3">
           {CARD_DATA.map((item, key) => (
             <div className="caresect2">
@@ -111,7 +114,7 @@ function Care() {
                 alt=""
               />
               <div className="cardheadingparagragh">
-                <h3 className="mt-5 mb-5 cardheading">{t(item.heading)}</h3>
+                <h3 className="mt-5 mb-2 cardheading">{t(item.heading)}</h3>
                 <div className="hrr">
                   <span className="line"></span>
                 </div>
