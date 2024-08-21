@@ -6,6 +6,7 @@
 html {
   background-color: #fafafa;
 }
+
 html {
   background-color: #fafafa;
 }
@@ -17,31 +18,38 @@ a li {
 .mttxt {
   margin-top: 8%;
 }
+
 .carousel-control-next,
 .carousel-control-prev {
   filter: invert(100%);
 }
+
 .carousel-control-next-icon {
   margin-left: 50%;
 }
+
 .carousel-control-prev-icon {
   margin-right: 50%;
 }
+
 .carouselSection {
   overflow: hidden;
   margin: 1rem;
   width: 45vw;
   border-radius: 20px;
 }
+
 .carousel-indicators button {
   background-color: #c7a17a !important;
   width: 1rem !important;
   height: 1rem !important;
   border-radius: 50%;
 }
+
 .carousel-indicators button:hover {
   opacity: 0.5;
 }
+
 .carouselContainer {
   display: flex;
   align-items: center;
@@ -53,6 +61,7 @@ a li {
 .mainfrlink {
   z-index: 9999;
 }
+
 .navbarrrr {
   z-index: 99999;
   width: 100%;
@@ -81,10 +90,83 @@ a li {
 .navbarrrr {
   align-items: inherit !important;
 }
+
 /*
 .navelem {
   margin-top: 6px;
 } */
+
+.testcontainer {
+
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+
+}
+
+
+
+
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  position: relative;
+  padding: 20px;
+  width: 32%;
+  background-color: #f2f2f2;
+}
+
+.testimonial-content {
+  margin-bottom: 10px;
+  flex: 1;
+  /* Allows content to grow and push the author section to the bottom */
+}
+
+
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  background-color: #003942;
+  width: 100%;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white;
+  /* Ensure text color is visible on the dark background */
+}
+
+
+.testimonial-author img {
+
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-left: 10px;
+
+}
+
+
+.stars {
+  display: flex;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+
+.star {
+
+  margin-right: 5px;
+
+  color: #ffd700;
+
+  font-size: 20px;
+
+}
 
 .language-select {
   float: right;
@@ -137,11 +219,13 @@ a li {
   display: flex;
   justify-content: center;
 }
+
 .miniheadertxt {
   margin: 0 0 0 1.5rem;
   display: flex;
   align-items: center;
 }
+
 .upperheader {
   background-color: #183047;
   color: #ffffff;
@@ -165,15 +249,18 @@ a li {
   object-fit: contain;
   justify-content: flex-start;
 }
+
 .homepage-bg {
   position: relative;
   height: calc(100vh - 5rem);
 }
-.main .title-header-left{
+
+.main .title-header-left {
   color: white;
   margin-bottom: 0.2rem;
 }
-.main .subheader-bold-left{
+
+.main .subheader-bold-left {
   color: white;
   font-size: 17px;
 }
@@ -214,6 +301,7 @@ a li {
 .socialicons {
   margin: 0.7rem 3rem 0 0;
 }
+
 .icon {
   margin-left: 0.7rem;
   width: 30px;
@@ -233,10 +321,11 @@ a li {
   background-image: "../../public/homepics/QR.png";
 }
 
-.home-hero-block{
- display: none;
+.home-hero-block {
+  display: none;
 }
-.home-hero-block img{
+
+.home-hero-block img {
   width: 100%;
   height: auto;
 }
@@ -246,18 +335,21 @@ a li {
   width: auto;
   margin-right: 1rem;
 }
+
 .heroimg {
   width: 50vw;
   height: auto;
   float: left;
 }
-.hero-video{
+
+.hero-video {
   width: 100vw;
   height: auto;
   position: absolute;
   top: -5.5rem;
   left: 0;
 }
+
 .herosection {
   position: absolute;
   top: 18%;
@@ -267,6 +359,7 @@ a li {
   background-color: rgba(255, 253, 253, 0.2);
   margin-top: -5.3rem;
 }
+
 .hometxt1 {
   float: right;
   clear: both;
@@ -315,6 +408,7 @@ a li {
   /* width: 91%; */
   line-height: 25px;
 }
+
 .section1 {
   clear: both;
   display: flex;
@@ -327,6 +421,7 @@ a li {
   width: 70%;
   margin-right: 5%;
 }
+
 .homeimg2 {
   width: 500px;
   height: auto;
@@ -343,34 +438,39 @@ a li {
   height: 40%;
   z-index: -1;
 }
+
 .homeservices {
   /* background-color: #fafafa; */
   padding: 2% 15%;
   /* margin-top: -40rem; */
   padding-bottom: 33px;
 }
+
 .servtab {
   display: flex;
   flex-direction: row;
   padding: 3% 0;
 }
+
 .homescroll {
   display: flex;
   flex-direction: row;
   margin: 0 7% 7% 7%;
 }
+
 .homebilling {
   /* background-color: #fafafa; */
   padding: 5%;
   /* margin-bottom: 90vh; */
 }
+
 /*
 .address-padding {
   padding: 15px 0px;
 } */
 
-.address-padding{
-  text-align: justify!important;
+.address-padding {
+  text-align: justify !important;
 }
 
 .address-padding h4 {
@@ -404,6 +504,7 @@ a li {
   flex-direction: row;
   padding: 5% 10%;
 }
+
 .aboutsect1 {
   /* background-color: #f3f4f9; */
   text-align: center;
@@ -430,18 +531,21 @@ a li {
   justify-content: center;
   height: 80vh;
 }
+
 .imgwid {
   width: 100%;
   height: 100%;
   background-image: cover;
 }
+
 .aboutsect3 {
   display: flex;
   flex-direction: row;
-  align-items: center; 
-  width: 40%; 
- 
+  align-items: center;
+  width: 40%;
+
 }
+
 .sect4 {
   display: flex;
   flex-direction: row;
@@ -455,12 +559,14 @@ a li {
   height: 93vh;
   margin-top: -5.3rem;
 }
+
 .teamhero {
   position: relative;
   bottom: 400px;
   width: 40%;
   margin: 0 5% -23%;
 }
+
 .teamsect {
   /* background-color: #f6f6f9; */
   display: flex;
@@ -518,22 +624,26 @@ a li {
   padding: 0px 20px;
   box-shadow: 4px 4px 4px 4px rgba(170, 168, 168, 0.1);
 }
+
 .caresect:hover {
   background-color: #e9ccae;
   box-shadow: none;
 }
+
 .caretext {
   line-height: 55px;
   font-size: 35px;
   color: #183047;
   padding: 0 50px !important;
-  text-align: center; 
-  word-break: break-word; 
+  text-align: center;
+  word-break: break-word;
 }
+
 .caretext .break-here::after {
-  content: "\family"; 
-  white-space: pre; 
+  content: "\family";
+  white-space: pre;
 }
+
 .carecard {
   display: flex;
   flex-direction: row;
@@ -558,12 +668,14 @@ a li {
   border-radius: 10px;
   /* background-color: rgb(225, 228, 236); */
 }
+
 .caresect2 {
   width: 25%;
   /* background-color: white; */
   text-align: center;
   margin: 2% 1%;
 }
+
 .herotext {
   /* background-color: white; */
   width: 48% !important;
@@ -585,11 +697,13 @@ a li {
   justify-content: flex-start;
   margin-bottom: 100px;
 }
+
 .blogsect {
   display: flex;
   flex-direction: row;
   height: 100vh;
 }
+
 .blogsect2 {
   display: flex;
   flex-direction: row;
@@ -614,6 +728,7 @@ a li {
   border-radius: 8px;
   font-weight: bolder;
 }
+
 .contacthero {
   /* margin-top: -5.3rem; */
   /* margin-top: -10rem; */
@@ -626,8 +741,9 @@ a li {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
+
 .contactpros {
   display: flex;
   flex-direction: row;
@@ -640,16 +756,19 @@ a li {
 .maintxthome {
   padding-left: 0 !important;
 }
+
 .pcon {
   font-size: 18px;
 }
+
 .contactsect {
   background-color: "FAFAFA";
-  width: 48%; 
-  margin-bottom: 20px; 
+  width: 48%;
+  margin-bottom: 20px;
   border-bottom: 2px solid #35A8D7;
-  padding-bottom: 20px; 
+  padding-bottom: 20px;
 }
+
 .contactlst {
   width: 100%;
   padding: 3%;
@@ -660,10 +779,12 @@ a li {
   width: 50%;
   align-items: center;
 }
+
 .contactlast {
   display: flex;
   flex-direction: row;
 }
+
 .map {
   display: flex;
   width: 100%;
@@ -672,6 +793,7 @@ a li {
   flex-direction: row;
   /* background-color: #f6f6f9; */
 }
+
 .conmap {
   margin: 21% 5% 10% 0;
   width: 600px;
@@ -687,6 +809,7 @@ a li {
   background-size: cover;
   z-index: 10;
 }
+
 .footer {
   clear: both;
   color: white;
@@ -700,6 +823,7 @@ a li {
   left: 0;
   width: 100%;
 }
+
 .footeradd {
   display: flex;
   flex-direction: row;
@@ -708,12 +832,14 @@ a li {
   /* width: 100%; */
   margin: 0 !important;
 }
+
 .upperfooter {
   background-color: #c7a17a;
   padding-top: 60px;
   padding-bottom: 40px;
   /* margin-bottom: 213px; */
 }
+
 .lowerfooter {
   background-color: #183047;
   /* position: fixed;
@@ -722,6 +848,7 @@ a li {
   width: 100%;
   z-index: -1; */
 }
+
 .footernav {
   display: flex;
   flex-direction: row;
@@ -729,15 +856,19 @@ a li {
   justify-content: center;
   font-weight: bolder;
 }
+
 .fontsizefooter {
   font-size: 65px;
 }
+
 .fontsizefooter1 {
   font-size: 35px;
 }
+
 .clr {
   color: white !important;
 }
+
 .hrfooterr {
   display: inline-block;
   width: 90%;
@@ -747,6 +878,7 @@ a li {
   margin-top: 15px;
   margin-left: 5%;
 }
+
 .hrfooter1 {
   display: inline-block;
   width: 70%;
@@ -782,11 +914,13 @@ a li {
   width: 50%;
   padding-right: 2rem;
 }
+
 .blogherotext.about {
   width: 50%;
   position: relative;
   z-index: 2;
 }
+
 .blogherotext.team {
   width: 50%;
 }
@@ -814,6 +948,7 @@ a li {
   width: 100%;
   height: 100%;
 }
+
 /*
 .blogheroimage {
   flex-grow: 1;
@@ -823,14 +958,16 @@ a li {
   overflow-y: hidden;
   width: 50%;
 }
-.blogheroimage.about{
+
+.blogheroimage.about {
   width: 100vw;
   position: absolute;
   left: 0;
   top: -4rem;
   height: calc(100vh + 5rem);
 }
-.bloghero.about{
+
+.bloghero.about {
   display: flex;
   height: calc(100vh - 6rem);
 }
@@ -863,6 +1000,7 @@ a li {
   position: relative;
   z-index: 2;
 }
+
 .home-hero {
   position: relative;
   width: 100vw;
@@ -872,13 +1010,14 @@ a li {
   justify-content: space-between;
   z-index: 8;
 }
-.hero-img {
 
-}
+.hero-img {}
+
 .hero-img img {
   width: 100%;
   height: 100%;
 }
+
 .main {
   display: flex;
   flex-direction: column;
@@ -899,15 +1038,18 @@ a li {
   letter-spacing: 0.3rem;
   line-height: 35px;
 }
+
 .title span {
   display: block;
   color: #e9ccae;
 }
+
 .text {
   font-weight: 600;
   width: 45%;
   line-height: 35px;
 }
+
 .side {
   display: flex;
   flex-direction: column;
@@ -939,10 +1081,12 @@ a li {
   text-decoration: none;
   color: white;
 }
+
 .explore {
   display: inline;
   font-size: 14px;
 }
+
 .explore span {
   background-color: #333540;
   color: white;
@@ -954,6 +1098,7 @@ a li {
   align-items: center;
   justify-content: center;
 }
+
 .social-links span {
   display: block;
   border: 1px solid #1a1a1a;
@@ -967,10 +1112,12 @@ a li {
   border-radius: 5px;
   cursor: pointer;
 }
+
 .contact-links {
   margin-bottom: -3rem;
 }
-.contact-links > * {
+
+.contact-links>* {
   display: block;
   border: 1px solid #1a1a1a;
   border: 1px solid #1a1a1a;
@@ -981,9 +1128,11 @@ a li {
   font-weight: bolder;
   text-align: center;
 }
-.contact-links > * span {
+
+.contact-links>* span {
   margin-top: -2px;
 }
+
 .chat {
   border-radius: 30px 30px 0 30px;
   border-radius: 30px 30px 0 30px;
@@ -991,6 +1140,7 @@ a li {
   color: #1a1a1a;
   color: #1a1a1a;
 }
+
 .direction {
   color: #f7f7f7;
   background-color: #1a1a1a;
@@ -999,6 +1149,7 @@ a li {
   background-color: #1a1a1a;
   border-radius: 30px;
 }
+
 .mobile {
   display: none;
   display: none;
@@ -1014,6 +1165,7 @@ a li {
   gap: 1rem;
   position: relative;
 }
+
 .left {
   display: flex;
   justify-content: center;
@@ -1028,6 +1180,7 @@ a li {
   /* border-radius: 40%; */
   z-index: 2;
 }
+
 .main-img img {
   width: 100%;
   height: 100%;
@@ -1042,6 +1195,7 @@ a li {
   padding: 2rem;
   font-size: 15px;
 }
+
 .right-title {
   font-size: 24px;
   text-transform: uppercase;
@@ -1050,11 +1204,11 @@ a li {
 
 .contact-hero {
   width: 100%;
-  height: 35vh; 
+  height: 35vh;
   overflow: hidden;
   background-repeat: no-repeat;
-  background-position: center; 
-  background-size: cover; 
+  background-position: center;
+  background-size: cover;
 }
 
 /* .team-btn {
@@ -1120,11 +1274,23 @@ a li {
   color: white;
 }
 
+.imgBorder {
+  border-bottom: 20px solid #003942;
+  border-left: 20px solid #003942;
+}
+
+.parent-container-read-more {
+  display: flex;
+  flex-direction: column;
+
+  height: 50vh;
+}
+
 .read-more {
   font-size: 18px;
-  border: none;
-  color: blue;
-  margin: 1rem auto;
+  width: 40%;
+  margin-top: auto;
+  cursor: pointer;
 }
 
 .read-more:hover {
@@ -1134,6 +1300,7 @@ a li {
 #more {
   display: none;
 }
+
 #more {
   display: none;
 }
@@ -1185,6 +1352,7 @@ a li {
   /* padding-bottom: 30px; */
 }
 
+
 .subheader-normal-left {
   font-size: 19px;
   text-align: left;
@@ -1225,15 +1393,16 @@ a li {
 .logo {
   height: 60px;
 }
+
 @media screen and (max-width: 1380px) {
-  .homepage-bg{
-    background-position: 0 -5vw!important;
+  .homepage-bg {
+    background-position: 0 -5vw !important;
   }
 }
 
 @media screen and (max-width: 1280px) {
-  .homepage-bg{
-    background-position: 0 0!important;
+  .homepage-bg {
+    background-position: 0 0 !important;
   }
 }
 
@@ -1241,64 +1410,81 @@ a li {
   .hometxt1 {
     padding-left: 4%;
   }
+
   .section1 {
     padding: 1% 3% 25%;
   }
+
   .home-hero {
     padding: 3% 0% 3% 3%;
   }
+
   .home-team {
     padding: 1rem 4rem;
   }
+
   .new-doctor {
     padding: 5% 3%;
   }
+
   .blogsect {
     height: unset;
   }
+
   .homescroll {
     display: flex;
     flex-direction: column;
     margin: 5%;
     align-items: center;
   }
+
   .homeresimg {
     width: 100%;
     margin-bottom: 2.5rem;
   }
+
   .homeservices {
     margin-top: -20rem;
   }
+
   .aboutsect2 {
     display: flex;
     flex-direction: column;
   }
+
   .imgwid {
     width: 100%;
   }
+
   .sect4 {
     display: flex;
     flex-direction: column;
   }
+
   .aboutsect3 {
     width: 100%;
   }
+
   .teamsect {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
+
   .webbtn {
     width: 50%;
   }
+
   .herotext {
     position: relative;
     bottom: 21.5rem !important;
   }
+
   .blogsect2 {
     display: flex;
     flex-direction: column;
   }
+
   .teamhero {
     position: relative;
     bottom: 400px;
@@ -1319,8 +1505,26 @@ a li {
   width: 100%;
   align-items: center;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
-.home-hero-main{
+
+.homeherosection::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0E2E3A;
+  opacity: 0.8;
+  /* Adjust opacity to make the overlay semi-transparent */
+  z-index: 1;
+  /* Place it above the video but below the text */
+}
+
+.home-hero-main {
   position: relative;
   z-index: 2;
   padding: 0 0 0 5%;
@@ -1347,25 +1551,31 @@ a li {
 .quotation-text {
   color: #014f86 !important;
 }
+
 .blogCard {
   margin-bottom: 2rem;
   transition: all 500ms ease-in-out;
 }
+
 .blogCard:hover {
   cursor: pointer;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transform: scale(1.05);
 }
+
 .contactLstChild {
   width: 50%;
 }
+
 .blogContainer {
   padding: 3rem;
 }
+
 .cardBody {
   min-height: 8rem;
   overflow: hidden;
 }
+
 .blogImg {
   max-height: 20rem;
 }
@@ -1386,45 +1596,58 @@ a li {
   width: 100%;
   overflow: hidden;
 }
+
 @media screen and (max-width: 1000px) {
-  .hero-video{
+  .hero-video {
     position: static;
     margin-top: 1rem;
   }
-  .main .title-header-left{
-    color: #183047!important;
-    margin-bottom: 0!important;
+
+  .main .title-header-left {
+    color: #183047 !important;
+    margin-bottom: 0 !important;
     margin-top: 0.8rem;
   }
-  .main .subheader-bold-left{
-    color: black!important;
+
+  .main .subheader-bold-left {
+    color: black !important;
   }
-  .homepage-bg{
-    padding-top: 0!important;
+
+  .homepage-bg {
+    padding-top: 0 !important;
   }
-  .home-hero-block{
+
+  .home-hero-block {
     display: block;
   }
+
   .home-hero-main {
     width: 100%;
     padding: 3%;
     text-align: center;
+    align-items: center;
+    justify-content: center;
   }
-  .call-us-btn{
-    text-align: left!important;
+
+  .call-us-btn {
+    text-align: left !important;
   }
+
   .homeherosection {
     flex-direction: column;
     height: auto;
   }
+
   .carecardimg {
     width: 151% !important;
   }
+
   .herosection {
     /* height: 136vh; */
     margin-top: -3rem;
     z-index: -99999;
   }
+
   .hometxt1 {
     text-align: center;
     clear: both;
@@ -1433,12 +1656,15 @@ a li {
     padding: 0 5% 0;
     right: 0%;
   }
+
   .address-padding {
-    text-align: center!important;
+    text-align: center !important;
   }
+
   .address-padding-top {
     padding-top: 20px;
   }
+
   .heroimg {
     height: auto;
     width: 100%;
@@ -1449,9 +1675,10 @@ a li {
     height: 100%;
     overflow-y: visible;
   }
-  .blogheroimage.about img{
+
+  .blogheroimage.about img {
     width: 100%;
-    height: auto!important;
+    height: auto !important;
   }
 
   .blogheroimage img {
@@ -1465,10 +1692,12 @@ a li {
     flex-direction: column;
     padding: 5% 5% 0%;
   }
+
   .homeimg2 {
     width: 80%;
     margin-top: 10%;
   }
+
   .secttext {
     width: 100%;
     margin-right: 10%;
@@ -1488,132 +1717,168 @@ a li {
     height: 40%;
     z-index: -111;
   }
+
   .homeservices {
     background-color: #fafafa;
     padding: 10% 15%;
     margin-top: -41rem;
   }
+
   .abouthero {
     margin-top: -3.5rem;
   }
+
   .teamcover {
     margin-top: -3.5rem;
   }
+
   .carehero {
     margin-top: -3.5rem;
   }
+
   .herotext {
     width: 60% !important;
     position: relative;
     bottom: 19rem !important;
   }
+
   .contacthero {
     margin-top: -3.5rem;
   }
+
   .homeimg2 {
     padding-bottom: 0;
   }
-  .main2{
+
+  .main2 {
     text-align: center;
   }
+
   .contacthero {
     margin-top: 1rem;
   }
+
   .carecard .caresect2 {
     max-width: 30rem;
     width: auto;
   }
+
   .caresect2 img {
     width: 100% !important;
   }
+
   .doctor-description h1 {
     width: 55%;
   }
+
   .main-team .subheader-bold-left {
     padding: 1rem;
     text-align: center;
   }
+
   .hero-img {
     position: initial;
     justify-content: flex-start;
   }
+
   .hero-img img {
     position: initial;
     width: 20rem;
   }
+
   .right .hrr {
     text-align: initial !important;
   }
+
   .home-hero {
     flex-direction: column;
   }
+
   .about-hero-text {
     width: 100%;
     text-align: center;
   }
+
   .home-team .main-img {
     position: initial;
   }
+
   .home-team {
     display: flex;
     flex-direction: column;
     text-align: center;
   }
+
   .home-team .normal-p-text,
   .home-team .seeTreatbtn {
     text-align: center;
   }
+
   .home-hero .main {
     width: 100%;
     text-align: center;
     margin-top: 1rem;
   }
+
   .treatment-image img {
     width: 100%;
   }
+
   .care-blogsect {
     flex-direction: column;
   }
+
   .blogpage .care-hero {
     height: auto !important;
     margin-bottom: 7rem;
   }
+
   .blogpage .cardheading {
     text-align: center;
   }
+
   .blogpage .care-hero-text {
     position: initial !important;
     text-align: center;
     width: 100% !important;
   }
+
   .contactlst {
     flex-direction: column;
   }
+
   .map-container {
     width: 100%;
   }
+
   .contactLstChild {
     width: 100%;
   }
+
   .hometxt1 {
     width: 90%;
     padding: 20px;
     margin-top: 45px !important;
   }
+
   .title-header-left {
     text-align: center !important;
   }
+
   .secttext {
     margin-top: 15%;
     margin-right: 0;
   }
+
   .homeimg2 {
     padding-top: 0;
     width: 100%;
   }
+
   .homeservices {
     margin-top: -15rem;
   }
+
   .zindexx {
     margin-top: -6rem;
   }
@@ -1634,23 +1899,24 @@ a li {
   }
 
 
-.subheader-bold-60 {
-  width: 80%;
-}
+  .subheader-bold-60 {
+    width: 80%;
+  }
 
-.caresect2 {
-  width: 40%;
-  text-align: center;
-  padding: 20px 0;
-  margin-right: 20px;
-}
+  .caresect2 {
+    width: 40%;
+    text-align: center;
+    padding: 20px 0;
+    margin-right: 20px;
+  }
 
-.carecardimg {
-  width: 100% !important;
-}
+  .carecardimg {
+    width: 100% !important;
+  }
+
   .homepage-bg {
-    top: 0!important;
-    background-image: none!important;
+    top: 0 !important;
+    background-image: none !important;
   }
 }
 
@@ -1658,42 +1924,53 @@ a li {
   .blogpage div.care-hero {
     height: 20rem;
   }
+
   .other-treatment {
     padding: 3rem 3rem 0 3rem;
   }
+
   .blogpage {
     margin: 0 !important;
   }
+
   .herotext {
     width: 64% !important;
     bottom: 15rem !important;
     font-size: 10px;
   }
+
   .care-hero-text {
     width: 55% !important;
     padding: 0;
     font-size: 13px;
   }
+
   .care-hero-text div.team-btn {
     margin-top: 3px !important;
   }
+
   .cardheading {
     text-align: center;
     font-size: 30px;
   }
+
   .team-btn {
     margin-right: 0 !important;
   }
+
   .treatment-image {
     text-align: center;
   }
+
   .blogbtn {
     justify-content: space-between;
     margin-bottom: 2rem;
   }
+
   .care-blogsect {
     height: auto;
   }
+
   .slider-text {
     text-align: center;
     width: 100%;
@@ -1702,25 +1979,32 @@ a li {
   .carecardimg {
     width: 100% !important;
   }
+
   .caretext {
     line-height: 30px;
     font-size: 20px;
   }
+
   .carehero {
     margin-top: 0;
   }
+
   .screenContainer p {
     text-align: center;
   }
+
   .blogs {
     margin-top: 2rem;
   }
+
   .blogs h2 {
     padding: 0;
   }
+
   .blogContainer {
     padding: 1rem;
   }
+
   .bloghero {
     padding-top: 0;
     flex-direction: column;
@@ -1728,84 +2012,108 @@ a li {
     flex-direction: column-reverse;
     margin-bottom: 2rem;
   }
-  .blogherotext, .blogherotext.about, .blogherotext.team {
+
+  .blogherotext,
+  .blogherotext.about,
+  .blogherotext.team {
     width: 100%;
     padding-top: 1rem;
   }
-  .aboutsect3{
+
+  .aboutsect3 {
     margin-top: 2rem;
   }
-  .blogheroimage{
+
+  .blogheroimage {
     width: 100%;
   }
+
   .contacthero {
     margin-top: 0;
   }
+
   .map-container {
     width: 100%;
   }
+
   .contactLstChild {
     width: 100%;
     padding-top: 1rem;
   }
+
   .contactlst {
     flex-direction: column;
   }
+
   .contactsect {
     align-items: center;
   }
+
   .contact-hero img {
     margin-top: 0;
   }
+
   .new-doctor-alt {
     flex-direction: column-reverse !important;
   }
+
   .main-team {
     width: 100%;
     text-align: center;
   }
+
   .new-doctor {
     text-align: center;
     flex-direction: column;
     justify-content: center;
     padding: 0;
   }
+
   .doctor-description {
     width: 100%;
     text-align: -webkit-center;
   }
+
   .subheader-bold-left {
     text-align: left;
   }
+
   .main-img {
     position: relative;
   }
+
   .home-team {
     display: flex;
     flex-direction: column-reverse;
     text-align: center;
   }
+
   .home-hero {
     position: relative;
     flex-direction: column;
     padding: 0 6rem !important;
   }
+
   .about-hero-text {
     width: 100%;
     text-align: center;
   }
+
   .hero-img img {
     width: 100%;
     right: 0;
   }
+
   .hero-img {
     position: relative;
     justify-content: center;
   }
+
   .homeimg3 {
     position: relative;
     top: -620px;
   }
+
   .careupper {
     display: flex;
     flex-direction: column;
@@ -1813,11 +2121,13 @@ a li {
     margin-top: 0;
     width: 100%;
   }
+
   .caresect {
     width: 42%;
     text-align: center;
     margin: 2%;
   }
+
   .carecard {
     display: flex;
     flex-direction: column;
@@ -1825,6 +2135,7 @@ a li {
     align-items: center;
     width: 100%;
   }
+
   .caresect2 {
     width: 90%;
     text-align: center;
@@ -1848,57 +2159,69 @@ a li {
   }
 
 
-.subheader-bold-60 {
-  width: 100%;
+  .subheader-bold-60 {
+    width: 100%;
+  }
 }
-}
+
 @media screen and (max-width: 700px) {
   .homeimg3 {
     position: relative;
     top: -550px;
     height: 530px;
   }
+
   .footernav {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .teamcover {
     margin-top: 0rem;
   }
+
   .abouthero {
     margin-top: 0rem;
   }
+
   .carehero {
     margin-top: 0rem;
   }
+
   .contacthero {
     margin-top: 0rem;
   }
+
   .teamhero {
     position: relative;
     bottom: 400px;
     width: 50%;
     margin: 0 5%;
   }
+
   .herotext {
     width: 62% !important;
     bottom: 13rem !important;
     font-size: 8.5px;
   }
+
   .blogbtn {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .blogbtnsty {
     margin-top: 2%;
   }
+
   .blogbtnsty {
     width: 50%;
     padding: 4% 0;
   }
+
   .homeservices {
     background-color: #fafafa;
     padding: 10% 15%;
@@ -1918,18 +2241,22 @@ a li {
   .card-body {
     text-align: center;
   }
+
   .care-hero .care-hero-text {
     margin-top: 1rem;
   }
+
   .bloghero {
     flex-direction: column-reverse;
     margin-bottom: 2rem;
   }
-  .bloghero.about{
-    height: auto!important;
+
+  .bloghero.about {
+    height: auto !important;
   }
-  .blogheroimage.about img{
-   display: none;
+
+  .blogheroimage.about img {
+    display: none;
   }
 
   .contactdetails {
@@ -1938,61 +2265,76 @@ a li {
   }
 
 
-  .blogherotext, .blogherotext.about, .blogherotext.team {
+  .blogherotext,
+  .blogherotext.about,
+  .blogherotext.team {
     padding: 0;
     width: 100%;
     text-align: center;
     margin-top: 20px;
   }
+
   .call-us-btn {
     text-align: center;
   }
+
   .main-team {
     width: 100%;
   }
+
   .doctor-image {
     text-align: center;
   }
+
   .doctor-description h1 {
     width: 100%;
     text-align: center;
     padding: 8px 12px;
   }
+
   .new-doctor {
     flex-direction: column;
     padding: 0;
     margin-top: 1rem;
   }
+
   .new-doctor-alt {
     flex-direction: column-reverse;
   }
+
   .hero-img {
     position: relative;
   }
+
   .hero-img img {
     width: 100%;
     right: 0;
   }
+
   .home-hero {
     position: relative;
     flex-direction: column;
     padding: 0px 2rem !important;
   }
+
   .about-hero-text {
     width: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .seeTreatbtn {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 1rem;
   }
+
   .right {
     padding: 0 5%;
   }
+
   .main-img {
     position: inherit;
     z-index: 0;
@@ -2000,38 +2342,48 @@ a li {
     height: auto;
     padding: 1rem;
   }
+
   .home-team {
     display: flex;
     flex-direction: column;
   }
+
   .normal-p-text {
     text-align: center;
   }
+
   .carouselSection {
     width: 90vw;
   }
+
   .carouselContainer {
     flex-direction: column;
   }
+
   .aboutsect1 {
     padding: 0 !important;
     font-size: 1.25rem !important;
   }
+
   .sect4 {
     padding: 0 !important;
   }
+
   .aboutsect3 {
     margin-top: 1rem !important;
   }
+
   .herotext {
     width: 85% !important;
     bottom: 0rem !important;
     margin-bottom: 10%;
     font-size: 11px;
   }
+
   .navbar {
     padding-top: 4.5rem !important;
   }
+
   .webbtn {
     width: 70%;
   }
@@ -2042,6 +2394,7 @@ a li {
     align-content: center;
     height: 6rem;
   }
+
   .herosection {
     position: absolute;
     top: 35%;
@@ -2063,6 +2416,7 @@ a li {
     font-size: 25px;
     padding: 0 5% !important;
   }
+
   .homeimg3 {
     position: relative;
     top: -370px;
@@ -2074,9 +2428,11 @@ a li {
   .billingsect-card {
     width: auto;
   }
+
   .billingsect-card {
     width: auto;
   }
+
   .subhead {
     font-size: 15px;
   }
@@ -2084,101 +2440,129 @@ a li {
   .maintxthome {
     padding-top: 80px;
   }
+
   .aboutsect {
     display: flex;
     flex-direction: column;
   }
+
   .aboutsect3 {
     display: flex;
     flex-direction: column;
   }
+
   .maintxtteam {
     margin-top: 50px;
     width: 139%;
     font-size: 25px;
   }
+
   .fontsizefooter {
     font-size: 50px;
   }
+
   .fontsizefooter1 {
     font-size: 30px;
   }
+
   .servtab {
     display: flex;
     flex-direction: column;
   }
+
   .homefullwid {
     margin-left: 40%;
   }
 }
+
 @media screen and (max-width: 500px) {
   .blogbtn a.team-btn {
     width: 100%;
   }
+
   .imgggg {
     text-align: center;
   }
+
   .detailContainer {
     max-width: 100% !important;
   }
+
   .detailContainer p {
     margin: 0 2rem 2rem 2rem;
   }
+
   .detailContainer h2 {
     text-align: left;
     font-size: 2rem;
   }
+
   .blogherotext .h2-bold {
     padding-top: 30px;
   }
+
   .cardheadingparagragh {
     padding: 0;
   }
+
   .carepage img.carehero {
     width: 150% !important;
   }
+
   .contact-hero {
     width: 100%;
     overflow: hidden;
   }
+
   .contact-hero img.contacthero {
     width: 150% !important;
   }
+
   .hometxt1 {
     padding: 5% 5%;
     bottom: unset;
     top: unset;
     width: 100%;
   }
+
   .hrr2 {
     display: flex;
   }
+
   .zindexx {
     margin-top: 0;
   }
+
   .care-hero {
     height: auto !important;
   }
+
   .treatment-image {
     text-align: center;
   }
+
   .other-treatment {
     text-align: center;
     padding-top: 0rem !important;
   }
+
   .care-hero-text div.team-btn {
     width: 100%;
     margin: 1rem 0 !important;
   }
+
   .care-blogsect {
     height: auto !important;
   }
+
   .carecardimg {
     width: 100% !important;
   }
+
   .blogImg {
     max-width: 20rem;
   }
+
   .cardBody {
     height: unset;
   }
@@ -2186,22 +2570,27 @@ a li {
   .caresect {
     width: 80%;
   }
+
   .map-container {
     align-items: center;
     display: flex;
     flex-direction: column;
     width: 50%;
   }
+
   .contactLstChild {
     width: 100%;
     margin-top: 1rem;
   }
+
   .contactlst {
     flex-direction: column;
   }
+
   .aboutSecImg {
     margin: 0 1rem !important;
   }
+
   .locationtext {
     text-align: center !important;
     margin-top: 2rem !important;
@@ -2210,64 +2599,80 @@ a li {
   .home-team {
     padding: 0;
   }
+
   .navbarrr {
     margin-top: 2rem;
     margin-left: 10px !important;
     margin-right: 10px !important;
   }
+
   .navbarrrr {
     align-items: flex-start !important;
   }
+
   .homeherosection {
     margin-top: 0;
     margin-bottom: 0;
   }
+
   .title-header-left {
     text-align: center !important;
     font-size: 25px;
     line-height: 34px;
   }
+
   .subheader-bold-left {
     text-align: left !important;
     font-size: 14px;
   }
+
   .homeimg2 {
     padding-top: 0;
     padding-bottom: 0;
   }
+
   .about-image {
     justify-content: center;
   }
+
   .secttext {
     margin-right: 0;
   }
+
   .section1 {
     flex-direction: column-reverse;
   }
+
   .subheader-normal-left {
     text-align: center;
   }
+
   .hometxtsect {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0 !important;
   }
+
   .servLink {
     display: flex;
     justify-content: center;
   }
+
   .carousel-item {
     background-color: #f0f0f0;
     border-radius: 0.5rem;
   }
+
   .contactsect {
     display: flex;
     flex-direction: column;
   }
+
   .imgggg {
     margin-left: 36%;
   }
+
   .contactlast {
     display: flex;
     flex-direction: column;
@@ -2275,14 +2680,17 @@ a li {
     text-align: center;
     margin-left: 117%;
   }
+
   .map {
     display: flex;
     flex-direction: column;
   }
+
   .conmap {
     width: 90%;
     margin-left: 5%;
   }
+
   .webbtn {
     width: 80%;
   }
@@ -2292,20 +2700,23 @@ a li {
     height: 289px;
     width: 174px;
   }
+
   .homeservices {
     margin-top: -2rem;
   }
+
   .socialicons {
     margin: 0;
   }
+
   .upperheader {
     justify-content: space-evenly;
   }
 
 
-.doctor-quotation {
-  padding: 0 5%;
-}
+  .doctor-quotation {
+    padding: 0 5%;
+  }
 }
 
 .carecardimg {
@@ -2316,17 +2727,21 @@ a li {
   .imgggg {
     margin-left: 0;
   }
+
   .treatment-image img {
     width: 80%;
     height: auto;
   }
+
   .slider-text {
     width: 100%;
   }
+
   .imgwid {
     width: 95%;
   }
 }
+
 @media screen and (max-width: 400px) {
   .navbar {
     padding-top: 1.5rem !important;
@@ -2338,35 +2753,41 @@ a li {
     height: 47%;
     width: 50%;
   }
+
   .homeservices {
     /* margin-top: -5rem; */
     padding: 5%;
   }
+
   .servtab {
     display: flex;
     flex-direction: column;
     padding-bottom: 50px;
   }
+
   .webbtn {
     width: 80%;
   }
+
   .upperheader {
     height: 7rem;
     justify-content: space-evenly;
   }
 
-  .navbar > .container,
-  .navbar > .container-fluid,
-  .navbar > .container-lg,
-  .navbar > .container-md,
-  .navbar > .container-sm,
-  .navbar > .container-xl,
-  .navbar > .container-xxl {
+  .navbar>.container,
+  .navbar>.container-fluid,
+  .navbar>.container-lg,
+  .navbar>.container-md,
+  .navbar>.container-sm,
+  .navbar>.container-xl,
+  .navbar>.container-xxl {
     margin-top: 25%;
   }
+
   .text-justify {
     margin-bottom: 10%;
   }
+
   .socialicons {
     height: 30%;
     padding-bottom: 20px;
@@ -2378,38 +2799,47 @@ a li {
   .bg-white {
     margin-bottom: 0 !important;
   }
+
   /* .nav-link {
     margin: 10px !important;
   } */
   .footer {
     position: initial;
   }
+
   .what-our-patient {
     margin-top: -5rem;
   }
+
   .homeservices {
     margin-top: -1rem;
   }
+
   .section1 .secttext {
     margin-top: 0;
   }
+
   .secttext {
     margin-top: -20%;
   }
+
   .homeimg3 {
     top: -289px;
     height: 465px;
     width: 148px;
   }
+
   .servtab {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
+
   .iphone {
     position: relative;
     top: -230px;
   }
+
   .iphonetxt {
     margin-top: 136px;
     width: 170%;
@@ -2424,6 +2854,7 @@ a li {
     padding: 7px;
   }
 }
+
 .dropdown {
   float: left;
 }
@@ -2464,8 +2895,9 @@ a li {
 }
 
 .current {
-  font-weight: 700!important;
+  font-weight: 700 !important;
 }
+
 .team-hero {
   position: relative;
 }
@@ -2494,6 +2926,7 @@ a li {
 .carousel-control.right {
   background: none !important;
 }
+
 .carousel-control.left,
 .carousel-control.right {
   background: none !important;
@@ -2503,6 +2936,7 @@ a li {
 .carousel-control .icon-next {
   margin-right: -130px !important;
 }
+
 .carousel-control .glyphicon-chevron-right,
 .carousel-control .icon-next {
   margin-right: -130px !important;
@@ -2512,6 +2946,7 @@ a li {
 .glyphicon-chevron-right:before {
   color: gray;
 }
+
 .glyphicon-chevron-left:before,
 .glyphicon-chevron-right:before {
   color: gray;
@@ -2521,6 +2956,7 @@ a li {
 .carousel-control .icon-prev {
   margin-left: -130px !important;
 }
+
 .carousel-control .glyphicon-chevron-left,
 .carousel-control .icon-prev {
   margin-left: -130px !important;
@@ -2549,6 +2985,7 @@ a li {
   display: flex;
   justify-content: center;
 }
+
 .imageContainer {
   overflow: hidden;
   margin: 2rem auto;
@@ -2562,7 +2999,8 @@ a li {
 .costa-photo {
   width: 178px;
 }
-.d-Carousel{
+
+.d-Carousel {
   width: 100%;
   height: 380px;
   display: flex;
@@ -2572,23 +3010,105 @@ a li {
   background-color: #e7e7e7;
   border-radius: 20px;
 }
+
 .d-block {
   width: 100%;
   height: auto;
 }
+
 .qrcode {
   width: 100px;
   height: 100px;
 }
-.qrcode-white{
+
+.qrcode-white {
   background-color: white;
 }
+
 .nav-home {
   width: 100vw;
   position: relative;
   z-index: 2;
-  background-color: rgba(255,255,255,0.6);
+  background-color: rgba(255, 255, 255, 0.6);
 }
+
 .nav-new {
   background-color: #ffffff;
+}
+
+.teamss-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  width: 100%;
+}
+
+.teamss-card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.teamss-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.teamss-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.teamss-card h2 {
+  font-size: 24px;
+  text-align: left;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.underline {
+  display: inline-block;
+  position: relative;
+}
+
+.underline::after {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 28%;
+  height: 4px;
+  background-color: #35A8D7;
+}
+
+.teamss-card p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.teamss-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.teamss-button:hover {
+  background-color: #0062cc;
 }

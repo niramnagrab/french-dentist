@@ -12,14 +12,14 @@ function ReadMore({ text, readMore, seeLess, minWords = 400, paraNo }) {
   }
 
   return (
-    <div>
+    <div className="parent-container-read-more">
       <p className="p-text text-justify">
         {viewMore ? text[0] : text[0].substring(0, x)}
         <br></br>
         <br />
         {viewMore && text[1] && text[1]}
       </p>
-      <div className="read-more" onClick={() => setViewMore(!viewMore)}>
+      <div className="read-more team-btn" onClick={() => setViewMore(!viewMore)}>
         {viewMore ? seeLess : readMore}
       </div>
     </div>
