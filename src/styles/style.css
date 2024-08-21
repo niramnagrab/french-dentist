@@ -3084,7 +3084,7 @@ a li {
 .underline::after {
   content: '';
   position: absolute;
-  bottom: -3px;
+  bottom: -10px;
   left: 0;
   width: 28%;
   height: 4px;
