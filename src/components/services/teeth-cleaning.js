@@ -50,6 +50,10 @@ function Orthodontics() {
             {/* carousal efect */}
             <Slider />
 
+            <div className='margin-bottom-div'>
+
+            </div>
+
         </div>
     )
 }

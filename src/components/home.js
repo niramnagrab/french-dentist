@@ -28,7 +28,7 @@ function Home() {
 
       <div className="homeherosection homepage-bg">
         <div className="main home-hero-main">
-          <p className="title-header-left">
+          <p className="title-main-header-left">
             {t("part25")}
           </p>
           <p className="subheader-bold-left padding-bottom">
@@ -154,7 +154,7 @@ function Home() {
         <div className="billingsect mt-5">
           <div className="billingsect-card">
             <img
-              src="./photos/icon1.png"
+              src="./photos/icon1.svg"
               width="65px"
               height="65px"
               alt=""
@@ -164,7 +164,7 @@ function Home() {
           </div>
           <div className="billingsect-card">
             <img
-              src="./photos/icon2.png"
+              src="./photos/icon2.svg"
               width="65px"
               height="65px"
               alt=""
@@ -174,7 +174,7 @@ function Home() {
           </div>
           <div className="billingsect-card">
             <img
-              src="./photos/icon3.png"
+              src="./photos/icon3.svg"
               width="65px"
               height="65px"
               alt=""
