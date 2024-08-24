@@ -10,6 +10,7 @@ function Slider() {
       data-wrap={true}
       data-ride={false}
       data-interval={false}
+     
     >
       <div className="carousel-inner">
         <div className="carousel-item active">

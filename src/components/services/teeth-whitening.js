@@ -50,6 +50,9 @@ function TeethWhitening() {
       </div>
       {/* carousal efect */}
       <Slider />
+      <div className='margin-bottom-div'>
+
+</div>
     </div>
   );
 }

@@ -32,7 +32,7 @@ function Contactus() {
         <div className="caresect mr-3">
           <img
             className="m-4 sectimg"
-            src="./photos/icon7.png"
+            src="./photos/icon7.svg"
             height="75px"
             width="75px"
             alt=""
@@ -47,7 +47,7 @@ function Contactus() {
         <div className="caresect mr-3">
           <img
             className="m-4 sectimg"
-            src="./photos/icon6.png"
+            src="./photos/icon6.svg"
             height="75px"
             width="75px"
             alt=""
@@ -60,7 +60,7 @@ function Contactus() {
         <div className="caresect mr-3">
           <img
             className="m-4 sectimg"
-            src="./photos/icon4.png"
+            src="./photos/icon4.svg"
             height="75px"
             width="75px"
             alt=""
@@ -71,7 +71,7 @@ function Contactus() {
         <div className="caresect mr-3">
           <img
             className="m-4 sectimg"
-            src="./photos/icon8.png"
+            src="./photos/icon8.svg"
             height="75px"
             width="75px"
             alt=""
@@ -155,7 +155,7 @@ function Contactus() {
         <div className="text-center billingsect">
           <div className="billingsect-card">
             <img
-              src="./photos/icon1.png"
+              src="./photos/icon1.svg"
                 width="55px"
               height="55px"
               alt=""
@@ -165,8 +165,8 @@ function Contactus() {
           </div>
           <div className="billingsect-card">
             <img
-              src="./photos/icon2.png"
-                width="75px"
+              src="./photos/icon2.svg"
+                width="65px"
               height="65px"
               alt=""
             />
@@ -175,7 +175,7 @@ function Contactus() {
           </div>
           <div className="billingsect-card">
             <img
-              src="./photos/icon3.png"
+              src="./photos/icon3.svg"
               width="55px"
               height="55px"
               alt=""

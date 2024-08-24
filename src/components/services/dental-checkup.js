@@ -11,7 +11,7 @@ function ComprehensiveCare() {
         <div className="care-hero-text herotext">
           <h2>{t("comprehensive_care")}</h2>
           <div className="padding-bottom">{t("part951")}</div>
-          <a className="team-btn mt-5"  href="tel:+8602151699696">{t("callus")}</a>
+          <a className="team-btn mt-5" href="tel:+8602151699696">{t("callus")}</a>
         </div>
       </div>
 
@@ -49,6 +49,9 @@ function ComprehensiveCare() {
       </div>
       {/* carousal efect */}
       <Slider />
+      <div class="bottom-margin-div">
+
+      </div>
     </div>
   );
 }
