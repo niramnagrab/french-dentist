@@ -41,7 +41,6 @@ function Team() {
         </div>
       </div>
 
-
       <div className="teamss-container">
         <div className="teamss-card-container">
           <div class="teamss-card">
