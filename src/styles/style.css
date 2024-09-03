@@ -1635,7 +1635,7 @@ a li {
   .home-hero-main {
     width: 100%;
     padding: 3%;
-    display: flex; /* Enables flexbox layout */
+    display: flex; 
     flex-direction: column; /* Stacks children vertically */
     align-items: center; /* Centers children horizontally */
     justify-content: center; /* Centers children vertically */
