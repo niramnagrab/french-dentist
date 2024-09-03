@@ -107,9 +107,9 @@ a li {
   background-color: #f2f2f2;
   width: 30%;
   padding: 10px;
-  margin-left:auto;
+  margin-left: auto;
   margin-right: auto;
-  
+
 }
 
 .testimonial-content {
@@ -130,16 +130,15 @@ a li {
   left: 0;
   color: white;
 } */
-.testimonial-author{
+.testimonial-author {
   display: flex;
   flex-direction: row;
   align-items: center;
   background-color: #003942;
   width: 100%;
   padding: 10px;
-  margin-top: auto; 
+  margin-top: auto;
   color: white;
- 
 }
 
 
@@ -1328,8 +1327,9 @@ a li {
   color: #183047;
   font-weight: bolder !important;
 }
+
 .title-main-header-left {
-  color:'white';
+  color: 'white';
   text-align: center !important;
   line-height: 45px;
   font-size: 35px;
@@ -1621,7 +1621,7 @@ a li {
   }
 
   .main .subheader-bold-left {
-    color: black !important;
+    color: white !important;
   }
 
   .homepage-bg {
@@ -1635,10 +1635,18 @@ a li {
   .home-hero-main {
     width: 100%;
     padding: 3%;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+    display: flex; /* Enables flexbox layout */
+    flex-direction: column; /* Stacks children vertically */
+    align-items: center; /* Centers children horizontally */
+    justify-content: center; /* Centers children vertically */
+    text-align: center; /* Centers text within the children */
+    height: 100vh; /* Makes the container take the full height of the viewport */
   }
+  
+  .home-hero-main > * {
+    margin: 10px 0; /* Adjust margin as needed for spacing between items */
+  }
+  
 
   .call-us-btn {
     text-align: left !important;
@@ -3139,26 +3147,95 @@ a li {
 }
 
 
-.bottom-margin-div{
+.bottom-margin-div {
   margin-bottom: 20px;
-  height:20px;
+  height: 20px;
   display: flex;
 }
 
 
 
 @media (max-width: 768px) {
-  .testimonial {
-    flex: 0 0 100%;
-    max-width: 100%;
-    margin: 20px 0;
 
+  .contactlst {
+    width: 100%;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    /* Centers horizontally */
+    align-items: center;
+    /* Centers vertically */
+    height: 100vh;
+  }
+
+  .map-container {
+    width: 100%
+  }
+
+  .contactlast {
+    margin-left: 0px;
+
+  }
+
+  .contactdetails {
+    flex-wrap: nowrap;
+    /* Disable wrapping */
+    overflow-x: scroll;
+    flex-direction: column;
+  }
+
+  .contactsect {
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+
+  }
+
+  .contactsect .subheader-bold-left {
+    text-align: center !important;
+
+  }
+
+  .testimonial {
+    width: 100%;
+    max-width: 200%;
+    margin: 20px 0;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    height: 100%;
+  }
+
+  .testimonial-author {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #003942;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 0px;
+    color: white;
+  }
+
+  .testimonial-content {}
+
+
+
+  .testimonial-author img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 10px;
   }
 
   .testcontainer {
     display: flex;
     flex-wrap: wrap;
+    width: 90%;
     justify-content: center;
+    margin: 0 auto;
   }
 }
 
