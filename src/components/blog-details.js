@@ -3,7 +3,7 @@ import { PortableText } from "@portabletext/react";
 import React, { useEffect, useState } from "react";
 import { useLocation, useParams } from "react-router-dom";
 import "../styles/style.css";
-import sanityClient from "../client.js";
+import { blogData } from "./blog-data";
 
 function BlogDetails() {
 
@@ -14,30 +14,14 @@ function BlogDetails() {
   const { slug: slugData } = useParams()
 
   useEffect(() => {
-    sanityClient
-      .fetch(
-        `*[_type=="post" && slug.current == '${slugData}'][0]{
-          title,
-          body[]{
-            ...,
-            _type == "image" => {
-              ...,
-              asset->
-            }
-          },
-          slug,
-          mainImage{asset->}
-      }`
-      )
-      .then(async (data) => {
+    const data = Object.keys(blogData).forEach(key => {
+      if (key === slugData) {
+        const data = blogData[key];
         setdescription(data.body)
         settitle(data.title)
         setimgUrl(data.mainImage.asset.url)
-      })
-      .catch((error) => {
-        alert("Something went wrong...");
-        console.log(error);
-      });
+      }
+    })
   }, []);
 
   const myPortableTextComponents = {
