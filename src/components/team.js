@@ -8,9 +8,11 @@ function Team() {
   const [viewMore, setViewMore] = useState(false);
   const [viewMore1, setViewMore1] = useState(false);
   const [viewMore2, setViewMore2] = useState(false);
+  const [viewMore3, setViewMore3] = useState(false);
   let firstDesc = t("part66") + t("part67") + t("part68") + t("part69")
   let secondDesc = t("part72") + t("part73") + t("part74")
-  let thirdDesc = t("part77") + t("part78") + t("part79")
+  let thirdDesc = t("part77")
+  let fourDesc = t("team12-1") + t("team12-2") + t("team12-3")
   let seeMore = t("seemore")
 
   return (
@@ -43,67 +45,89 @@ function Team() {
 
       <div className="teamss-container">
         <div className="teamss-card-container">
-          <div class="teamss-card">
-            <img src="./photos/Costa_profile_600.jpg" alt="Dr. Louis Costa" className="imgBorder" />
-            <h2><span class="underline" >{t("team3")}</span></h2>
-            <ReadMore
-              className="normal-p-text"
-              text={[
-                firstDesc,
-                false
-              ]}
-              readMore={[
-                seeMore
-              ]}
-              seeLess={"See Less"}
-              paraNo='1st'
-              viewMore={viewMore1}
-            />
-            <div className="read-more team-btn" onClick={() => setViewMore1(!viewMore1)}>
-              {viewMore1 ? "See Less" : seeMore}
+          <div className="teamss-card-container">
+            <div className="teamss-card">
+              <img src="./photos/Costa_profile_600.jpg" alt="Dr. Louis Costa" className="imgBorder"/>
+              <h2><span className="underline">{t("team3")}</span></h2>
+              <ReadMore
+                className="normal-p-text"
+                text={[
+                  firstDesc,
+                  false
+                ]}
+                readMore={[
+                  seeMore
+                ]}
+                seeLess={"See Less"}
+                paraNo='1st'
+                viewMore={viewMore1}
+              />
+              <div className="read-more team-btn" onClick={() => setViewMore1(!viewMore1)}>
+                {viewMore1 ? "See Less" : seeMore}
+              </div>
+            </div>
+            <div className="teamss-card">
+              <img src="./homepics/zheng.jpg" alt="zheng" className="imgBorder"/>
+              <h2><span className="underline">{t("team6")}</span></h2>
+              <ReadMore
+                className="normal-p-text"
+                text={[
+                  secondDesc,
+                  false
+                ]}
+                readMore={[
+                  seeMore
+                ]}
+                seeLess={"See Less"}
+                viewMore={viewMore2}
+              />
+              <div className="read-more team-btn" onClick={() => setViewMore2(!viewMore2)}>
+                {viewMore2 ? "See Less" : seeMore}
+              </div>
             </div>
           </div>
-          <div class="teamss-card">
-            <img src="./homepics/zheng.jpg" alt="zheng" className="imgBorder" />
-            <h2><span class="underline" >{t("team6")}</span></h2>
-            <ReadMore
-              className="normal-p-text"
-              text={[
-                secondDesc,
-                false
-              ]}
-              readMore={[
-                seeMore
-              ]}
-              seeLess={"See Less"}
-              viewMore={viewMore2}
-            />
-            <div className="read-more team-btn" onClick={() => setViewMore2(!viewMore2)}>
-              {viewMore2 ? "See Less" : seeMore}
+          <div className="teamss-card-container" >
+            <div className="teamss-card">
+              <img src="./photos/tream/gonin.jpg" alt="Dr. Gonin Arthur" className="imgBorder"/>
+              <h2><span className="underline">{t("team9")}</span></h2>
+              <ReadMore
+                className="normal-p-text"
+                text={[
+                  thirdDesc,
+                  false
+                ]}
+                readMore={[
+                  seeMore
+                ]}
+                seeLess={"See Less"}
+                paraNo='3rd'
+                viewMore={viewMore}
+              />
+              <div className="read-more team-btn" onClick={() => setViewMore(!viewMore)}>
+                {viewMore ? "See Less" : seeMore}
+              </div>
+            </div>
+            <div className="teamss-card">
+              <img src="./photos/tream/song.jpg" alt="Dr. Song" className="imgBorder"/>
+              <h2><span className="underline">{t("team12")}</span></h2>
+              <ReadMore
+                className="normal-p-text"
+                text={[
+                  fourDesc,
+                  false
+                ]}
+                readMore={[
+                  seeMore
+                ]}
+                seeLess={"See Less"}
+                paraNo='4rd'
+                viewMore={viewMore3}
+              />
+              <div className="read-more team-btn" onClick={() => setViewMore3(!viewMore3)}>
+                {viewMore3 ? "See Less" : seeMore}
+              </div>
             </div>
           </div>
-
-          <div class="teamss-card">
-            <img src="./homepics/chiou.jpg" alt="zheng" className="imgBorder" />
-            <h2><span class="underline" >{t("team9")}</span></h2>
-            <ReadMore
-              className="normal-p-text"
-              text={[
-                thirdDesc,
-                false
-              ]}
-              readMore={[
-                seeMore
-              ]}
-              seeLess={"See Less"}
-              paraNo='3rd'
-              viewMore={viewMore}
-            />
-            <div className="read-more team-btn" onClick={() => setViewMore(!viewMore)}>
-              {viewMore ? "See Less" : seeMore}
-            </div>
-          </div>
-
         </div>
       </div>
 
