@@ -14,6 +14,7 @@ function Team() {
   let thirdDesc = t("part77")
   let fourDesc = t("team12-1") + t("team12-2") + t("team12-3")
   let seeMore = t("seemore")
+  let seeLess = t("seeLess")
 
   return (
     <div>
@@ -58,12 +59,12 @@ function Team() {
                 readMore={[
                   seeMore
                 ]}
-                seeLess={"See Less"}
+                seeLess={seeLess}
                 paraNo='1st'
                 viewMore={viewMore1}
               />
               <div className="read-more team-btn" onClick={() => setViewMore1(!viewMore1)}>
-                {viewMore1 ? "See Less" : seeMore}
+                {viewMore1 ? seeLess : seeMore}
               </div>
             </div>
             <div className="teamss-card">
@@ -78,11 +79,11 @@ function Team() {
                 readMore={[
                   seeMore
                 ]}
-                seeLess={"See Less"}
+                seeLess={seeLess}
                 viewMore={viewMore2}
               />
               <div className="read-more team-btn" onClick={() => setViewMore2(!viewMore2)}>
-                {viewMore2 ? "See Less" : seeMore}
+                {viewMore2 ? seeLess : seeMore}
               </div>
             </div>
           </div>
@@ -99,12 +100,12 @@ function Team() {
                 readMore={[
                   seeMore
                 ]}
-                seeLess={"See Less"}
+                seeLess={seeLess}
                 paraNo='3rd'
                 viewMore={viewMore}
               />
               <div className="read-more team-btn" onClick={() => setViewMore(!viewMore)}>
-                {viewMore ? "See Less" : seeMore}
+                {viewMore ? seeLess : seeMore}
               </div>
             </div>
             <div className="teamss-card">
@@ -119,12 +120,12 @@ function Team() {
                 readMore={[
                   seeMore
                 ]}
-                seeLess={"See Less"}
+                seeLess={seeLess}
                 paraNo='4rd'
                 viewMore={viewMore3}
               />
               <div className="read-more team-btn" onClick={() => setViewMore3(!viewMore3)}>
-                {viewMore3 ? "See Less" : seeMore}
+                {viewMore3 ? seeLess : seeMore}
               </div>
             </div>
           </div>
